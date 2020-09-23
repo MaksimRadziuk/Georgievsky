@@ -64,6 +64,50 @@ section	{
 	left: 0;
 	display: none;
 }
+#popupBackground .mobile_header {
+	display: none;
+	width: 100%;
+	background-color: #f7f7f7; 
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 115px;
+}
+#popupBackground .mobile_header .hamburger {
+	width: 25px;
+	height: 20px;
+	position: absolute;
+	left: 35px;
+	top: 37px;
+}
+#popupBackground .mobile_header .hamburger span {
+	width: 100%;
+	height: 2px;
+	background-color: #111820;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+#popupBackground .mobile_header .hamburger span:first-child {
+	top: 0;
+	transform: translateY(0%);
+}
+#popupBackground .mobile_header .hamburger span:last-child {
+	bottom: 0;
+	top:auto;
+	transform: translateY(0%);
+}
+#popupBackground .mobile_header .logo {
+	width: 200px;
+	position: absolute;
+	top: 50%;
+	left: 100px;
+	transform: translateY(-50%);
+}
+#popupBackground .mobile_header .logo img {
+	width: 100%;
+}
 
 .popup {
 	position: fixed;
@@ -84,7 +128,7 @@ section	{
 .popup .close span {
 	display: block;
 	width: 100%;
-	height: 1px;
+	height: 2px;
 	background-color: #886e4c;
 	position: absolute;
 	top: 50%;
@@ -145,6 +189,15 @@ section	{
 #sendRequest input[type='number']:focus::-moz-placeholder          {color: transparent}
 #sendRequest input[type='number']:focus:-moz-placeholder           {color: transparent}
 #sendRequest input[type='number']:focus:-ms-input-placeholder      {color: transparent}
+
+#sendRequest input[type='number']::-webkit-outer-spin-button,
+#sendRequest input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+#sendRequest input[type='number'] {
+    -moz-appearance: textfield;
+}
 
 #sendRequest button {
 	display: block;
@@ -239,12 +292,12 @@ section	{
 	margin-top: 10px;
 	margin-bottom: 70px;
 	position: relative;
+	padding-left: 50px;
 }
 .checkbox_wrap input {
 	display: none;
 }
 .checkbox_wrap label {
-	padding-left: 50px;
 	font-size: 14px;
 	color: #111820;
 	cursor: pointer;
@@ -471,7 +524,7 @@ footer .social_links a:hover img {
 .slider_navigation .base_line {
 	position: relative;
 	width: 100%;
-	height: 1px;
+	height: 2px;
 	background-color: #5a4d3a; 
 }
 .slider_navigation .dots {
@@ -489,7 +542,35 @@ footer .social_links a:hover img {
 	border-radius: 50%;
 	background-color: #886e4c;
 	cursor: pointer;
-	overflow: hidden;
+	position: relative;
+}
+.slider_navigation .dots .dot:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: 30px;
+	height: 30px;
+	border:1px solid #886e4c;
+	border-radius: 50%;
+	display: none;
+}
+.slider_navigation .dots .dot.active:before {
+	display: block;
+}
+.slider_navigation .dots .dot span {
+	display: none;
+	font-size: 14px;
+	color: #886e4c;
+	position: absolute;
+	top: -35px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-weight: 300;
+}
+.slider_navigation .dots .dot.active span {
+	display: block;
 }
 .slider_navigation .dots .dot a {
 	display: block;
@@ -498,6 +579,12 @@ footer .social_links a:hover img {
 }
 .slider_navigation .dots .dot:hover{
 	background-color: #ba8949;
+}
+.slider_navigation .dots .dot:hover span {
+	display: block;
+}
+.slider_navigation .dots .dot.active:hover {
+	background-color: #886e4c;
 }
 
 
@@ -678,8 +765,11 @@ footer .social_links a:hover img {
 	width: 100%;
 }
 #mobileMenu .popup_body {
+	display: -ms-grid;
 	display: grid;
+	-ms-grid-columns: 30% 30% 30%;
 	grid-template-columns: 30% 30% 30%;
+	-ms-grid-rows: 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -703,7 +793,7 @@ footer .social_links a:hover img {
 }
 @media all and (max-width: 1700px) {
 	header nav ul li {
-		margin-right: 30px;
+		margin-right: 25px;
 	}
 	#mainPage:before {
 		transform: rotateZ(45deg) translateY(13vw) translateX(-80vw);
@@ -832,6 +922,41 @@ footer .social_links a:hover img {
 		width: 10px;
 		height: 10px;
 	}
+	.popup#cameraView {
+		top: 115px;
+		left: 0;
+		transform: translateY(0) translateX(0);
+		width: 100%;
+	}
+	#cameraView .popup_wrap {
+		width: 100%;
+	}
+	#cameraView .popup_body .tab_content {
+		height: calc(100vh - 195px);
+	}
+	.popup#cameraView .close {
+		top: -80px;
+		right: 30px;
+	}
+	#sendRequest input[type='text'], #sendRequest input[type='number'] {
+		font-size: 18px;
+	}
+	#sendRequest {
+		width: 710px;
+	}
+	.popup .title {
+		font-size: 30px;
+	}
+	.slider_navigation .dots .dot:before {
+		width: 25px;
+		height: 25px;
+	}
+}
+@media all and (max-width: 980px) {
+	.popup .close {
+		top: 30px;
+		right: 30px;
+	}
 }
 @media all and (max-width: 900px) {
 	#mainPage h1 {
@@ -844,6 +969,21 @@ footer .social_links a:hover img {
 @media all and (max-width: 800px) {
 	.section_wrap {
 		padding: 0 20px;
+	}
+}
+@media all and (max-width: 730px) {
+	#mainPage:after {
+		bottom: -13%;
+	}
+	#sendRequest {
+		width: 100% !important;
+		height: calc(100vh - 115px) !important;
+	}
+	.popup .close {
+		top: -80px;
+	}
+	.popup {
+		top: 115px;
 	}
 }
 @media all and (max-width: 730px) {
@@ -869,7 +1009,267 @@ footer .social_links a:hover img {
 	.section_wrap {
 		padding-left: 35px;
 	}
+	#mobileMenu .popup_body {
+		-ms-grid-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 }
+@media all and (max-width: 670px) {
+	.footer_wrap p, .footer_wrap a {
+		font-size: 12px;
+	}
+	header .phone {
+		margin-right: 30px;
+	}
+}
+@media all and (max-width: 600px) {
+	.slider_navigation {
+		display: none;
+	}
+	footer {
+		height: 100px;
+	}
+	.footer_wrap {
+		display: -ms-grid;
+		display: grid;
+		-ms-grid-rows: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		-ms-grid-columns: 1fr 70px;
+		grid-template-columns: 1fr 70px; 
+		padding: 0 10px;
+	}
+	.footer_wrap a {
+		-ms-grid-column: 1;
+		    grid-column-start: 1;
+		-ms-grid-column-span: 1;
+		grid-column-end: 2;
+		-ms-grid-row: 2;
+		    grid-row-start: 2;
+		-ms-grid-row-span: 1;
+		grid-row-end: 3;
+	}
+	footer .social_links {
+		-ms-grid-column: 2;
+		    grid-column-start: 2;
+		-ms-grid-column-span: 1;
+		grid-column-end: 3;
+		-ms-grid-row: 1;
+		    grid-row-start: 1;
+		-ms-grid-row-span: 1;
+		grid-row-end: 2;
+	}
+	header {
+		top: 35px;
+	}
+	#socialLinksBar {
+		top: 0;
+		left: 0;
+		height: 35px;
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-start;
+		padding: 0 10px;
+		position: absolute;
+	}
+	#socialLinksBar a {
+		margin: 0 10px;
+	}
+	#socialLinksBar a img {
+		height: 18px;
+	}
+	header .buttons_wrap {
+		top: -35px;
+		right: 0;
+		left: 0;
+		flex-direction: row;
+		justify-content: flex-end;
+		width: 100%;
+		background-color: #111820;
+		padding-right: 10px;
+	}
+	header .buttons_wrap .button {
+		width: 35px;
+		height: 35px;
+	}
+	header .buttons_wrap .phone_button {
+		background-color: transparent;
+		background-image: url(../img/phone_icon_mobile.png);
+	}
+	header .logo {
+		width: 160px;
+	}
+	header .phone {
+		margin: 0;
+	}
+	header .header_wrap {
+		padding-right: 10px;
+	}
+	#mainPage {
+		padding-top: 160px;
+		padding-bottom: 160px !important;
+		min-height: 100vh;
+	}
+	#mainPage h1>span {
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+	#mainPage h1 {
+		font-size: 50px;
+		margin-bottom: 30px;
+	}
+	#mainPage p.descr {
+		width: 70%;
+		font-size: 18px;
+	}
+	#mainPage .advantages {
+		padding-left: 20px;
+	}
+	#popupBackground .mobile_header {
+		height: 60px;
+	}
+	#popupBackground .mobile_header .logo {
+		width: 160px;
+		left: 55px;
+	}
+	#popupBackground .mobile_header .hamburger {
+		left: 10px;
+		top: 20px;
+	}
+	.popup#cameraView {
+		top: 60px;
+	}
+	.popup#cameraView .close, .popup .close {
+		top: -50px!important;
+		right: 10px;
+	}
+	#cameraView .popup_header .tab {
+		padding: 0 10px;
+		width: 33.3333%;
+	}
+	#cameraView .popup_header .tab:last-child {
+		border-right: none;
+	}
+	#cameraView .popup_header {
+		height: 60px;
+	}
+	#cameraView .popup_body {
+		padding: 15px;
+	}
+	#cameraView .popup_body .tab_content {
+		height: calc(100vh - 150px)!important;
+	}
+	#sendRequest {
+		top: 60px!important;
+		height: calc(100vh - 60px)!important;
+		padding: 70px 30px!important;
+	}
+	#mobileMenu .popup_body {
+		-ms-grid-columns: 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
+		-ms-grid-rows: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+	}
+}
+@media all and (max-width:480px) {
+	header .logo {
+		width: 135px;
+		left: 60px;
+	}
+	#popupBackground .mobile_header .logo {
+		width: 135px;
+	}
+	header .phone {
+		font-size: 16px;
+	}
+	.mobile {
+		width: 60px;
+	}
+	header {
+		height: 60px;
+	}
+	.mobile .hamburger {
+		width: 20px;
+		height: 17px;
+	}
+	#mainPage {
+		padding-top: 135px;
+	}
+	#mainPage h1>span {
+		font-size: 14px;
+		margin-bottom: 5px;
+		letter-spacing: 2px;
+	}
+	#mainPage h1 {
+		font-size: 32px;
+	}
+	#mobileMenu .popup_body {
+		-ms-grid-columns: 1fr;
+		grid-template-columns: 1fr;
+		-ms-grid-rows: 1fr;
+		grid-template-rows: 1fr;
+	}
+	#mobileMenu {
+		height: 100vh;
+		padding: 0;
+	}
+	#mobileMenu .close_menu {
+		left: 10px;
+		top: 20px;
+	}
+	#mobileMenu .logo {
+		margin-left: 60px;
+		width: 160px;
+		margin-top: 20px;
+	}
+	#mobileMenu .popup_body a {
+		padding-left: 60px;
+		font-size: 16px;
+	}
+	#mobileMenu .popup_body a:hover {
+		background-color: #181f27;
+	}
+}
+@media all and (max-width:360px) {
+	#mainPage p.descr {
+		width: 100%;
+		font-size: 16px;
+		margin-bottom: 60px;
+	}
+	#mainPage .adv_block img {
+		width: 60px;
+	}
+	header .phone {
+		font-size: 14px;
+	}
+	.popup .title {
+		font-size: 22px;
+	}
+	#sendRequest input[type='text'], #sendRequest input[type='number'] {
+		font-size: 16px;
+		height: 50px;
+		margin-bottom: 30px;
+	}
+	.checkbox_wrap {
+		margin-top: 50px;
+	}
+	#sendRequest button {
+		height: 50px;
+	}
+}
+@media all and (max-width:340px) {
+	#mainPage .advantages {
+		padding-left: 0;
+	}
+	header .logo {
+		width: 110px;
+	}
+	header .phone {
+		font-size: 12px;
+	}
+}
+
+
+
 
 @media all and (max-height: 940px) {
 	#mainPage {
@@ -927,6 +1327,9 @@ footer .social_links a:hover img {
 	}
 	#cameraView .popup_body .tab_content {
 		height: calc(100vh - 110px);
+	}
+	#socialLinksBar {
+		display: none;
 	}
 }
 @media all and (max-height: 380px) {
