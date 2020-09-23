@@ -11,8 +11,70 @@
 </head>
 <body>
 	<div id="wrap">
+
+		<div id="popupBackground"></div>
+		<div class="popup" id="sendRequest">
+			<div class="close"><span></span><span></span></div>
+			<div class="popup_body">
+				<div class="title">Отправить запрос</div>
+				<form>
+					<input type="text" placeholder="Ваше Имя">
+					<input type="number" placeholder="Номер телефона">
+					<div class="checkbox_wrap">
+						<input type="checkbox" id="compliance1">
+						<label for="compliance1">Я согласен на <a href="#">обработку моих персональных данных</a></label>
+					</div>
+					<button>Отправить</button>
+				</form>
+			</div>
+		</div>
+		<div class="popup" id="cameraView">
+			<div class="close"><span></span><span></span></div>
+			<div class="popup_wrap">
+				<div class="popup_header">
+					<div class="tab active" id="cameraTrgger_1" target='camera_1'>Камера 1 (вид на город)</div>
+					<div class="tab" id="cameraTrgger_2" target='camera_2'>Камера 2 (вид на реку)</div>
+					<div class="tab" id="cameraTrgger_3" target='camera_3'>Камера 3 (вид на Собор)</div>
+				</div>
+				<div class="popup_body">
+					<div class="tab_content active" id="camera_1">
+						<div class="tab_title">Камера 1 (вид на город)</div>
+						<iframe src="https://www.youtube.com/embed/0FMfsT11pdA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="tab_content" id="camera_2">
+						<div class="tab_title">Камера 2 (вид на реку)</div>
+						<iframe src="https://www.youtube.com/embed/iywaBOMvYLI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="tab_content" id="camera_3">
+						<div class="tab_title">Камера 3 (вид на Собор)</div>
+						<iframe src="https://www.youtube.com/embed/CSvFpBOe8eY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="popup" id="mobileMenu">
+			<div class="close_menu"><span></span><span></span></div>
+			<div class="logo"><img src="img/logo.png" alt="Logo"></div>
+			<div class="popup_body">
+				<a href="#">О проекте</a>
+				<a href="#">Квартиры</a>
+				<a href="#">Документация</a>
+				<a href="#">Инфраструктура</a>
+				<a href="#">Ход строительства</a>
+				<a href="#">Контакты</a>
+			</div>
+		</div>
+
 		<header>
 			<div class="header_wrap">
+				<div class="mobile">
+					<div class="hamburger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
 				<div class="logo">
 					<img src="img/logo.png" alt="Logo">
 				</div>
@@ -26,9 +88,9 @@
 						<li><a href="#">Контакты</a><span></span></li>
 					</ul>
 				</nav>
-				<a href="tel:+84951865939" class="phone">8 (495) 186 59 39</a>
+				<a href="tel:+78312343432" class="phone">+7 (831) 234-34-32</a>
 				<div class="buttons_wrap">
-					<div class=" button video_button"></div>
+					<div class="button video_button"></div>
 					<div class="button phone_button"></div>
 				</div>
 			</div>
@@ -92,5 +154,9 @@
 			</div>
 		</footer>
 	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="script/script.js"></script>
 </body>
 </html>
