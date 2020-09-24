@@ -17,6 +17,9 @@ a {
 	color:#fff;
 	text-decoration: none;
 }
+a.logo {
+	display: block;
+}
 ul, ol {
 	list-style: none;
 	margin: 0;
@@ -283,6 +286,19 @@ section	{
 	justify-content: center;
 	font-size: 14px;
 	pointer-events: none;
+}
+#cameraView .popup_body .tab_content .watermark {
+	position: absolute;
+	width: 150px;
+	top: 25px;
+	left: 30px;
+	height: 35px;
+	z-index: 99;
+	opacity: 0.5;
+	pointer-events: none;
+}
+#cameraView .popup_body .tab_content .watermark img {
+	width: 100%;
 }
 
 
@@ -606,7 +622,7 @@ footer .social_links a:hover img {
 	pointer-events: none;
 	display: block;
 	position: absolute;
-	z-index: 0;
+	z-index: 1;
 	width: 100vw;
 	height: 100vw;
 	background-color: #111820;
@@ -633,8 +649,23 @@ footer .social_links a:hover img {
 	transform-origin: center;
 	transform: rotateZ(45deg) translateY(-22%);
 }
-
-#mainPage>* {
+#mainPage>.video_wrap {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 0;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	pointer-events: none;
+}
+#mainPage>.video_wrap video {
+	width: auto;
+	height: 100%;
+}
+#mainPage>.section_wrap {
 	z-index: 1;
 	position: relative;
 }
@@ -953,6 +984,9 @@ footer .social_links a:hover img {
 		width: 25px;
 		height: 25px;
 	}
+	#cameraView .popup_body .tab_content .watermark {
+		width: 120px;
+	}
 }
 @media all and (max-width: 980px) {
 	.popup .close {
@@ -966,6 +1000,9 @@ footer .social_links a:hover img {
 	}
 	#mainPage .adv_block {
 		margin-right: 10%;
+	}
+	#mainPage>.video_wrap {
+		display: none;
 	}
 }
 @media all and (max-width: 800px) {
@@ -1172,6 +1209,9 @@ footer .social_links a:hover img {
 		-ms-grid-rows: 1fr 1fr 1fr;
 		grid-template-rows: 1fr 1fr 1fr;
 	}
+	#cameraView .popup_body .tab_content .watermark {
+		width: 100px;
+	} 
 }
 @media all and (max-width:480px) {
 	header .logo {
