@@ -851,7 +851,7 @@ footer .social_links a:hover img {
 		display: flex;
 	}
 	#mobileMenu {
-		top: -100%;
+		top: -150%;
 		transition: 0.4s ease;
 		display: block;
 	}
@@ -1164,6 +1164,9 @@ footer .social_links a:hover img {
 		top: 60px!important;
 		height: calc(100vh - 60px)!important;
 		padding: 70px 30px!important;
+	}
+	#mobileMenu {
+		top: -35px;
 	}
 	#mobileMenu .popup_body {
 		-ms-grid-columns: 1fr 1fr;
