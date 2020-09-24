@@ -735,6 +735,7 @@ footer .social_links a:hover img {
 	height: 350px;
 	padding: 30px;
 	display: none;
+	top: -150%;
 }
 #mobileMenu .close_menu {
 	width: 30px;
@@ -900,6 +901,7 @@ footer .social_links a:hover img {
 	}
 	#mainPage h1>span {
 		font-size: 20px;
+		margin-bottom: 5px;+7
 	}
 	#mainPage h1 {
 		font-size: 76px;
