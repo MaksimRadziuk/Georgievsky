@@ -1071,7 +1071,7 @@ footer .social_links a:hover img {
 		align-items: center;
 		justify-content: flex-start;
 		padding: 0 10px;
-		position: absolute;
+		position: fixed;
 	}
 	#socialLinksBar a {
 		margin: 0 10px;
@@ -1080,7 +1080,7 @@ footer .social_links a:hover img {
 		height: 18px;
 	}
 	header .buttons_wrap {
-		top: -35px;
+		top: 0px;
 		right: 0;
 		left: 0;
 		flex-direction: row;
@@ -1088,6 +1088,7 @@ footer .social_links a:hover img {
 		width: 100%;
 		background-color: #111820;
 		padding-right: 10px;
+		position: fixed;
 	}
 	header .buttons_wrap .button {
 		width: 35px;
