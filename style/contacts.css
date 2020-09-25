@@ -257,6 +257,17 @@
 	#contactPage .contact_wrap {
 		padding-top: 115px;
 	}
+	#contactPage .contact_wrap .text_wrap h2 {
+		width: 100%;
+		padding-left: 0;
+		text-align: center;
+		margin-left: -30px;	
+	}
+}
+@media all and (max-width:340px) {
+	#contactPage .contact_wrap .text_wrap h2 {
+		margin-left: 0px;	
+	}
 }
 @media all and (max-width:340px) {
 	#contactPage .contact_wrap .text_wrap {
