@@ -309,11 +309,13 @@ section	{
 
 
 .checkbox_wrap {
-	width: 100%;
+	margin: 0 auto;
 	margin-top: 10px;
 	margin-bottom: 70px;
 	position: relative;
-	padding-left: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .checkbox_wrap input {
 	display: none;
@@ -322,6 +324,8 @@ section	{
 	font-size: 14px;
 	color: #111820;
 	cursor: pointer;
+	padding-left: 50px;
+	position: relative;
 }
 .checkbox_wrap label a {
 	display: inline;
@@ -348,8 +352,7 @@ header {
 	position: absolute;
 	top: 0;
 	left: 0;
-	max-width: 100vw;
-	width: 100vw;
+	width: 100%;
 	z-index: 10;
 	height: 140px;
 	display: flex;
@@ -357,7 +360,6 @@ header {
 	justify-content: center;
 }
 header .header_wrap {
-	position: relative;
 	height: 100%;
 	display: flex;
 	align-items: center;
@@ -704,6 +706,7 @@ footer .social_links a:hover img {
 	padding: 0;
 	margin-bottom: 50px;
 	text-transform: uppercase;
+	margin-left: -5px;
 }
 #mainPage h1>span {
 	font-size: 22px;
@@ -711,6 +714,7 @@ footer .social_links a:hover img {
 	color: #a69885;
 	letter-spacing: 9px;
 	display: block;
+	padding-left: 5px;
 }
 #mainPage p.descr {
 	color:#fff;

@@ -82,33 +82,6 @@ $(document).ready(function(){
 		})
 	}
 
-	$('#fullpage').fullpage({
-		sectionSelector: '.section',
-		slideSelector: '.slide',
-		autoScrolling:true,
-		responsiveHeight: 1,
-		scrollHorizontally: true
-	});
-
-	//methods
-	$.fn.fullpage.setAllowScrolling(true);
-
-	/*$('a[href="#contacts"]').click(function(){
-		$('header').addClass('black');
-		$('#contactPage').addClass('active').animate({ left: "0%" }, 800 );
-		$('#mainPage').animate({ left: "-200%" }, 800 ).delay( 800 ).removeClass('active');
-
-		$('.dot').removeClass('active');
-		$('a[href="#contacts"]').parent('.dot').addClass('active');
-	}) 
-
-	$('a[href="#mainPage"]').click(function(){
-		$('header').removeClass('black');
-		$('#mainPage').addClass('active').animate({ left: "0%" }, 800 );
-		$('#contacts').animate({ left: "200%" }, 800 ).delay( 800 ).removeClass('active');
-		$('.dot').removeClass('active');
-		$('a[href="#mainPage"]').parent('.dot').addClass('active');
-	}) */
 
 })
 
@@ -138,9 +111,33 @@ $(window).resize(function(){
 			$('#cameraView').fadeIn();
 		})
 	}
-
 	
 
 })
 
 
+ymaps.ready(init);
+function init(){
+    var myMap = new ymaps.Map("map", {
+        center: [56.328978, 44.010703],
+        zoom: 17,
+        controls: []
+    });
+    MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
+            '<div>$[properties.iconContent]</div>'
+        ),
+
+        myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+        }, {
+            // Необходимо указать данный тип макета.
+            iconLayout: 'default#image',
+            iconImageHref: 'file:///F:/Docs/Верстка/GitHub/Georgievsky/img/map_marker.png',
+            iconImageSize: [52, 60],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            iconImageOffset: [-30, -70]
+        });
+
+    myMap.geoObjects
+        .add(myPlacemark);
+};

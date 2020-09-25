@@ -101,6 +101,14 @@
 .slider_navigation .dots .dot:before {
 	box-shadow: inset 0 0 0 8px #fff;
 }
+
+.ymaps-2-1-77-map-copyrights-promo,
+.ymaps-2-1-77-copyright__content {
+	display: none;
+}
+.ymaps-2-1-77-ground-pane {
+	filter: saturate(0%);
+}
 @media all and (max-width: 1450px) {
 	#contactPage .contact_wrap {
 		padding-top: 140px;
