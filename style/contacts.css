@@ -1,0 +1,282 @@
+/*=============================*/
+        /* Contacts */
+/*=============================*/
+#contactPage {
+	background-color: #fff;
+	background-image: url(../img/net_corner.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: 37.5vw;
+}
+#contactPage .contact_wrap {
+	width:calc(100% - 150px);
+	max-width: 1640px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-top: 180px;
+}
+#contactPage .contact_wrap .text_wrap {
+	width: 100%;
+	display: flex;
+	align-items:flex-start ;
+	justify-content:center ;
+	flex-direction: column;
+	padding-left: 70px;
+}
+#contactPage .contact_wrap .text_wrap h2 {
+	color: #111820;
+	font-size: 44px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	margin-top: 0;
+	margin-bottom: 80px;
+	padding-left: 60px;
+	text-align: left;
+	text-transform: uppercase;
+}
+#contactPage .contact_wrap .text_wrap a,
+#contactPage .contact_wrap .text_wrap p {
+	color: #111820;
+	font-weight: 300;
+	display: block;
+	position: relative;
+	padding-left: 60px;
+	margin-top: 0;
+	margin-bottom: 35px;
+}
+#contactPage .contact_wrap .text_wrap a:before,
+#contactPage .contact_wrap .text_wrap p:before{
+	content: '';
+	position: absolute;
+	top: 3px;
+	left: 0;
+	display: block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 22px;
+	height: 24px;
+}
+#contactPage .contact_wrap .text_wrap a.contact_phone {
+	font-size: 32px;
+}
+#contactPage .contact_wrap .text_wrap a.contact_phone:before {
+	background-image: url(../img/phone_contact_icon.png);
+}
+#contactPage .contact_wrap .text_wrap a.contact_mail {
+	font-size: 24px;
+	position: relative;
+}
+#contactPage .contact_wrap .text_wrap a.contact_mail:before {
+	background-image: url(../img/envelope_icon.png);
+}
+#contactPage .contact_wrap .text_wrap a.contact_mail>span{
+	position: relative;
+}
+#contactPage .contact_wrap .text_wrap a.contact_mail>span:after {
+	content:'';
+	width: 100%;
+	height: 1px;
+	display: block;
+	position: absolute;
+	bottom: -3px;
+	right: 0;
+	background-color: #b4b7b9;
+}
+#contactPage .contact_wrap .text_wrap p {
+	font-size: 24px;
+}
+#contactPage .contact_wrap .text_wrap p.contact_address:before {
+	background-image: url(../img/map_pointer_icon.png);
+}
+#contactPage .contact_wrap .text_wrap p.contact_time:before {
+	background-image: url(../img/clock_icon.png);
+}
+#contactPage .contact_wrap .map_wrap {
+	width: 107.5%;
+	height: calc(100vh - 360px);
+}
+.slider_navigation .dots .dot:before {
+	box-shadow: inset 0 0 0 8px #fff;
+}
+@media all and (max-width: 1450px) {
+	#contactPage .contact_wrap {
+		padding-top: 140px;
+	}
+	#contactPage .contact_wrap .text_wrap {
+		padding-left: 0;
+	}
+	#contactPage .contact_wrap .text_wrap h2 {
+		font-size: 36px;
+		margin-bottom: 50px;
+	}
+	#contactPage .contact_wrap .text_wrap a.contact_phone {
+		font-size: 26px;
+	}
+	#contactPage .contact_wrap .text_wrap a.contact_mail {
+		font-size: 20px;
+	}
+	#contactPage .contact_wrap .text_wrap p {
+		font-size: 20px;
+	}
+	#contactPage .contact_wrap .text_wrap a:before, 
+	#contactPage .contact_wrap .text_wrap p:before {
+		top: 0;
+	}
+}
+
+@media all and (max-width: 1024px){
+	#contactPage .contact_wrap {
+		width: 100%;
+		padding: 0 80px;
+		padding-top: 130px;
+		flex-direction: column;
+	}
+	#contactPage {
+		background-size: 45vw;
+	}
+	#contactPage .contact_wrap .map_wrap {
+		width: 100%;
+		height: 55vh;
+	}
+	#contactPage .contact_wrap .text_wrap {
+		display: grid;
+		grid-template-rows: 90px 80px 80px;
+		grid-template-columns: 45% 55%;
+		padding-left: 30px;
+		margin-bottom: 40px;
+	}
+	#contactPage .contact_wrap .text_wrap h2 {
+		-ms-grid-column: 1;
+		    grid-column-start: 1;
+		-ms-grid-column-span: 1;
+		grid-column-end: 3;
+		-ms-grid-row: 1;
+		    grid-row-start: 1;
+		-ms-grid-row-span: 1;
+		grid-row-end: 2;
+		padding: 0;
+		text-align: center;
+	}
+	#contactPage .contact_wrap .text_wrap a.contact_mail {
+		-ms-grid-column: 1;
+		    grid-column-start: 1;
+		-ms-grid-column-span: 1;
+		grid-column-end: 2;
+		-ms-grid-row:3;
+		    grid-row-start: 3;
+		-ms-grid-row-span: 3;
+		grid-row-end:4;
+	}
+	.slider_navigation .dots .dot:before {
+		box-shadow: inset 0 0 0 5px #fff;
+		width: 20px;
+		height: 20px;
+	}
+}
+@media all and (max-width: 900px) {
+	#contactPage .contact_wrap .text_wrap a, 
+	#contactPage .contact_wrap .text_wrap p {
+		padding-left: 35px;
+	}
+	#contactPage .contact_wrap .text_wrap a.contact_phone {
+		font-size: 20px;
+	}
+	#contactPage .contact_wrap .text_wrap a.contact_mail {
+		font-size: 18px;
+	}
+	#contactPage .contact_wrap .text_wrap p {
+		font-size: 18px;
+	}
+	#contactPage .contact_wrap {
+		padding-left: 30px;
+	}
+	#contactPage .contact_wrap .text_wrap {
+		margin-bottom: 0;
+	}
+}
+@media all and (max-width: 800px) {
+	#contactPage .contact_wrap .map_wrap {
+		height: 46vh;
+	}
+}
+@media all and (max-width: 670px) {
+	#contactPage .contact_wrap .text_wrap h2 {
+		font-size: 24px;
+	}
+	#contactPage .contact_wrap .text_wrap a.contact_mail {
+		font-size: 16px;
+	}
+	#contactPage .contact_wrap .text_wrap p {
+		font-size: 16px;
+	}
+	#contactPage .contact_wrap .text_wrap {
+		grid-template-rows: 70px 70px 70px;
+	}
+	#contactPage .contact_wrap .text_wrap a:before, 
+	#contactPage .contact_wrap .text_wrap p:before {
+		width: 18px;
+		top: -3px;
+	}
+}
+@media all and (max-width: 600px){
+	#contactPage .contact_wrap {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 150px;
+	}
+	#contactPage .contact_wrap .map_wrap {
+		height: 490px;
+	}
+	#contactPage {
+		padding-bottom: 125px;
+	}
+	#contactPage .contact_wrap .text_wrap {
+		display: flex;
+		align-items: flex-start;
+		justify-content: flex-start;
+		flex-direction: column;
+		padding-left: 50px;
+	}
+	#contactPage .contact_wrap .text_wrap h2 {
+		padding-left: 50px;
+		margin-bottom: 35px;
+	}
+}
+@media all and (max-width: 480px){
+	#contactPage .contact_wrap {
+		padding-top: 115px;
+	}
+}
+@media all and (max-width:340px) {
+	#contactPage .contact_wrap .text_wrap {
+		padding-left: 20px;
+	}
+}
+
+@media all and (max-height: 730px) {
+	#contactPage .contact_wrap .text_wrap h2 {
+		font-size: 36px;
+		margin-bottom: 50px;
+	}
+	#contactPage .contact_wrap {
+		padding-top: 150px;
+	}
+	#contactPage .contact_wrap .map_wrap {
+		height: calc(100vh - 300px);
+	}
+}
+@media all and (height: 768px) and (width: 1024px) {
+	#contactPage .contact_wrap {
+		padding-top: 100px;
+	}
+	#contactPage .contact_wrap .text_wrap {
+		margin-bottom: 0;
+		grid-template-rows: 70px 60px 60px;
+	}
+	#contactPage .contact_wrap .map_wrap {
+		height: 43vh;
+	}
+}

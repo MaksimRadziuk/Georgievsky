@@ -1,15 +1,10 @@
 $(document).ready(function(){
-
-	
-
 	
 	$('#sendRequest form button').click(function(){
 		$('#sendRequest').hide();
 		$('#popupBackground').fadeOut();
 	})
 
-
-	
 
 	$('#cameraTrgger_1').click(function(){
 		$('#cameraView .tab').removeClass('active');
@@ -86,6 +81,35 @@ $(document).ready(function(){
 			$('#popupBackground .mobile_header').hide();
 		})
 	}
+
+	$('#fullpage').fullpage({
+		sectionSelector: '.section',
+		slideSelector: '.slide',
+		autoScrolling:true,
+		responsiveHeight: 1,
+		scrollHorizontally: true
+	});
+
+	//methods
+	$.fn.fullpage.setAllowScrolling(true);
+
+	/*$('a[href="#contacts"]').click(function(){
+		$('header').addClass('black');
+		$('#contactPage').addClass('active').animate({ left: "0%" }, 800 );
+		$('#mainPage').animate({ left: "-200%" }, 800 ).delay( 800 ).removeClass('active');
+
+		$('.dot').removeClass('active');
+		$('a[href="#contacts"]').parent('.dot').addClass('active');
+	}) 
+
+	$('a[href="#mainPage"]').click(function(){
+		$('header').removeClass('black');
+		$('#mainPage').addClass('active').animate({ left: "0%" }, 800 );
+		$('#contacts').animate({ left: "200%" }, 800 ).delay( 800 ).removeClass('active');
+		$('.dot').removeClass('active');
+		$('a[href="#mainPage"]').parent('.dot').addClass('active');
+	}) */
+
 })
 
 $(window).resize(function(){
@@ -114,4 +138,9 @@ $(window).resize(function(){
 			$('#cameraView').fadeIn();
 		})
 	}
+
+	
+
 })
+
+
