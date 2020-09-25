@@ -131,7 +131,7 @@ function init(){
         }, {
             // Необходимо указать данный тип макета.
             iconLayout: 'default#image',
-            iconImageHref: 'https://github.com/MaksimRadziuk/Georgievsky/tree/master/img/map_marker.png',
+            iconImageHref: 'https://maksimradziuk.github.io/Georgievsky/img/map_marker.png',
             iconImageSize: [52, 60],
             // Смещение левого верхнего угла иконки относительно
             // её "ножки" (точки привязки).
