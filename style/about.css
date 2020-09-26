@@ -624,6 +624,8 @@
 	}
 	#aboutPage .promo_wrap ul li .title {
 		font-size: 16px;
+		margin-bottom: 0;
+		line-height: 1.4;
 	}
 	#aboutPage .promo_wrap ul li p {
 		margin-bottom: 30px;
@@ -647,6 +649,9 @@
 	}
 	#aboutPage .available_appartments table.mobile {
 		margin-top: 0;
+	}
+	#aboutPage .slide p {
+		font-size: 14px;
 	}
 }
 @media all and (max-width: 340px) {
