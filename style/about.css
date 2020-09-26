@@ -36,7 +36,7 @@
 }
 #aboutPage .about_wrap .text_part span	{
 	display: block;
-	margin-bottom: 30px;
+	margin-bottom: 35px;
 }
 #aboutPage .about_wrap .video_wrap {
 	float: left;
@@ -373,8 +373,8 @@
 @media all and (max-width: 1024px) {
 	#aboutPage {
 		padding-right: 0;
-		padding-top: 120px;
-		padding-bottom: 150px;
+		padding-top: 130px;
+		padding-bottom: 180px;
 		height: auto!important;
 	}
 	#aboutPage .about_wrap {
@@ -399,7 +399,7 @@
 	}
 	#aboutPage .about_slider_wrap button {
 		top: auto;
-		bottom: -50px;
+		bottom: -65px;
 	}
 	#aboutPage .about_slider_wrap .slick-prev {
 		right: auto;
@@ -418,10 +418,40 @@
 		font-size: 16px;
 	}
 	#aboutPage .gallery_wrap {
-		padding: 50px 0;
+		padding: 60px 0;
 	}
 	#aboutPage .engineer_wrap ol {
 		padding-left: 0;
+	}
+	#aboutPage .about_wrap .video_intro {
+		padding-bottom: 15px;
+	}
+	#aboutPage h2 {
+		margin-bottom: 35px;
+		font-size: 26px;
+	}
+	.about_slider_wrap {
+		margin-top: 60px;
+		margin-bottom: 120px;
+	}
+	#aboutPage .info_block {
+		width: 47%;
+		margin-bottom: 30px;
+	}
+	#aboutPage .info_block .title {
+		font-size: 22px;
+		margin-bottom: 35px;
+	}
+	#aboutPage .promo_wrap {
+		padding-top: 60px;
+		padding-bottom: 30px;
+	}
+	#aboutPage .engineer_wrap ol {
+		margin: 50px 0;
+	}
+	#aboutPage .available_appartments table {
+		margin-top: 80px;
+		margin-bottom: 60px;
 	}
 }
 @media all and (max-width: 840px) {
@@ -540,13 +570,14 @@
 }
 @media all and (max-width: 480px) {
 	#aboutPage {
-		padding-top: 115px;
+		padding-top: 115px!important;
 	}
 	#aboutPage .about_wrap h1 {
-		margin-bottom: 30px;
+		margin-bottom: 40px!important;
 	}
 	#aboutPage h2 {
-		margin-bottom: 20px;
+		margin-bottom: 30px;
+		font-size: 20px!important;
 	}
 	#aboutPage .about_wrap .video_intro {
 		padding-bottom: 0;
@@ -558,7 +589,7 @@
 		margin-bottom: 10px;
 	}
 	#aboutPage .slide {
-		margin-bottom: 30px;
+		margin-bottom: 40px;
 	}
 	.about_slider_wrap {
 		margin-bottom: 40px;
@@ -571,6 +602,49 @@
 	}
 	#aboutPage .available_appartments table.mobile th{
 		padding-left: 0px;
+	}
+	#aboutPage .about_wrap .text_part span {
+		margin-bottom: 30px;
+		font-size: 14px;
+	}
+	#aboutPage p {
+		font-size: 14px;
+		margin-bottom: 35px;
+	}
+	#aboutPage .promo_wrap ul li {
+		padding-left: 20px;
+		padding-right: 0;
+	}
+	#aboutPage .promo_wrap ul li:before {
+		width: 4px;
+		height: 4px;
+		top: 7px;
+	}
+	#aboutPage .promo_wrap ul li .title {
+		font-size: 16px;
+	}
+	#aboutPage .promo_wrap ul li p {
+		margin-bottom: 30px;
+	}
+	#aboutPage .gallery_wrap {
+		padding-top: 40px;
+		padding-bottom: 25px;
+	}
+	#aboutPage .engineer_wrap ol li {
+		margin-bottom: 25px;
+		padding-left: 40px;
+		font-size: 14px;
+	}
+	#aboutPage .engineer_wrap ol li::before {
+		width: 25px;
+		height: 25px;
+		font-size: 12px;
+	}
+	#aboutPage .engineer_wrap ol {
+		margin-bottom: 40px;
+	}
+	#aboutPage .available_appartments table.mobile {
+		margin-top: 0;
 	}
 }
 @media all and (max-width: 340px) {
