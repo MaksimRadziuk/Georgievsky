@@ -599,9 +599,11 @@
 	}
 	#aboutPage .available_appartments table.mobile td{
 		padding-left: 0px;
+		font-size: 14px;		
 	}
 	#aboutPage .available_appartments table.mobile th{
 		padding-left: 0px;
+		font-size: 14px;
 	}
 	#aboutPage .about_wrap .text_part span {
 		margin-bottom: 30px;
