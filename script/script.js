@@ -82,7 +82,26 @@ $(document).ready(function(){
 		})
 	}
 
+	if ($(window).width()>=481) {
+		$('.slick-slider').slick({
+			slidesToShow: 3,
+	    	slidesToScroll: 1,
+	    	arrows:true,
+	    	responsive: [
+		    {
+		      breakpoint: 768,
+		      settings: {
+		        slidesToShow: 2
+		      }
+		    }
+		  ]
+		});
+	}
+	if ($(window).width()<481) {
+		$('.slick-slider').slick('unslick');
+	}
 
+	
 })
 
 $(window).resize(function(){
@@ -111,7 +130,26 @@ $(window).resize(function(){
 			$('#cameraView').fadeIn();
 		})
 	}
-	
+
+
+	if ($(window).width()>=481) {
+		$('.slick-slider').slick({
+			slidesToShow: 3,
+	    	slidesToScroll: 1,
+	    	arrows:true,
+	    	responsive: [
+		    {
+		      breakpoint: 768,
+		      settings: {
+		        slidesToShow: 2
+		      }
+		    }
+		  ]
+		});
+	}
+	if ($(window).width()<481) {
+		$('.slick-slider').slick('unslick');
+	}
 
 })
 

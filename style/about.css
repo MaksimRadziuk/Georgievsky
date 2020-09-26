@@ -1,0 +1,605 @@
+#aboutPage{
+	padding-top: 170px;
+	padding-bottom: 200px;
+	height: 100vh;
+	background-color: #fff;
+}
+#aboutPage .about_wrap {
+	height: calc(100vh - 370px);
+	overflow-y: auto;
+	overflow-x: hidden;
+	width: calc(100% - 115px);
+	padding: 0 90px;
+}
+#aboutPage .about_wrap h1 {
+	font-size: 44px;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 60px;
+	text-transform: uppercase;
+	text-align: left;
+	width: 100%;
+}
+#aboutPage .about_wrap .video_intro{
+	width: 100%;
+	min-height: 550px;
+	padding-bottom: 50px;
+}
+#aboutPage .about_wrap .text_part {
+	width: 100%;
+	font-size: 16px;
+	color: #111820;
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+	line-height: 1.5;
+}
+#aboutPage .about_wrap .text_part span	{
+	display: block;
+	margin-bottom: 30px;
+}
+#aboutPage .about_wrap .video_wrap {
+	float: left;
+	width: 810px;
+	height: 480px;
+	margin-right: 70px;
+	margin-bottom: 50px;
+}
+#aboutPage p {
+	font-size: 16px;
+	color: #111820;
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+	line-height: 1.5;
+	margin-bottom: 30px;
+}
+#aboutPage h2 {
+	font-size: 30px;
+	font-weight: 700;
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 50px;
+	width: 100%;
+	text-transform: uppercase;
+}
+.about_slider_wrap {
+	width: 100%;
+	padding-right: 370px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+#aboutPage .slide .img_wrap {
+	width: 100%;
+	margin-bottom: 60px;
+}
+#aboutPage .slide .img_wrap img {
+	width: 100%;
+}
+#aboutPage .slick-initialized .slick-slide {
+	margin-right: 30px;
+}
+#aboutPage .slide p {
+	font-size: 18px;
+	line-height: 1.5;
+	font-weight: 300;
+	width: 100%;
+}
+#aboutPage .about_slider_wrap button {
+	width: 70px;
+	height: 70px;
+	border:1px solid #886e4c;
+	border-radius: 50%;
+	top: 200px;
+}
+#aboutPage .about_slider_wrap .slick-next {
+	right: -270px;
+	background-repeat: no-repeat;
+	background-image: url(../img/slider_arrow.png);
+	background-position: center center;
+	background-size: 10px 30px;
+	transform: translate(0, -50%) rotateZ(180deg);
+}
+#aboutPage .about_slider_wrap .slick-prev {
+	left: auto;
+	right: -130px;
+	background-repeat: no-repeat;
+	background-image: url(../img/slider_arrow.png);
+	background-position: center center;
+	background-size: 10px 30px;
+}
+#aboutPage .about_slider_wrap .slick-prev:before {
+	display: none;
+}
+#aboutPage .about_slider_wrap .slick-next:before {
+	display: none;
+}
+
+#aboutPage .info_wrap {
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+#aboutPage .info_block {
+	width: 45%;
+	margin-bottom: 50px;
+}
+#aboutPage .info_block .title {
+	font-size: 24px;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+#aboutPage .promo_wrap {
+	width: 100%;
+	background-color: #f9f8f7;
+	padding: 70px 0;
+	position: relative;
+	z-index: 1;
+}
+#aboutPage .promo_wrap:before{
+	content: '';
+	position: absolute;
+	left: -100%;
+	top: 0;
+	height: 100%;
+	background-color: #f9f8f7;
+	width: 100%;
+}
+#aboutPage .promo_wrap:after{
+	content: '';
+	position: absolute;
+	right: -100%;
+	top: 0;
+	height: 100%;
+	background-color: #f9f8f7;
+	width: 100%;
+}
+#aboutPage .promo_wrap ul {
+	padding: 0;
+	margin: 0;
+	display: grid;
+	margin-top: 60px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+#aboutPage .promo_wrap ul li {
+	position: relative;
+	width: 100%;
+	padding-left: 35px;
+	padding-right: 16%;
+}
+#aboutPage .promo_wrap ul li:before{
+	content: '';
+	width: 8px;
+	height: 8px;
+	background-color: #886e4c;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	top: 5px;
+}
+#aboutPage .promo_wrap ul li .title {
+	font-size: 18px;
+	margin: 0;
+	font-weight: 300;
+	margin-bottom: 5px;
+}
+
+#aboutPage .gallery_wrap {
+	width: 100%;
+	padding: 80px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#aboutPage .gallery_wrap .gallery {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 30px;
+	grid-row-gap: 30px;
+}
+#aboutPage .gallery_wrap .gallery img {
+	width: 100%;
+}
+
+#aboutPage .engineer_wrap {
+	width: 100%;
+}
+#aboutPage .engineer_wrap ol {
+	margin-top: 60px;
+	list-style-type: none;
+    counter-reset:  item;
+	margin-bottom: 60px;
+}
+#aboutPage .engineer_wrap ol li {
+	font-size: 16px;
+	line-height: 1.5;
+	width: 750px;
+	font-weight: 300;
+	margin-bottom: 30px;
+	position: relative;
+	padding-left: 60px;
+}
+#aboutPage .engineer_wrap ol li::before {
+	content: counter(item);
+	position: absolute;
+ 	counter-increment: item; 
+ 	top: 0;
+ 	left: 0;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	font-size: 16px;
+ 	color: #886e4c;
+ 	width: 30px;
+ 	height: 30px;
+ 	border-radius: 50%;
+ 	border:1px solid #886e4c;
+}
+
+#aboutPage .available_appartments {
+	width: 100%;
+}
+#aboutPage .available_appartments table.mobile {
+	display: none;
+}
+#aboutPage .available_appartments table {
+	width: 100%;
+	border:none;
+	border-collapse:collapse;
+	margin-bottom: 70px;
+}
+#aboutPage .available_appartments table.desktop tr th{
+	background-color: #f3f0ed;
+	height: 70px;
+	padding-left: 30px;
+	font-size: 16px;
+	color: #886e4c;
+	text-align: left;
+	font-weight: 300;
+}
+#aboutPage .available_appartments table.desktop tr td {
+	border-bottom: 1px solid #f3f0ed;
+	height: 70px;
+	padding-left: 30px;
+	font-size: 16px;
+	font-weight: 300;
+}
+#aboutPage .available_appartments table.desktop tr:last-child td {
+	border-bottom: none;
+}
+#aboutPage .available_appartments a {
+	color: #886e4c;
+	text-decoration: underline;
+}
+
+#aboutPage .about_wrap::-webkit-scrollbar {
+	width: 6px;
+}
+#aboutPage .about_wrap::-webkit-scrollbar-track {
+	width: 6px;
+	box-shadow: none;
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 34%, rgba(184,168,148,1) 35%, rgba(184,168,148,1) 65%, rgba(255,255,255,1) 66%, rgba(255,255,255,1) 100%);
+}
+#aboutPage .about_wrap::-webkit-scrollbar-thumb {
+	width: 6px;
+	height: 150px;
+	background-color: #b8a894;
+	transition: 0.2s linear;
+}
+#aboutPage .about_wrap::-webkit-scrollbar-thumb:hover {
+	background-color: #886e4c;
+	cursor: pointer;
+}
+#aboutPage .about_wrap::-webkit-scrollbar-button {
+	display: none;
+}
+
+.slider_navigation .dots .dot:before {
+	box-shadow: inset 0 0 0 8px #fff;
+}
+
+@media all and (max-width: 1660px) {
+	#aboutPage .about_wrap .video_wrap {
+		width: 690px;
+		height: 390px;
+	}
+	.about_slider_wrap {
+		padding-right: 300px;
+	}
+	#aboutPage .about_slider_wrap button {
+		top: 155px;
+	}
+}
+@media all and (max-width: 1380px) {
+	#aboutPage .about_wrap .video_wrap {
+		width: 580px;
+		height: 350px;
+		margin-right: 50px;
+		margin-bottom: 30px;
+	}
+	#aboutPage .about_wrap h1 {
+		font-size: 36px;
+	}
+	#aboutPage h2 {
+		font-size: 28px;
+	}
+	#aboutPage .about_slider_wrap button {
+		top: 115px;
+		width: 50px;
+		height: 50px;
+	}
+	#aboutPage .about_slider_wrap .slick-next {
+		right: -190px;
+	}
+	.about_slider_wrap {
+		padding-right: 190px;
+	}
+	#aboutPage .about_slider_wrap .slick-prev {
+		right: -90px;
+	}
+	#aboutPage .slick-initialized .slick-slide {
+		margin-right: 20px;
+	}
+	#aboutPage .available_appartments table.desktop tr th,
+	#aboutPage .available_appartments table.desktop tr td {
+		padding-left: 15px;
+		font-size: 14px;
+		height: 60px;
+	}
+}
+@media all and (max-width: 1220px) {
+	#aboutPage .about_wrap .video_wrap {
+		width: 490px;
+		height: 300px;
+		margin-right: 50px;
+		margin-bottom: 30px;
+	}
+	#aboutPage .about_wrap h1 {
+		font-size: 32px;
+	}
+	#aboutPage .slide p {
+		font-size: 14px;
+	}
+	#aboutPage .slide .img_wrap {
+		margin-bottom: 30px;
+	}
+	#aboutPage .promo_wrap ul li {
+		padding-right: 20px;
+	}
+}
+@media all and (max-width: 1024px) {
+	#aboutPage {
+		padding-right: 0;
+		padding-top: 120px;
+		padding-bottom: 150px;
+		height: auto!important;
+	}
+	#aboutPage .about_wrap {
+		height: auto!important;
+		padding-right: 80px;
+		width: 100%;
+		padding-left: 30px;
+	}
+	#aboutPage .about_wrap .video_wrap {
+		clear: both;
+		width: 100%;
+		max-width: 810px;
+		height: 480px;
+		margin: 0 auto;
+		margin-bottom: 50px;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.about_slider_wrap {
+		padding-right: 0;
+	}
+	#aboutPage .about_slider_wrap button {
+		top: auto;
+		bottom: -50px;
+	}
+	#aboutPage .about_slider_wrap .slick-prev {
+		right: auto;
+		left: 50%;
+		transform: translateX(-100%);
+	}
+	#aboutPage .about_slider_wrap .slick-next {
+		right: auto;
+		left: 50%;
+		transform: translateX(100%) rotateZ(180deg);
+	}
+	.about_slider_wrap {
+		margin-bottom: 100px;
+	}
+	#aboutPage .slide p {
+		font-size: 16px;
+	}
+	#aboutPage .gallery_wrap {
+		padding: 50px 0;
+	}
+	#aboutPage .engineer_wrap ol {
+		padding-left: 0;
+	}
+}
+@media all and (max-width: 840px) {
+	#aboutPage .about_wrap h1 {
+		font-size: 28px;
+	}
+	#aboutPage h2 {
+		font-size: 24px;
+	}
+	#aboutPage .about_wrap .video_wrap {
+		height: 390px;
+	}
+	#aboutPage .engineer_wrap ol li {
+		width: 100%;
+	}
+}
+@media all and (max-width: 768px) {
+	#aboutPage .available_appartments table.desktop {
+		display: none;
+	}
+	#aboutPage .available_appartments table.mobile {
+		display: block;
+		position: relative;
+		margin-bottom: 60px;
+	}
+	#aboutPage .available_appartments table.mobile td{
+		height: 35px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	#aboutPage .available_appartments table.mobile th{
+		height: 40px;
+		text-align: left;
+		font-weight: 300;
+		font-size: 16px;
+		color: #886e4c;
+		padding-left: 15px;
+	}
+	#aboutPage .available_appartments table.mobile:after {
+		content: '';
+		display: block;
+		position: absolute;
+		left: 0;
+		bottom: -30px;
+		width: 100%;
+		height: 1px;
+		background-color: #f3f0ed;
+	}
+	#aboutPage .available_appartments table.mobile:nth-child(5) {
+		margin-bottom: 40px;
+	}
+	#aboutPage .available_appartments table.mobile:nth-child(5):after {
+		display: none;
+	}
+	#aboutPage .info_block .title {
+		font-size: 20px;
+	}
+}
+@media all and (max-width: 730px) {
+	#aboutPage .about_wrap h1 {
+		font-size: 24px!important;
+	}
+	#aboutPage h2 {
+		font-size: 22px!important;
+	}
+	#aboutPage .about_wrap .video_wrap {
+		height: 300px;
+	}
+	#aboutPage .promo_wrap ul {
+		margin-top: 30px;
+		display: block;
+	}
+	#aboutPage .promo_wrap {
+		padding-bottom: 40px;
+	}
+}
+@media all and (max-width: 600px) {
+	#aboutPage .about_wrap {
+		padding: 0 15px;
+	}
+	#aboutPage  {
+		padding-top: 140px;
+		padding-bottom: 130px;
+	}
+	#aboutPage .about_wrap .video_wrap {
+		margin-bottom: 30px;
+		height: 55vw
+	}
+	#aboutPage .about_wrap .video_intro {
+		padding-bottom: 20px;
+	}
+	#aboutPage .about_slider_wrap .slick-prev,
+	#aboutPage .about_slider_wrap .slick-next {
+		left: 42%;
+	}
+	#aboutPage .info_wrap {
+		flex-direction: column;
+	}
+	#aboutPage .info_block {
+		width: 100%;
+		margin-bottom: 0px;
+	}
+	#aboutPage .gallery_wrap {
+		padding-bottom: 35px;
+	}
+	#aboutPage .gallery_wrap .gallery {
+		display: block;
+	}
+	#aboutPage .gallery_wrap .gallery img{
+		margin-bottom: 15px;
+	}
+	#aboutPage .promo_wrap {
+		padding-top: 40px;
+		padding-bottom: 10px;
+	}
+}
+@media all and (max-width: 480px) {
+	#aboutPage {
+		padding-top: 115px;
+	}
+	#aboutPage .about_wrap h1 {
+		margin-bottom: 30px;
+	}
+	#aboutPage h2 {
+		margin-bottom: 20px;
+	}
+	#aboutPage .about_wrap .video_intro {
+		padding-bottom: 0;
+	}
+	.about_slider_wrap {
+		margin-top:40px;
+	}
+	#aboutPage .slide .img_wrap {
+		margin-bottom: 10px;
+	}
+	#aboutPage .slide {
+		margin-bottom: 30px;
+	}
+	.about_slider_wrap {
+		margin-bottom: 40px;
+	}
+	#aboutPage .info_block .title {
+		font-size: 18px;
+	}
+	#aboutPage .available_appartments table.mobile td{
+		padding-left: 0px;
+	}
+	#aboutPage .available_appartments table.mobile th{
+		padding-left: 0px;
+	}
+}
+@media all and (max-width: 340px) {
+	#aboutPage .about_wrap h1 {
+		font-size: 20px!important;
+	}
+	#aboutPage h2 {
+		font-size: 18px!important;
+	}
+}
+
+
+
+@media all and (max-height: 900px) {
+	#aboutPage .about_wrap {
+		height: calc(100vh - 335px);
+	}
+}
+@media all and (max-height: 760px) {
+	#aboutPage {
+		padding-top: 130px;
+	}
+	#aboutPage .about_wrap {
+		height: calc(100vh - 290px);
+	}
+}
+@media all and (max-height: 700px) {
+	#aboutPage .about_wrap h1 {
+		font-size: 40px;
+		margin-bottom: 30px;
+	}
+}

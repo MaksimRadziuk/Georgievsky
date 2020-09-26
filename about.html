@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ЖК Георгиевский</title>
+
+
+	<link rel="stylesheet" href="fonts/stylesheet.css">
+	<link rel="stylesheet" href="lib/slick/slick.css">
+	<link rel="stylesheet" href="lib/slick/slick-theme.css">
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/about.css">
+
+</head>
+<body>
+	<div id="wrap">
+
+		<div id="popupBackground">
+			<div class="mobile_header">
+				<div class="hamburger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<a href="index.html" class="logo"><img src="img/logo_dark.png" alt="Logo"></a>
+			</div>
+		</div>
+		<div class="popup" id="sendRequest">
+			<div class="close"><span></span><span></span></div>
+			<div class="popup_body">
+				<div class="title">Отправить запрос</div>
+				<form>
+					<input type="text" placeholder="Ваше Имя" required>
+					<input type="number" placeholder="Номер телефона" required>
+					<div class="checkbox_wrap">
+						<input type="checkbox" id="compliance1" required>
+						<label for="compliance1">Я согласен на <a href="#">обработку моих персональных данных</a></label>
+					</div>
+					<button>Отправить</button>
+				</form>
+			</div>
+		</div>
+		<div class="popup" id="cameraView">
+			<div class="close"><span></span><span></span></div>
+			<div class="popup_wrap">
+				<div class="popup_header">
+					<div class="tab active" id="cameraTrgger_1" target='camera_1'>Камера 1 (вид на город)</div>
+					<div class="tab" id="cameraTrgger_2" target='camera_2'>Камера 2 (вид на реку)</div>
+					<div class="tab" id="cameraTrgger_3" target='camera_3'>Камера 3 (вид на Собор)</div>
+				</div>
+				<div class="popup_body">
+					<div class="tab_content active" id="camera_1">
+						<div class="tab_title">Камера 1 (вид на город)</div>
+						<div class="watermark"><img src="img/logo_dark.png" alt="Logo"></div>
+						<iframe src="https://www.youtube.com/embed/0FMfsT11pdA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="tab_content" id="camera_2">
+						<div class="tab_title">Камера 2 (вид на реку)</div>
+						<div class="watermark"><img src="img/logo_dark.png" alt="Logo"></div>
+						<iframe src="https://www.youtube.com/embed/iywaBOMvYLI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="tab_content" id="camera_3">
+						<div class="tab_title">Камера 3 (вид на Собор)</div>
+						<div class="watermark"><img src="img/logo_dark.png" alt="Logo"></div>
+						<iframe src="https://www.youtube.com/embed/CSvFpBOe8eY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="popup" id="mobileMenu">
+			<div class="close_menu"><span></span><span></span></div>
+			<a href="index.html" class="logo"><img src="img/logo.png" alt="Logo"></a>
+			<div class="popup_body">
+				<a href="about.html">О проекте</a>
+				<a href="#">Квартиры</a>
+				<a href="#">Документация</a>
+				<a href="#">Инфраструктура</a>
+				<a href="#">Ход строительства</a>
+				<a href="contacts.html">Контакты</a>
+			</div>
+		</div>
+
+		<header class="black">
+			<div class="header_wrap">
+				<div class="mobile">
+					<div class="hamburger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+				<a href="index.html" class="logo">
+					<img src="img/logo_dark.png" alt="Logo" class="black">
+					<img src="img/logo.png" alt="Logo">
+				</a>
+				<nav class="navigation">
+					<ul>
+						<li><a href="about.html">О проекте</a><span></span></li>
+						<li><a href="#">Инфраструктура</a><span></span></li>
+						<li><a href="#">Квартиры</a><span></span></li>
+						<li><a href="#">Ход строительства</a><span></span></li>
+						<li><a href="#">Документация</a><span></span></li>
+						<li><a href="contacts.html">Контакты</a><span></span></li>
+					</ul>
+				</nav>
+				<a href="tel:+78312343432" class="phone">+7 (831) 234-34-32</a>
+				<div class="buttons_wrap">
+					<div class="button video_button"></div>
+					<div class="button phone_button"></div>
+				</div>
+			</div>
+		</header>	
+		<div id="socialLinksBar">
+			<a href="#"><img src="img/vk_icon.png" alt="vk"></a>
+			<a href="#"><img src="img/telegram_icon.png" alt="telegram"></a>
+			<a href="#"><img src="img/facebook_icon.png" alt="facebook"></a>
+			<a href="#"><img src="img/whatsapp_icon.png" alt="whattsapp"></a>
+		</div>	
+			
+		<section id="aboutPage">
+			<div class="about_wrap">
+				<h1>О жилом комплексе "Георгiевскiй"</h1>
+				<div class="video_intro">
+					<div class="text_part">
+						<div class="video_wrap">
+							<iframe width="100%" height="100%" src="https://www.youtube.com/embed/SBjQ9tuuTJQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<span>Расположенный возле набережной реки Волги, вблизи Кремля, ЖилоЙ комплекс "Георгiевскiй" воссоздан на месте и по дизайну внешне напоминающему гостиницу "Россия", с ее торжественностью, величием и основательностью в стиле тех лет.</span> 
+						<span>Современный с точки зрения обслуживания и инженерии, выполненный из натуральных материалов по новейшим технологиям строительства, комплекс состоит из двух домов стандартной (со стороны ул. Минина, 7 этажей, 200 квартир) и Г-образной (со стороны набережной, 8 этажей, 300 квартир) форм, образующих закрытую территорию, во внутреннем дворе которой расположена зона отдыха и детская площадка. </span>
+						<span>На первых этажах зданий размещаются просторные лобби, рестораны, коммерческая недвижимость, сдаваемая под необходимые для жителей комплекса нужны, на последних двух этажах - пентхаусы с панорамными окнами и террасами. </span>
+						<span>Площади квартир варьируются от 50 до 250 м.2, планировка свободная, с балконами или без. На месте прежней Георгиевской церкви будет построена новая часовня</span>
+					</div>
+				</div>
+				<h2>Расположение</h2>
+				<p class="">Это место — традиционный центр культурной и деловой жизни города. Здесь ничто не отделит вас от биения ее сердца, ведь между Георгiевским комплексом и Кремлем всего пара минут пешком. Когда все самое важное так близко, остается только решить, как воспользоваться этим многообразием: расслабленно наблюдать течение времени издалека или смело окунуться в его водоворот</p>
+				<div class="about_slider_wrap">
+					<div class="slick-slider">
+						<div class="slide">
+							<div class="img_wrap"><img src="img/slide_about-1.png" alt=""></div>
+							<p class="title">Название фото. Может быть длинным, в несколько строк</p>
+						</div>
+						<div class="slide">
+							<div class="img_wrap"><img src="img/slide_about-2.png" alt=""></div>
+							<p class="title">Название фото. Может быть длинным, в несколько строк</p>
+						</div>
+						<div class="slide">
+							<div class="img_wrap"><img src="img/slide_about-3.png" alt=""></div>
+							<p class="title">Название фото. Может быть длинным, в несколько строк</p>
+						</div>
+						<div class="slide">
+							<div class="img_wrap"><img src="img/slide_about-1.png" alt=""></div>
+							<p class="title">Название фото. Может быть длинным, в несколько строк</p>
+						</div>
+						<div class="slide">
+							<div class="img_wrap"><img src="img/slide_about-2.png" alt=""></div>
+							<p class="title">Название фото. Может быть длинным, в несколько строк</p>
+						</div>
+						<div class="slide">
+							<div class="img_wrap"><img src="img/slide_about-3.png" alt=""></div>
+							<p class="title">Название фото. Может быть длинным, в несколько строк</p>
+						</div>
+					</div>
+				</div>
+				<div class="info_wrap">
+					<div class="info_block">
+						<div class="title">Инфраструктура для жизни</div>
+						<p>Преимущество исторических районов — их сложившаяся инфраструктура. Вам не придется уезжать далеко от дома, чтобы делать то, что вы привыкли. Рестораны, фитнес-клубы, супермаркеты… Все это здесь есть. Но главное, рядом с комплексом есть то, что нужно вашим детям. Кроме необходимых школ, детских садов и поликлиник, вы найдете места для насыщенного семейного досуга. Пусть время проходит в удовольствии, а не в пути</p>
+					</div>
+					<div class="info_block">
+						<div class="title">Все, что нужно для вас</div>
+						<p>Знать тех времен любила проводить свободные часы за променадом по Александровскому саду. Сегодня мода не изменилась, разве что к прогулкам добавились пробежки и йога на свежем воздухе. Чего бы вы ни захотели: перезарядиться в фитнес-клубе после напряженного дня, посетить салон красоты или просто начать день с разминки в лучах утреннего солнца — вас не заставит передумать долгая дорога. В ЖК "Георгiевскiй" — все рядом</p>
+					</div>
+				</div>
+				<div class="promo_wrap">
+					<h2>Почему жилой комплекс "Георгiевскiй" - лучший выбор</h2>
+					<p> В созданном комплексе соединены воедино изящество и аристократичность, современные технологии, материалы и исчерпывающий сервис:</p>
+					<ul>
+						<li><div class="title">Архитектура</div>
+						<p>Роскошь, торжественность и основательность, выраженные в стиле ампира и конструктивизма 30-х годов, воплощенные в современных, натуральных материалах.</p></li>
+						<li><div class="title">Окна</div> 
+						<p>Двухкамерные алюминиевые окна с функцией микропроветривания и видом на спокойную воду Волги, динамичное движение набережной, центра города и Кремль.</p></li>
+						<li><div class="title">Входные группы</div>
+						<p>Просторное и светлое центральное лобби выполнено в сдержанном неоклассицизме. Выдержаны все тонкости, чтобы общая картина была безукоризненной.</p></li>
+						<li><div class="title">Лифты</div><p>Бесшумные и плавные лифты компании Kone.</p></li>
+						<li><div class="title">Безопасность</div>
+						<p>Закрытый двор, индивидуальные ключи для входа и круглосуточное видеонаблюдение по периметру комплекса. Вход с улиц: Минина и Верхне-Волжской набережной.</p></li>
+						<li><div class="title">Паркинг</div>
+						<p>Круглосуточно охраняемая подземная парковка, с автооткрытием ворот по номеру авто. Места для крупногабаритного транспорта. Мытье машины сотрудниками</p></li>
+					</ul>
+				</div>
+				<div class="gallery_wrap">
+					<div class="gallery">
+						<img src="img/about_gallery-1.png" alt="">
+						<img src="img/about_gallery-2.png" alt="">
+						<img src="img/about_gallery-3.png" alt="">
+						<img src="img/about_gallery-4.png" alt="">
+					</div>
+				</div>
+				<div class="engineer_wrap">
+					<h2>Инженерия комплекса</h2>
+					<p>Даже спустя долгое время вы не задумаетесь об инженерных решениях комплекса, ведь они созданы для того, чтобы вы не обращали на них внимания</p>
+					<ol>
+						<li>Центральное кондиционирование</li>
+						<li>Центральная система отопления с возможностью регулирования тепла </li>
+						<li>Дополнительный вентиляционный стояк в зоне кухонь для подключения механической вытяжки</li>
+					</ol>
+				</div>
+				<div class="available_appartments">
+					<h2>Доступные для покупки квартиры</h2>
+					<table class="desktop">
+						<tr>
+							<th>№</th>
+							<th>Здание</th>
+							<th>Этаж</th>
+							<th>Тип квартиры</th>
+							<th>Площадь, м2</th>
+							<th>Балкон</th>
+							<th>Вид на...</th>
+							<th>Цена, руб.</th>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>Корпус А</td>
+							<td>5</td>
+							<td>3-комнатная квартира</td>
+							<td>99</td>
+							<td>+</td>
+							<td>Минина</td>
+							<td>10 500 000</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>Корпус Б</td>
+							<td>6 - 7</td>
+							<td>10-комнатный пентхаус</td>
+							<td>250</td>
+							<td>-</td>
+							<td>Набережная</td>
+							<td>30 000 000</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>Корпус А</td>
+							<td>2</td>
+							<td>Квартира - студия</td>
+							<td>77</td>
+							<td>+</td>
+							<td>Кремль</td>
+							<td>15 200 000</td>
+						</tr>
+					</table>
+					<table class="mobile">
+						<tr>
+							<th colspan="2">№ 1</th>
+						</tr>
+						<tr>
+							<td>Здание</td>
+							<td>Корпус А</td>
+						</tr>
+						<tr>
+							<td>Этаж</td>
+							<td>5</td>
+						</tr>
+						<tr>
+							<td>Тип квартиры</td>
+							<td>3-комнатная квартира</td>
+						</tr>
+						<tr>
+							<td>Площадь, м2</td>
+							<td>99</td>
+						</tr>
+						<tr>
+							<td>Балкон</td>
+							<td>+</td>
+						</tr>
+						<tr>
+							<td>Вид на...</td>
+							<td>Минина</td>
+						</tr>
+						<tr>
+							<td>Цена, руб.</td>
+							<td>10 500 000</td>
+						</tr>
+					</table>
+					<table class="mobile">
+						<tr>
+							<th colspan="2">№ 2</th>
+						</tr>
+						<tr>
+							<td>Здание</td>
+							<td>Корпус Б</td>
+						</tr>
+						<tr>
+							<td>Этаж</td>
+							<td>6 - 7</td>
+						</tr>
+						<tr>
+							<td>Тип квартиры</td>
+							<td>10-комнатный пентхаус</td>
+						</tr>
+						<tr>
+							<td>Площадь, м2</td>
+							<td>250</td>
+						</tr>
+						<tr>
+							<td>Балкон</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Вид на...</td>
+							<td>Набережная</td>
+						</tr>
+						<tr>
+							<td>Цена, руб.</td>
+							<td>30 000 000</td>
+						</tr>
+					</table>
+					<table class="mobile">
+						<tr>
+							<th colspan="2">№ 3</th>
+						</tr>
+						<tr>
+							<td>Здание</td>
+							<td>Корпус А</td>
+						</tr>
+						<tr>
+							<td>Этаж</td>
+							<td>2</td>
+						</tr>
+						<tr>
+							<td>Тип квартиры</td>
+							<td>Квартира - студия</td>
+						</tr>
+						<tr>
+							<td>Площадь, м2</td>
+							<td>77</td>
+						</tr>
+						<tr>
+							<td>Балкон</td>
+							<td>+</td>
+						</tr>
+						<tr>
+							<td>Вид на...</td>
+							<td>Кремль</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Цена, руб.</td>
+							<td>15 200 000</td>
+						</tr>
+					</table>
+					<p>По вопросу покупки квартир обращайтесь по номеру телефона, указанному в шапке сайта, либо через мессенджеры. Также вы можете посетить наш офис продаж лично, адрес указан на странице <a href="contacts.html">Контакты</a></p>
+				</div>
+			</div>
+		</section>	
+		
+		<div class="slider_navigation">
+			<div class="button" id="previous"></div>
+			<div class="navigation_line">
+				<div class="base_line"></div>
+				<div class="dots">
+					<div class="dot "><a href="index.html"></a><span>Главная</span></div>
+					<div class="dot active"><a href="about.html"></a><span>О проекте</span></div>
+					<div class="dot"><a href="#"></a></div>
+					<div class="dot"><a href="#"></a></div>
+					<div class="dot"><a href="#"></a></div>
+					<div class="dot "><a href="contacts.html"></a><span>Контакты</span></div>
+				</div>
+			</div>
+			<div class="button" id="next"></div>
+		</div>
+		<footer>
+			<div class="footer_wrap">
+				<p>Сервис-Отель &copy 2009-2020</p>
+				<a href="#">Политика обработки персональных данных</a>
+				<div class="social_links">
+					<a href="#"><img src="img/facebook_footer_icon.png" alt="facebook"></a>
+					<a href="#"><img src="img/insta_footer_icon.png" alt="instagram"></a>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="lib/jsrollpane/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="lib/jsrollpane/jquery.jscrollpane.min.js"></script>
+	<script type="text/javascript" src="lib/slick/slick.js"></script>
+	<script src="script/script.js"></script>
+</body>
+</html>

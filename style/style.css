@@ -608,6 +608,7 @@ footer .social_links a:hover img {
 	left: 50%;
 	transform: translateX(-50%);
 	font-weight: 300;
+	white-space: nowrap;
 }
 .slider_navigation .dots .dot.active span {
 	display: block;
