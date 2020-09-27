@@ -60,7 +60,7 @@
 	height: 24px;
 }
 #contactPage .contact_wrap .text_wrap a.contact_phone {
-	font-size: 32px;
+	font-size: 30px;
 }
 #contactPage .contact_wrap .text_wrap a.contact_phone:before {
 	background-image: url(../img/phone_contact_icon.png);

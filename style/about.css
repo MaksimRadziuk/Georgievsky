@@ -1,15 +1,19 @@
 #aboutPage{
-	padding-top: 170px;
+	padding-top: 140px;
 	padding-bottom: 200px;
 	height: 100vh;
 	background-color: #fff;
+    background-image: url(../img/net_corner.png);
+    background-position: left top;
+    background-repeat: no-repeat;
 }
 #aboutPage .about_wrap {
-	height: calc(100vh - 370px);
+	height: calc(100vh - 290px);
 	overflow-y: auto;
 	overflow-x: hidden;
 	width: calc(100% - 115px);
 	padding: 0 90px;
+	padding-top: 35px;
 }
 #aboutPage .about_wrap h1 {
 	font-size: 44px;
@@ -53,6 +57,7 @@
 	font-weight: 300;
 	line-height: 1.5;
 	margin-bottom: 30px;
+	text-align: justify;
 }
 #aboutPage h2 {
 	font-size: 30px;
@@ -65,15 +70,16 @@
 }
 .about_slider_wrap {
 	width: 100%;
-	padding-right: 370px;
+	padding-right: 290px;
 	margin-top: 80px;
 	margin-bottom: 80px;
 }
-#aboutPage .slide .img_wrap {
+#aboutPage .slide a.img_wrap {
 	width: 100%;
 	margin-bottom: 60px;
+	display: block;
 }
-#aboutPage .slide .img_wrap img {
+#aboutPage .slide a.img_wrap  img {
 	width: 100%;
 }
 #aboutPage .slick-initialized .slick-slide {
@@ -122,7 +128,7 @@
 	justify-content: space-between;
 }
 #aboutPage .info_block {
-	width: 45%;
+	width: 45.2%;
 	margin-bottom: 50px;
 }
 #aboutPage .info_block .title {
@@ -200,6 +206,10 @@
 	grid-column-gap: 30px;
 	grid-row-gap: 30px;
 }
+#aboutPage .gallery_wrap .gallery a {
+	width: 100%;
+	display: block;
+}
 #aboutPage .gallery_wrap .gallery img {
 	width: 100%;
 }
@@ -212,6 +222,7 @@
 	list-style-type: none;
     counter-reset:  item;
 	margin-bottom: 60px;
+	padding-left: 0;
 }
 #aboutPage .engineer_wrap ol li {
 	font-size: 16px;
@@ -226,7 +237,7 @@
 	content: counter(item);
 	position: absolute;
  	counter-increment: item; 
- 	top: 0;
+ 	top: -4px;
  	left: 0;
  	display: flex;
  	align-items: center;
@@ -269,6 +280,20 @@
 }
 #aboutPage .available_appartments table.desktop tr:last-child td {
 	border-bottom: none;
+}
+#aboutPage .available_appartments table.desktop tr td:last-child,
+#aboutPage .available_appartments table.desktop tr th:last-child,
+#aboutPage .available_appartments table.desktop tr td:nth-child(5),
+#aboutPage .available_appartments table.desktop tr th:nth-child(5){
+	text-align: right;
+	padding-right: 15px;
+}
+#aboutPage .available_appartments table.desktop tr td:nth-child(3),
+#aboutPage .available_appartments table.desktop tr th:nth-child(3),
+#aboutPage .available_appartments table.desktop tr td:nth-child(6),
+#aboutPage .available_appartments table.desktop tr th:nth-child(6){
+	text-align: center;
+	padding-right: 15px;
 }
 #aboutPage .available_appartments a {
 	color: #886e4c;
