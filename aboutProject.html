@@ -5,9 +5,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>ЖК Георгиевский</title>
 
-	<link rel="stylesheet" type="text/css" href="lib/fullpage/jquery.fullPage.css"/>
-	<link rel="stylesheet" href="style/style.css">
+
 	<link rel="stylesheet" href="fonts/stylesheet.css">
+	<link rel="stylesheet" href="lib/slick/slick.css">
+	<link rel="stylesheet" href="lib/slick/slick-theme.css">
+	<link rel="stylesheet" href="lib/fancybox/dist/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/aboutProject.css">
 
 </head>
 <body>
@@ -28,10 +32,10 @@
 			<div class="popup_body">
 				<div class="title">Отправить запрос</div>
 				<form>
-					<input type="text" placeholder="Ваше Имя">
-					<input type="number" placeholder="Номер телефона">
+					<input type="text" placeholder="Ваше Имя" required>
+					<input type="number" placeholder="Номер телефона" required>
 					<div class="checkbox_wrap">
-						<input type="checkbox" id="compliance1">
+						<input type="checkbox" id="compliance1" required>
 						<label for="compliance1">Я согласен на <a href="#">обработку моих персональных данных</a></label>
 					</div>
 					<button>Отправить</button>
@@ -68,7 +72,7 @@
 
 		<div class="popup" id="mobileMenu">
 			<div class="close_menu"><span></span><span></span></div>
-			<a href="index.html" class="logo" data-menuanchor="firstSection"><img src="img/logo.png" alt="Logo"></a>
+			<a href="index.html" class="logo"><img src="img/logo.png" alt="Logo"></a>
 			<div class="popup_body">
 				<a href="about.html">О проекте</a>
 				<a href="#">Квартиры</a>
@@ -79,7 +83,7 @@
 			</div>
 		</div>
 
-		<header class="">
+		<header class="black">
 			<div class="header_wrap">
 				<div class="mobile">
 					<div class="hamburger">
@@ -115,34 +119,42 @@
 			<a href="#"><img src="img/facebook_icon.png" alt="facebook"></a>
 			<a href="#"><img src="img/whatsapp_icon.png" alt="whattsapp"></a>
 		</div>	
-
-		<section id="mainPage">
-			<div class="video_wrap">
-				<video src="video src/Verhn_Volzhsk_rkrs_a2.mp4" autoplay muted loop></video>
-			</div>
-			<div class="section_wrap">
-				<h1>
-					<span>Жилой комплекс</span>
-					Георгiевскiй
-				</h1>
-				<p class="descr">в центре культурной и деловой жизни города</p>
-				<div class="advantages">
-					<div class="adv_block">
-						<img src="img/adv_icon-1.png" alt="">
-						<p>150 метров от Кремля</p>
+			
+		<section id="aboutProject">
+			<div class="project_wrap">
+				<div class="tabs">
+					<a href="#" class="tab history active"><span>История</span></a>
+					<a href="#" class="tab exterior"><span>Экстерьер</span></a>
+					<a href="#" class="tab interior"><span>Интерьер</span></a>
+				</div>
+				<div class="tabs_content_wrap">
+					<div class="tab_content history">
+						<div class="slider_part">
+							<div class="history_slider_wrap">
+								<div class="slide">
+									<a data-fancybox="historySlider" href="img/project_slide-1.png"  data-caption="3D модель ЖК (вид со стороны реки)"><img src="img/project_slide-1.png" alt=""></a>
+									<div class="title">3D модель ЖК (вид со стороны реки)</div>
+								</div>
+								<div class="slide">
+									<a data-fancybox="historySlider" href="img/project_slide-1.png"  data-caption="3D модель ЖК (вид со стороны реки)"><img src="img/project_slide-1.png" alt=""></a>
+									<div class="title">3D модель ЖК (вид со стороны реки)</div>
+								</div>
+								<div class="slide">
+									<a data-fancybox="historySlider" href="img/project_slide-1.png"  data-caption="3D модель ЖК (вид со стороны реки)"><img src="img/project_slide-1.png" alt=""></a>
+									<div class="title">3D модель ЖК (вид со стороны реки)</div>
+								</div>
+							</div>
+						</div>
+						<div class="text_wrap">
+							<h2>История зарождения жилого комплекса "Георгиевcкий"</h2>
+							<div class="title">От царской России…</div>
+							<p>История комплекса началась с легкой руки Николая I. После его визита в Нижний Новгород и пожелания придать городу надлежащий вид набережную реки Волги обустроили искусные архитекторы. На прежнем откосе появились каменные дома, мостовые и церковь, подарившая комплексу старинное название и впечатляющую историю</p>
+							<div class="title">… до наших дней</div>
+							<p>Георгиевская церковь попала под советский режим, и на ее месте возвели гостиницу «Россия», которая последние десять лет провела в запустении, медленно разрушаясь в воспоминаниях о прежнем великолепии. Но легенду невозможно лишить жизни. Сегодня ее наследие воплотится воплотиться в каждой детали комплекса: от реконструированных фасадов до новой часовни на месте прежней церкви!</p>
+						</div>
 					</div>
-					<div class="adv_block">
-						<img src="img/adv_icon-2.png" alt="">
-						<p>Панорамные виды <br>на Волгу</p>
-					</div>
-					<div class="adv_block">
-						<img src="img/adv_icon-3.png" alt="">
-						<p>Роскошная историческая <br>архитектура</p>
-					</div>
-					<div class="adv_block">
-						<img src="img/adv_icon-4.png" alt="">
-						<p>Современные <br>инженерные решения</p>
-					</div>
+					<div class="tab_content exterior"></div>
+					<div class="tab_content interior"></div>
 				</div>
 			</div>
 		</section>	
@@ -152,12 +164,12 @@
 			<div class="navigation_line">
 				<div class="base_line"></div>
 				<div class="dots">
-					<div class="dot active"><a href="index.html"></a><span>Главная</span></div>
-					<div class="dot"><a href="about.html"><span>О проекте</span></a></div>
+					<div class="dot "><a href="index.html"></a><span>Главная</span></div>
+					<div class="dot active"><a href="about.html"></a><span>О проекте</span></div>
 					<div class="dot"><a href="#"></a></div>
 					<div class="dot"><a href="#"></a></div>
 					<div class="dot"><a href="#"></a></div>
-					<div class="dot"><a href="contacts.html"></a><span>Контакты</span></div>
+					<div class="dot "><a href="contacts.html"></a><span>Контакты</span></div>
 				</div>
 			</div>
 			<div class="button" id="next"></div>
@@ -176,7 +188,8 @@
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script type="text/javascript" src="lib/fullpage/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="lib/fancybox/dist/jquery.fancybox.min.js"></script>
+	<script type="text/javascript" src="lib/slick/slick.js"></script>
 	<script src="script/script.js"></script>
 </body>
 </html>
