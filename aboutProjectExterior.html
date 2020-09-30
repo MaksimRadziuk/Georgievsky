@@ -7,11 +7,12 @@
 
 
 	<link rel="stylesheet" href="fonts/stylesheet.css">
+	<link rel="stylesheet" href="lib/slick/slick.css">
+	<link rel="stylesheet" href="lib/slick/slick-theme.css">
+	<link rel="stylesheet" href="lib/fancybox/dist/jquery.fancybox.min.css">
 	<link rel="stylesheet" href="style/style.css">
-	<link rel="stylesheet" href="style/contacts.css">
+	<link rel="stylesheet" href="style/aboutProject.css">
 
-	<script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
-    </script>
 </head>
 <body>
 	<div id="wrap">
@@ -68,16 +69,15 @@
 				</div>
 			</div>
 		</div>
-
 		<div class="popup" id="mobileMenu">
 			<div class="close_menu"><span></span><span></span></div>
 			<a href="index.html" class="logo"><img src="img/logo.png" alt="Logo"></a>
 			<div class="popup_body">
 				<a href="about.html">О проекте</a>
-				<a href="#">Квартиры</a>
-				<a href="#">Документация</a>
-				<a href="#">Инфраструктура</a>
+				<a href="aboutProjectExterior.html">Инфраструктура</a>
+				<a href="aboutProjectInterior.html">Квартиры</a>
 				<a href="#">Ход строительства</a>
+				<a href="#">Документация</a>
 				<a href="contacts.html">Контакты</a>
 			</div>
 		</div>
@@ -98,8 +98,8 @@
 				<nav class="navigation">
 					<ul>
 						<li><a href="about.html">О проекте</a><span></span></li>
-						<li><a href="aboutProjectExterior.html">Инфраструктура</a><span></span></li>
-						<li><a href="aboutProjectInterior.html">Квартиры</a><span></span></li>
+						<li><a href="#">Инфраструктура</a><span></span></li>
+						<li><a href="#">Квартиры</a><span></span></li>
 						<li><a href="#">Ход строительства</a><span></span></li>
 						<li><a href="#">Документация</a><span></span></li>
 						<li><a href="contacts.html">Контакты</a><span></span></li>
@@ -119,18 +119,84 @@
 			<a href="#"><img src="img/whatsapp_icon.png" alt="whattsapp"></a>
 		</div>	
 			
-		<section id="contactPage">
-			<div class="contact_wrap">
-				<div class="text_wrap">
-					<h2>контакты</h2>
-					<a class="contact_phone" href="tel:+78312343432">+7 (831) 234-34-32</a>
-					<a class="contact_mail" href="mailto:sales@georgievsky.ru"><span>sales@georgievsky.ru</span></a>
-					<p class="contact_address">г. Нижний Новгород, ул. Минина, 6а</p>
-					<p class="contact_time">Время работы: 9:00 - 21:00</p>
+		<section id="aboutProject">
+			<div class="project_wrap">
+				<div class="tabs">
+					<div class="tabs_wrap">
+						<a href="aboutProject.html" class="tab history "><span>История</span></a>
+						<a href="aboutProjectExterior.html" class="tab exterior active"><span>Экстерьер</span></a>
+						<a href="aboutProjectInterior.html" class="tab interior "><span>Интерьер</span></a>
+					</div>
 				</div>
-				<div class="map_wrap" id="map"></div>
+				<div class="tabs_content_wrap">
+					<div class="tab_content exterior active">
+						<div class="slider_part">
+							<div class="history_slider_wrap">
+								<div class="slide">
+									<a data-fancybox="historySlider" href="img/project_slide-1.png"  data-caption="3D модель ЖК (вид со стороны реки)"><img src="img/project_slide-1.png" alt=""></a>
+									<div class="title">3D модель ЖК (вид со стороны реки)</div>
+								</div>
+								<div class="slide">
+									<a data-fancybox="historySlider" href="img/project_slide-1.png"  data-caption="3D модель ЖК (вид со стороны реки)"><img src="img/project_slide-1.png" alt=""></a>
+									<div class="title">3D модель ЖК (вид со стороны реки)</div>
+								</div>
+								<div class="slide">
+									<a data-fancybox="historySlider" href="img/project_slide-1.png"  data-caption="3D модель ЖК (вид со стороны реки)"><img src="img/project_slide-1.png" alt=""></a>
+									<div class="title">3D модель ЖК (вид со стороны реки)</div>
+								</div>
+							</div>
+						</div>
+						<div class="text_wrap">
+							<h2>внешний вид жилого комплекса "Георгиевcкий"</h2>
+							<div class="tiles_wrap">
+								<div class="tile">
+									<div class="img_wrap"><img src="img/interior_tile-circul.png" alt=""></div>
+									<div class="text">
+										<div class="title">Архитектура</div>
+										<p>Роскошь. Современные, натуральные материалы</p>
+									</div>
+								</div>
+								<div class="tile">
+									<div class="img_wrap"><img src="img/interior_tile-windows.png" alt=""></div>
+									<div class="text">
+										<div class="title">Окна</div>
+										<p>Двухкамерные, микропроветривание. Волга, Кремль</p>
+									</div>
+								</div>
+								<div class="tile">
+									<div class="img_wrap"><img src="img/interior_tile-door.png" alt=""></div>
+									<div class="text">
+										<div class="title">Входные группы</div>
+										<p>Просторное и светлое центральное лобби</p>
+									</div>
+								</div>
+								<div class="tile">
+									<div class="img_wrap"><img src="img/interior_tile-elevator.png" alt=""></div>
+									<div class="text">
+										<div class="title">Лифты</div>
+										<p>Бесшумные и плавные лифты компании Kone</p>
+									</div>
+								</div>
+								<div class="tile">
+									<div class="img_wrap"><img src="img/interior_tile-camera.png" alt=""></div>
+									<div class="text">
+										<div class="title">Безопасность</div>
+										<p>Закрытый двор, видеонаблюдение. Вход с 2х улиц</p>
+									</div>
+								</div>
+								<div class="tile">
+									<div class="img_wrap"><img src="img/interior_tile-car.png" alt=""></div>
+									<div class="text">
+										<div class="title">Паркинг</div>
+										<p>Охраняемая подземная парковка,автооткрытие ворот</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-		</section>		
+		</section>	
 		
 		<div class="slider_navigation">
 			<div class="button" id="previous"></div>
@@ -138,11 +204,11 @@
 				<div class="base_line"></div>
 				<div class="dots">
 					<div class="dot "><a href="index.html"></a><span>Главная</span></div>
-					<div class="dot"><a href="about.html"><span>О проекте</span></a></div>
+					<div class="dot active"><a href="aboutProjectExterior.html.html"></a><span>Инфраструктура</span></div>
 					<div class="dot"><a href="#"></a></div>
 					<div class="dot"><a href="#"></a></div>
 					<div class="dot"><a href="#"></a></div>
-					<div class="dot active"><a href="contacts.html"></a><span>Контакты</span></div>
+					<div class="dot "><a href="contacts.html"></a><span>Контакты</span></div>
 				</div>
 			</div>
 			<div class="button" id="next"></div>
@@ -161,7 +227,8 @@
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script type="text/javascript" src="lib/fullpage/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="lib/fancybox/dist/jquery.fancybox.min.js"></script>
+	<script type="text/javascript" src="lib/slick/slick.js"></script>
 	<script src="script/script.js"></script>
 </body>
 </html>
