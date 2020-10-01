@@ -476,9 +476,9 @@ footer {
 	max-width: 100%;
 }
 .footer_wrap {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 30% 40% 30%;
 }
 .footer_wrap p {
 	margin: 0;
@@ -486,17 +486,20 @@ footer {
 	font-size: 14px;
 	color: #f4f2ed;
 	font-weight: 300;
+	opacity: 0.4;
+	text-align: left;
 }
 .footer_wrap a {
 	font-size: 14px;
 	color: #886e4c;
 	font-weight: 300;
+	text-align: center;
 }
 .footer_wrap a:hover {
 	color: #b48240;
 }
 footer .social_links {
-	direction: flex;
+	display: flex;
 	align-items: center;
 	justify-content: flex-end;
 }
@@ -1153,6 +1156,7 @@ header.black .mobile .hamburger span {
 		    grid-row-start: 2;
 		-ms-grid-row-span: 1;
 		grid-row-end: 3;
+		text-align: left;
 	}
 	footer .social_links {
 		-ms-grid-column: 2;
