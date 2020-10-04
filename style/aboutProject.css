@@ -11,9 +11,7 @@
     background-repeat: no-repeat;
     overflow: hidden;
 }
-.slider_navigation .dots .dot:before {
-	box-shadow: inset 0 0 0 8px #fff;
-}
+
 #aboutProject:after {
 	content: '';
 	pointer-events: none;
@@ -230,7 +228,7 @@
 .tab_content .text_wrap h2 {
 	font-size: 30px;
 	font-weight: 700;
-	margin-top: 0;
+	margin-top: -8px;
 	margin-bottom: 80px;
 	color: #111820;
 	text-transform: uppercase;
@@ -385,7 +383,7 @@
 }
 @media all and (max-width:1024px) {
 	#aboutProject {
-		padding-top: 110px;
+		padding-top: 110px!important;
 	}
 	.project_wrap .tabs .tab.active span {
 		font-size: 22px;
@@ -409,10 +407,12 @@
 	}
 	.tab_content .text_wrap {
 		width: 100%;
+		height: 31vh;
+		overflow-y: hidden;
 		margin-bottom: 15px;
 	}
 	.tab_content .slider_part, .slick-slider {
-		height: 520px;
+		height: 40vh!important;
 	}
 	.tabs_content_wrap {
 		height: calc(100vh - 370px);
@@ -431,8 +431,11 @@
 		bottom: 75px;
 	}
 	.tab_content .text_wrap h2 {
-		margin-bottom: 25px;
-		font-size: 26px;
+		margin-bottom: 25px!important;
+		font-size: 26px!important;
+	}
+	.tabs_content_wrap {
+	    height: calc(100vh - 320px)!important;
 	}
 	.tab_content.exterior .tiles_wrap {
 		grid-template-rows: 1fr;
@@ -505,6 +508,9 @@
 @media all and (max-width:990px) {
 	.tabs_content_wrap {
 		overflow-y: auto;
+	}
+	#aboutProject {
+		padding-top: 80px!important;
 	}
 	.tab_content.exterior .tiles_wrap .tile .text .title {
 		margin-bottom: 25px;
@@ -624,14 +630,14 @@
 		padding-top:3px;
 	}
 	.tab_content.exterior .tiles_wrap .tile:nth-child(5) .img_wrap {
-		padding-top:3px;
+		padding-top:7px;
 	}
 	.tab_content.exterior .tiles_wrap .tile:nth-child(6) .img_wrap {
 		padding-top: 13px;
 	}
 	.tab_content.exterior .tiles_wrap .tile:nth-child(6) .img_wrap img,
 	.tab_content.exterior .tiles_wrap .tile:nth-child(5) .img_wrap img{
-		width: 42px;
+		width: 40px;
 	}
 	.tab_content.interior .slick-slide img {
 		width: 90%!important;
@@ -652,10 +658,14 @@
 	.tab_content.interior .tiles_wrap {
 		grid-row-gap: 15px;
 	}
+	.tab_content .text_wrap {
+		height: auto;
+	}
 }
 @media all and (max-width:480px) {
 	.tab_content .text_wrap h2 {
 		font-size: 20px;
+		margin-top: 0;
 	}
 	.tab_content.history .text_wrap p {
 		font-size: 14px;
@@ -666,6 +676,7 @@
 	}
 	.tab_content.exterior .tiles_wrap .tile .text .title {
 		font-size: 16px;
+		margin-bottom: 25px!important;
 	}
 	.tab_content.exterior .text_wrap h2 {
 		font-size: 19px!important;

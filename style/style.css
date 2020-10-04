@@ -566,7 +566,7 @@ footer .social_links a:hover img {
 	position: relative;
 	width: 100%;
 	height: 2px;
-	background-color: #5a4d3a; 
+	background-color: #b8a894; 
 }
 .slider_navigation .dots {
 	position: absolute;
@@ -580,6 +580,8 @@ footer .social_links a:hover img {
 .slider_navigation .dots .dot {
 	width: 14px;
 	height: 14px;
+	min-width: 14px;
+	min-height: 14px;
 	border-radius: 50%;
 	background-color: #886e4c;
 	cursor: pointer;
@@ -593,6 +595,8 @@ footer .social_links a:hover img {
 	transform: translateX(-50%) translateY(-50%);
 	width: 30px;
 	height: 30px;
+	min-width: 30px;
+	min-height: 30px;
 	border:1px solid #886e4c;
 	border-radius: 50%;
 	display: none;
@@ -1021,10 +1025,14 @@ header.black .mobile .hamburger span {
 	.slider_navigation .dots .dot {
 		width: 10px;
 		height: 10px;
+		min-width: 10px;
+		min-height: 10px;
 	}
 	.slider_navigation .dots .dot:before {
 		width: 20px;
 		height: 20px;
+		min-width: 20px;
+		min-height: 20px;
 	}
 	.popup#cameraView {
 		top: 115px;
@@ -1054,6 +1062,8 @@ header.black .mobile .hamburger span {
 	.slider_navigation .dots .dot:before {
 		width: 25px;
 		height: 25px;
+		min-width: 25px;
+		min-height: 25px;
 	}
 	#cameraView .popup_body .tab_content .watermark {
 		width: 120px;
