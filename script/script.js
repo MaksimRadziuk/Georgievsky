@@ -32,6 +32,28 @@ $(document).ready(function(){
 		$('#mobileMenu').removeClass('active');
 	})
 
+
+	$('#tab_1').click(function(){
+		$('.tab').removeClass('active');
+		$(this).addClass('active');
+		$('.tab_content').removeClass('active');
+		$('#tabContent_1').addClass('active');
+	})
+	$('#tab_2').click(function(){
+		$('.tab').removeClass('active');
+		$(this).addClass('active');
+		$('.tab_content').removeClass('active');
+		$('#tabContent_2').addClass('active');
+	})
+	$('#tab_3').click(function(){
+		$('.tab').removeClass('active');
+		$(this).addClass('active');
+		$('.tab_content').removeClass('active');
+		$('#tabContent_3').addClass('active');
+	})
+
+
+
 	if ($(window).width()>=1025) {
 		$('.close').click(function(){
 			$(this).parent('.popup').hide();
@@ -117,10 +139,32 @@ $(document).ready(function(){
 		      }
 		  ]
 		});
+		$('.progrres_slider_wrap').slick({
+			slidesToShow: 4,
+	    	slidesToScroll: 1,
+	    	arrows:true,
+	    	responsive: [
+		      {
+		      breakpoint: 1025,
+		      settings: {
+		        rows: 2,
+		        slidesToShow:3
+			      }
+			    },
+		      {
+		      breakpoint: 601,
+		      settings: {
+		        rows: 2,
+		        slidesToShow:2
+		        }
+		      }
+		  ]
+		});
 	}
 	if ($(window).width()<481) {
 		$('.slick-slider').slick('unslick');
 		$('.docs_slider_wrap').slick('destroy');
+		$('.progrres_slider_wrap').slick('destroy');
 	}
 
 	$('.history_slider_wrap').slick({
@@ -217,10 +261,32 @@ $(window).resize(function(){
 		      }
 		  ]
 		});
+		$('.progrres_slider_wrap').slick({
+			slidesToShow: 4,
+	    	slidesToScroll: 1,
+	    	arrows:true,
+	    	responsive: [
+		      {
+		      breakpoint: 1025,
+		      settings: {
+		        rows: 2,
+		        slidesToShow:3
+			      }
+			    },
+		      {
+		      breakpoint: 601,
+		      settings: {
+		        rows: 2,
+		        slidesToShow:2
+		        }
+		      }
+		  ]
+		});
 	}
 	if ($(window).width()<481) {
 		$('.slick-slider').slick('unslick');
 		$('.docs_slider_wrap').slick('destroy');
+		$('.progrres_slider_wrap').slick('destroy');
 	}
 
 })
@@ -239,7 +305,6 @@ function init(){
 
         myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
         }, {
-            // Необходимо указать данный тип макета.
             iconLayout: 'default#image',
             iconImageHref: 'https://maksimradziuk.github.io/Georgievsky/img/map_marker.png',
             iconImageSize: [52, 60],
