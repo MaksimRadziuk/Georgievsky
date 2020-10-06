@@ -53,6 +53,43 @@ $(document).ready(function(){
 	})
 
 
+	$('#map .map_overlay').click(function(){
+		$('#mapPopupWindow').fadeToggle();
+		ymaps.ready(init2);
+		function init2(){
+		    var myMap = new ymaps.Map("map2", {
+		        center: [56.328978, 44.010703],
+		        zoom: 17,
+		        controls: []
+		    });
+		    MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
+		            '<div>$[properties.iconContent]</div>'
+		        ),
+
+		        myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+		        }, {
+		            iconLayout: 'default#image',
+		            iconImageHref: 'https://maksimradziuk.github.io/Georgievsky/img/map_marker.png',
+		            iconImageSize: [52, 60],
+		            // Смещение левого верхнего угла иконки относительно
+		            // её "ножки" (точки привязки).
+		            iconImageOffset: [-30, -70]
+		        });
+
+		    myMap.geoObjects
+		        .add(myPlacemark);
+		};
+	})
+	$('#mapPopupWindow .close').click(function(){
+		$('#mapPopupWindow').fadeToggle();
+	})
+
+	$('.navigation_part .title').click(function(){
+		$(this).next('ul').slideToggle();
+		$(this).children('span').toggleClass('active');
+	})
+
+
 
 	if ($(window).width()>=1025) {
 		$('.close').click(function(){

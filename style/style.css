@@ -926,6 +926,9 @@ header.black .mobile .hamburger span {
 	#mainPage:after {
 		top: 460px;
 	}
+	header nav ul li {
+		margin-right: 15px;
+	}
 }
 @media all and (max-width: 1220px) {
 	#cameraView .popup_header .tab {
