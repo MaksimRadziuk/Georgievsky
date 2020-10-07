@@ -226,11 +226,14 @@
 }
 @media all and (max-width: 1380px) {
 	#progrressPage {
-		padding-top: 130px!important;
+		padding-top: 110px!important;
 	}
 	#progrressPage .progrres_wrap h1 {
 		font-size: 30px!important;
-		margin-bottom: 30px!important;
+		margin-bottom: 10px!important;
+	}
+	header {
+		height: 100px;
 	}
 }
 @media all and (max-width: 1024px) {
@@ -344,6 +347,14 @@
 }
 
 
+@media all and (max-height: 1080px) {
+	#progrressPage .progrres_wrap h1 {
+		margin-bottom: 25px;
+	}
+	#progrressPage .tabs_wrap {
+		height: 50px;
+	}
+}
 @media all and (max-height: 1070px) {
 	#progrressPage .progrres_wrap h1 {
 		margin-bottom: 20px;
@@ -352,7 +363,7 @@
 		height: 20vw;
 	}
 }
-@media all and (max-height: 1030px) {
+@media all and (max-height: 1040px) {
 	#progrressPage .progrres_slider {
 		padding-bottom: 110px;
 	}
@@ -363,7 +374,7 @@
 		margin-bottom: 20px;
 	}
 }
-@media all and (max-height: 1000px) {
+@media all and (max-height: 1015px) {
 	#progrressPage .progrres_wrap h1 {
 		font-size: 40px;
 		margin-bottom: 30px;
@@ -375,18 +386,18 @@
 		height: calc(100vh - 280px);
 	}
 }
-@media all and (max-height: 980px) {
+@media all and (max-height: 990px) {
 	#progrressPage .tabs_wrap {
 		height: 50px;
 		margin-bottom: 30px;
 	}
 }
-@media all and (max-height: 950px) {
+@media all and (max-height: 970px) {
 	#progrressPage .progrres_slider .img_wrap {
 		height: 18vw;
 	}
 }
-@media all and (max-height: 920px) {
+@media all and (max-height: 930px) {
 	#progrressPage .progrres_wrap button {
 		width: 50px;
 		height: 50px;
@@ -404,6 +415,70 @@
 	}
 	#progrressPage .progrres_slider {
 		padding-bottom: 80px;
+	}
+}
+@media all and (max-height: 900px) {
+	#progrressPage .progrres_wrap h1 {
+		margin-bottom: 15px;
+	}
+	#progrressPage {
+		padding-top: 130px;
+	}
+	#progrressPage .progrres_slider {
+		padding-bottom: 70px;
+	}
+	#progrressPage .tabs_wrap {
+	    height: 40px;
+	    margin-bottom: 15px;
+	}
+	#progrressPage .tab {
+		padding-bottom: 10px;
+	}
+}
+@media all and (max-height: 850px) {
+	#progrressPage .progrres_slider .img_wrap {
+		height: 290px;
+	}
+}
+@media all and (max-height: 800px) {
+	#progrressPage .progrres_slider .img_wrap {
+		height: 230px;
+	}
+}
+@media all and (max-height: 740px) {
+	#progrressPage .progrres_slider .img_wrap {
+		height: 190px;
+	}
+}
+@media all and (max-height: 695px) {
+	#progrressPage .progrres_slider .img_wrap {
+		height: 150px;
+	}
+	#progrressPage .tab.active {
+		font-size: 16px;
+	}
+}
+@media all and (max-height: 655px) {
+	#progrressPage .progrres_wrap h1 {
+		font-size: 30px;
+		margin-bottom: 5px;
+	}
+	#progrressPage .progrres_slider .title {
+		font-size: 16px;
+	}
+	#progrressPage .progrres_slider .img_wrap {
+		margin-bottom: 10px;
+	}
+}
+@media all and (max-height: 620px) {
+	header {
+		height: 100px;
+	}
+	#progrressPage {
+		padding-top: 100px;
+	}
+	#progrressPage .progrres_wrap {
+	    height: calc(100vh - 245px);
 	}
 }
 
