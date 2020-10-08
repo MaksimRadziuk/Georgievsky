@@ -84,11 +84,6 @@ $(document).ready(function(){
 		$('#mapPopupWindow').fadeToggle();
 	})
 
-	$('.navigation_part .title').click(function(){
-		$(this).next('ul').slideToggle();
-		$(this).children('span').toggleClass('active');
-	})
-
 
 
 	if ($(window).width()>=1025) {

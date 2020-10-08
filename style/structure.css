@@ -198,7 +198,7 @@
 #mapPopupWindow .navigation_part .logo img {
 	width: 100%;
 }
-#mapPopupWindow .navigation_part .title {
+#mapPopupWindow .navigation_part .title label {
 	font-size: 16px;
 	margin-top: 65px;
 	margin-bottom: 30px;
@@ -209,7 +209,10 @@
 	padding: 0;
 	margin: 0;
 }
-#mapPopupWindow .navigation_part ul li {
+#mapPopupWindow .navigation_part input {
+	display: none;
+}
+#mapPopupWindow .navigation_part label {
 	position: relative;
 	padding-left: 70px;
 	font-size: 16px;
@@ -223,13 +226,14 @@
 	cursor: pointer;
 	border-radius: 2px;
 }
-#mapPopupWindow .navigation_part ul li:hover {
+#mapPopupWindow .navigation_part input:checked ~ label {
 	border-color: #d5ccc1;
 }
-#mapPopupWindow .navigation_part ul li span.img {
+#mapPopupWindow .navigation_part input ~ label span.img {
 	position: absolute;
 	left: 35px;
-	transform: translateX(-50%);
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
 }
 #mapPopupWindow .map_wrap {
 	width: calc(100% - 460px);
@@ -268,6 +272,16 @@
 	#structurePage .structure_wrap .left_part p {
 		margin-bottom: 30px;
 	}
+	#mapPopupWindow .navigation_part .logo {
+		width: 230px;
+	}
+	#mapPopupWindow .navigation_part .title label{
+		margin-top: 30px;
+		margin-bottom: 10px;
+	}
+	#mapPopupWindow .navigation_part input ~ label {
+		height: 40px;
+	}
 }
 @media all and (max-height: 900px) {
 	#structurePage .structure_wrap {
@@ -279,11 +293,25 @@
 	#structurePage .structure_wrap .left_part p {
 		font-size: 16px;
 	}
+	#structurePage .structure_wrap .left_part input ~ label {
+		height: 40px;
+	}
+	#structurePage .structure_wrap .left_part input ~ label span.img img{
+		width: 20px;
+	}
+}
+@media all and (max-height: 840px) {
 	#structurePage .structure_wrap .left_part ul li {
 		height: 40px;
 	}
-	#structurePage .structure_wrap .left_part ul li span.img img{
-		width: 20px;
+}
+@media all and (max-height: 800px) {
+	#mapPopupWindow .navigation_part input ~ label span.img img {
+		width: 25px;
+	}
+	#mapPopupWindow .navigation_part input ~ label {
+		height: 30px;
+		font-size: 14px;
 	}
 }
 @media all and (max-height: 770px) {
@@ -300,18 +328,58 @@
 	#structurePage .structure_wrap .left_part p {
 		margin-bottom: 15px;
 	}
-	#structurePage .structure_wrap .left_part ul li {
+	#structurePage .structure_wrap .left_part input ~ label {
 		height: 30px;
 	}
 	#structurePage .structure_wrap {
 		height: calc(100vh - 255px);
 	}
 }
+@media all and (max-height: 700px) {
+	#structurePage .structure_wrap .left_part ul li span.img img{
+		width: 25px;
+	}
+	#structurePage .structure_wrap .left_part ul li {
+		font-size: 14px;
+		height: 30px;
+	}
+}
+@media all and (max-height: 650px) {
+	#mapPopupWindow .navigation_part {
+		padding-left: 30px;
+		padding-top: 30px;
+	}
+	#mapPopupWindow .navigation_part ul {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
+	}
+	#mapPopupWindow .map_wrap {
+	    width: calc(100% - 550px);
+	}
+	#mapPopupWindow .navigation_part {
+		width: 550px;
+	}
+	#mapPopupWindow .navigation_part input ~ label {
+		padding-left: 50px;
+		width: 245px;
+		height: 40px;
+	}
+	#mapPopupWindow .navigation_part input ~ label span.img {
+		left: 20px;
+	}
+	#mapPopupWindow .navigation_part .logo {
+		margin-left: 110px;
+	}
+	#mapPopupWindow .navigation_part .title label{
+		padding-left: 50px;
+	}
+}
 @media all and (max-height: 620px) {
 	#structurePage .structure_wrap .left_part p {
 		font-size: 14px;
 	}
-	#structurePage .structure_wrap .left_part ul li {
+	#structurePage .structure_wrap .left_part input ~ label {
 		font-size: 14px;
 		padding-left: 40px;
 	}
@@ -329,9 +397,10 @@
 	#structurePage .structure_wrap h1 {
 		font-size: 28px;
 	}
-	#structurePage .structure_wrap .left_part ul li {
+	#structurePage .structure_wrap .left_part input ~ label {
 		font-size: 14px;
 		line-height: 1.2;
+		height: 35px;
 	}
 }
 @media all and (max-width: 1300px) {
@@ -342,7 +411,7 @@
 	#structurePage .structure_wrap .left_part p {
 		margin-bottom: 10px;
 	}
-	#structurePage .structure_wrap .left_part ul li {
+	#structurePage .structure_wrap .left_part input ~ label {
 		padding-left: 35px;
 		height: 25px;
 		font-size: 12px;
@@ -390,13 +459,13 @@
 	#structurePage .structure_wrap .left_part ul {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
-	#structurePage .structure_wrap .left_part ul li {
+	#structurePage .structure_wrap .left_part input ~ label {
 		height: 50px;
 		font-size: 16px;
 		padding-left: 50px;
 		padding-right: 10px;
 	}
-	#structurePage .structure_wrap .left_part ul li span.img img {
+	#structurePage .structure_wrap .left_part input ~ label span.img img {
 		width: 30px;
 	}
 	#mapPopupWindow .map_popup_wrap {
@@ -422,8 +491,9 @@
 	#mapPopupWindow .navigation_part .logo {
 		width: 200px;
 	}
-	#mapPopupWindow .navigation_part .title {
+	#mapPopupWindow .navigation_part .title label{
 		margin-top: 50px;
+		padding-left: 70px;
 	}
 	#mapPopupWindow .navigation_part ul {
 		display: grid;
@@ -431,7 +501,7 @@
 		grid-template-rows: 1fr;
 		width: 100%;
 	}
-	#mapPopupWindow .navigation_part ul li {
+	#mapPopupWindow .navigation_part input ~ label {
 		width: 100%;
 	}
 }
@@ -447,29 +517,29 @@
 	#structurePage .structure_wrap .map_wrap {
 		height: 29vh;
 	}
-	#structurePage .structure_wrap .left_part ul li {
+	#structurePage .structure_wrap .left_part input ~ label {
 		height: 40px;
 		font-size: 14px;
 		line-height: 1.2;
 	}
-	#structurePage .structure_wrap .left_part ul li span.img img {
-		width: 25px;
+	#structurePage .structure_wrap .left_part input ~ label span.img img {
+		width: 20px;
 	}
-	#mapPopupWindow .navigation_part .title {
-		margin-top: 30px;
-		margin-bottom: 15px;
+	#mapPopupWindow .navigation_part .title label{
+		margin-top: 10px;
+		margin-bottom: 10px;
 	}
-	#mapPopupWindow .navigation_part ul li {
+	#mapPopupWindow .navigation_part input ~ label {
 		font-size: 14px;
 		line-height: 1.2;
 		padding-left: 50px;
 		height: 40px;
 	}
-	#mapPopupWindow .navigation_part ul li span.img {
+	#mapPopupWindow .navigation_part input ~ label span.img {
 		left:25px;
 	}
-	#mapPopupWindow .navigation_part ul li span.img img {
-		width: 20px;
+	#mapPopupWindow .navigation_part input ~ label span.img img{
+		width: 25px;
 	}
 	 
 }
@@ -498,6 +568,9 @@
 	}
 }
 @media all and (max-width: 520px) {
+	#mapPopupWindow .navigation_part .logo {
+		margin-left: 0;
+	}
 	#structurePage .structure_wrap .left_part ul {
 		margin-bottom: 30px;
 		grid-template-columns: 1fr;
@@ -509,7 +582,7 @@
 	#structurePage .structure_wrap {
 		padding: 0 10px;
 	}
-	#structurePage .structure_wrap .left_part ul li {
+	#structurePage .structure_wrap .left_part input ~ label {
 		height: 50px;
 	}
 	#mapPopupWindow {
@@ -547,10 +620,8 @@
 	}
 	#mapPopupWindow .navigation_part ul {
 		grid-template-columns: 1fr;
-		display: none;
-		margin-top: 15px;
 	}
-	#mapPopupWindow .navigation_part ul li {
+	#mapPopupWindow .navigation_part input ~ label {
 		border:none;
 	}
 	#mapPopupWindow .map_wrap {
@@ -563,32 +634,15 @@
 		max-height: 120%;
 		padding:10px;	
 	}
-	#mapPopupWindow .navigation_part .title {
+	#mapPopupWindow .navigation_part .title label{
 		padding-left: 0;
 		position: relative;
 		margin-bottom: 0;
 	}
-	#mapPopupWindow .navigation_part .title span {
-		position: absolute;
-		top: 50%;
-		transform:translateX(-100%) translateY(-50%) rotateZ(90deg);
-		transform-origin: center;
-		right: 0;
-		width: 7px;
-		height: 18px;
-		background-image: url(../img/slider_arrow.png);
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		transition: all 0.2s linear;
+	#mapPopupWindow .navigation_part input ~ label span.img {
+		left: 15px;
 	}
-	#mapPopupWindow .navigation_part .title span.active {
-		transform: translateX(-100%) translateY(-50%) rotateZ(-90deg);
-	}
-	#mapPopupWindow .navigation_part ul li span.img {
-		left: 0;
-		transform: none;
-	}
-	#mapPopupWindow .navigation_part ul li span.img img {
+	#mapPopupWindow .navigation_part input ~ label span.img img {
 		width: 25px;
 	}
 	#mapPopupWindow .navigation_part .logo {
@@ -599,5 +653,8 @@
 		right: 10px;
 		width: 20px;
 		height: 20px;
+	}
+	#structurePage .structure_wrap .left_part ul li {
+		height: 40px;
 	}
 }
