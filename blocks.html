@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ЖК Георгиевский</title>
+
+
+	<link rel="stylesheet" href="fonts/stylesheet.css">
+	<link rel="stylesheet" href="lib/slick/slick.css">
+	<link rel="stylesheet" href="lib/slick/slick-theme.css">
+	<link rel="stylesheet" href="lib/fancybox/dist/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/blocks.css">
+
+
+</head>
+<body>
+	<div id="wrap">
+
+		<div id="popupBackground">
+			<div class="mobile_header">
+				<div class="hamburger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<a href="index.html" class="logo"><img src="img/logo_dark.png" alt="Logo"></a>
+			</div>
+		</div>
+		<div class="popup" id="sendRequest">
+			<div class="close"><span></span><span></span></div>
+			<div class="popup_body">
+				<div class="title">Отправить запрос</div>
+				<form>
+					<input type="text" placeholder="Ваше Имя" required>
+					<input type="number" placeholder="Номер телефона" required>
+					<div class="checkbox_wrap">
+						<input type="checkbox" id="compliance1" required>
+						<label for="compliance1">Я согласен на <a href="#">обработку моих персональных данных</a></label>
+					</div>
+					<button>Отправить</button>
+				</form>
+			</div>
+		</div>
+		<div class="popup" id="cameraView">
+			<div class="close"><span></span><span></span></div>
+			<div class="popup_wrap">
+				<div class="popup_header">
+					<div class="tab active" id="cameraTrgger_1" target='camera_1'>Камера 1 (вид на город)</div>
+					<div class="tab" id="cameraTrgger_2" target='camera_2'>Камера 2 (вид на реку)</div>
+					<div class="tab" id="cameraTrgger_3" target='camera_3'>Камера 3 (вид на Собор)</div>
+				</div>
+				<div class="popup_body">
+					<div class="tab_content active" id="camera_1">
+						<div class="tab_title">Камера 1 (вид на город)</div>
+						<div class="watermark"><img src="img/logo_dark.png" alt="Logo"></div>
+						<iframe src="https://www.youtube.com/embed/0FMfsT11pdA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="tab_content" id="camera_2">
+						<div class="tab_title">Камера 2 (вид на реку)</div>
+						<div class="watermark"><img src="img/logo_dark.png" alt="Logo"></div>
+						<iframe src="https://www.youtube.com/embed/iywaBOMvYLI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="tab_content" id="camera_3">
+						<div class="tab_title">Камера 3 (вид на Собор)</div>
+						<div class="watermark"><img src="img/logo_dark.png" alt="Logo"></div>
+						<iframe src="https://www.youtube.com/embed/CSvFpBOe8eY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="popup" id="mobileMenu">
+			<div class="close_menu"><span></span><span></span></div>
+			<a href="index.html" class="logo"><img src="img/logo.png" alt="Logo"></a>
+			<div class="popup_body">
+				<a href="about.html">О проекте</a>
+				<a href="#">Квартиры</a>
+				<a href="#">Документация</a>
+				<a href="#">Инфраструктура</a>
+				<a href="#">Ход строительства</a>
+				<a href="contacts.html">Контакты</a>
+			</div>
+		</div>
+
+		<header class="black">
+			<div class="header_wrap">
+				<div class="mobile">
+					<div class="hamburger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+				<a href="index.html" class="logo">
+					<img src="img/logo_dark.png" alt="Logo" class="black">
+					<img src="img/logo.png" alt="Logo">
+				</a>
+				<nav class="navigation">
+					<ul>
+						<li><a href="about.html">О проекте</a><span></span></li>
+						<li><a href="#">Инфраструктура</a><span></span></li>
+						<li><a href="#">Квартиры</a><span></span></li>
+						<li><a href="#">Ход строительства</a><span></span></li>
+						<li><a href="#">Документация</a><span></span></li>
+						<li><a href="contacts.html">Контакты</a><span></span></li>
+					</ul>
+				</nav>
+				<a href="tel:+78312343432" class="phone">+7 (831) 234-34-32</a>
+				<div class="buttons_wrap">
+					<div class="button video_button"></div>
+					<div class="button phone_button"></div>
+				</div>
+			</div>
+		</header>	
+		<div id="socialLinksBar">
+			<a href="#"><img src="img/vk_icon.png" alt="vk"></a>
+			<a href="#"><img src="img/telegram_icon.png" alt="telegram"></a>
+			<a href="#"><img src="img/facebook_icon.png" alt="facebook"></a>
+			<a href="#"><img src="img/whatsapp_icon.png" alt="whattsapp"></a>
+		</div>	
+
+		<div id="blocksPage">
+			<div class="blocksPage_wrap">
+				<div class="tabs_wrap first active">
+					<a href="#" class="tab active" id="tab_1">Корпус А</a>
+					<a href="#" class="tab" id="blockB">Корпус Б</a>
+				</div>
+				<div class="tabs_wrap second">
+					<a href="#" class="tab " id="backToFirst"><img src="img/double_arrow.png" alt="">Назад</a>
+					<a href="#" class="tab active" id="blockMinina">Корпус Б (Минина)</a>
+					<a href="#" class="tab " id="blockTemple">Корпус Б (Собор)</a>
+					<a href="#" class="tab" id="blockRiver">Корпус Б (река)</a>
+				</div>
+				<div class="tabs_content_wrap">
+					<div class="tab_content active" id="BlockA">
+						<div class="block_wrap">
+							<div class="img_wrap">
+								<img src="img/block_A_camera-1.png" alt="Блок А">
+								<div class="camera north_west">
+									<div class="icon"><img src="img/eye_icon.png"></div>
+									<div class="title">Северо-запад ул. Минина</div>
+								</div>
+								<div class="camera north">
+									<div class="icon"><img src="img/eye_icon.png"></div>
+									<div class="title">Север ул. Минина</div>
+								</div>
+								<div class="block_info">
+									<div class="floor">
+										<div class="number">1</div>
+										<div class="title">этаж</div>
+									</div>
+									<div class="appartments">
+										<div class="number">2</div>
+										<div class="title">квартиры</div>
+									</div>
+								</div>
+								<div class="floor_overlays">
+									<div class="floor floor-1 right checked"></div>
+									<div class="floor floor-1 left checked"></div>
+									<div class="floor floor-2 right"></div>
+									<div class="floor floor-2 left"></div>
+									<div class="floor floor-3 right"></div>
+									<div class="floor floor-3 left"></div>
+									<div class="floor floor-4 right"></div>
+									<div class="floor floor-4 left"></div>
+									<div class="floor floor-5 right"></div>
+									<div class="floor floor-5 left"></div>
+									<div class="floor floor-6 right"></div>
+									<div class="floor floor-6 left"></div>
+								</div>
+							</div>
+							<div class="title">Корпус А</div>
+						</div>
+						<div class="appartment_wrap">
+							<div class="appartment active" id="floor1">
+								<div class="title">Корпус А, 1 этаж</div>
+								<div class="subtitle">ул. Минина</div>
+								<div class="img_wrap">
+									<img src="img/block_A_5th_floor.png" alt="">
+									<div class="select left" id="appartNum1"></div>
+									<div class="appart_number left" id="appartNum1Icon">1</div>
+									<div class="select right" id="appartNum2"></div>
+									<div class="appart_number right" id="appartNum2Icon">2</div>
+								</div>
+								<div class="table_wrap">
+									<div class="table" id="appartNum1Table">
+										<div class="cell">
+											<div class="number">1</div>
+											<div class="title">№ квартиры</div>
+										</div>
+										<div class="cell">
+											<div class="number">2</div>
+											<div class="title">Кол-во комнат</div>
+										</div>
+										<div class="cell">
+											<div class="number">279.1</div>
+											<div class="title">Площадь, м<sup>2</sup></div>
+										</div>
+										<div class="cell">
+											<div class="number">3 540</div>
+											<div class="title">Цена, млн/руб.</div>
+										</div>
+										<div class="cell">
+											<a href="#">Скачать планировку</a>
+										</div>
+									</div>
+									<div class="table"  id="appartNum2Table">
+										<div class="cell">
+											<div class="number">2</div>
+											<div class="title">№ квартиры</div>
+										</div>
+										<div class="cell">
+											<div class="number">2</div>
+											<div class="title">Кол-во комнат</div>
+										</div>
+										<div class="cell">
+											<div class="number">287.1</div>
+											<div class="title">Площадь, м<sup>2</sup></div>
+										</div>
+										<div class="cell">
+											<div class="number">3 840</div>
+											<div class="title">Цена, млн/руб.</div>
+										</div>
+										<div class="cell">
+											<a href="#">Скачать планировку</a>
+										</div>
+									</div>
+								</div>
+								<div class="notification">Выберите квартиру на плане</div>
+							</div>
+							<div class="appartment" id="floor2">
+								<div class="title">Корпус А, 2 этаж</div>
+								<div class="subtitle">ул. Минина</div>
+								<div class="img_wrap">
+									<img src="img/block_A_5th_floor.png" alt="">
+									<div class="select left" id="appartNum3"></div>
+									<div class="appart_number  left" id="appartNum3Icon">3</div>
+									<div class="select right" id="appartNum4"></div>
+									<div class="appart_number right" id="appartNum4Icon">4</div>
+								</div>
+								<div class="table_wrap">
+									<div class="table " id="appartNum3Table">
+										<div class="cell">
+											<div class="number">3</div>
+											<div class="title">№ квартиры</div>
+										</div>
+										<div class="cell">
+											<div class="number">2</div>
+											<div class="title">Кол-во комнат</div>
+										</div>
+										<div class="cell">
+											<div class="number">279.1</div>
+											<div class="title">Площадь, м<sup>2</sup></div>
+										</div>
+										<div class="cell">
+											<div class="number">3 540</div>
+											<div class="title">Цена, млн/руб.</div>
+										</div>
+										<div class="cell">
+											<a href="#">Скачать планировку</a>
+										</div>
+									</div>
+									<div class="table"  id="appartNum4Table">
+										<div class="cell">
+											<div class="number">4</div>
+											<div class="title">№ квартиры</div>
+										</div>
+										<div class="cell">
+											<div class="number">2</div>
+											<div class="title">Кол-во комнат</div>
+										</div>
+										<div class="cell">
+											<div class="number">287.1</div>
+											<div class="title">Площадь, м<sup>2</sup></div>
+										</div>
+										<div class="cell">
+											<div class="number">3 840</div>
+											<div class="title">Цена, млн/руб.</div>
+										</div>
+										<div class="cell">
+											<a href="#">Скачать планировку</a>
+										</div>
+									</div>
+								</div>
+								<div class="notification">Выберите квартиру на плане</div>
+							</div>
+							<div class="appartment" id="floor3">
+								<div class="title">Корпус А, 3 этаж</div>
+								<div class="subtitle">ул. Минина</div>
+								<div class="img_wrap">
+									<img src="img/block_A_5th_floor.png" alt="">
+									<div class="select  left" id="appartNum5"></div>
+									<div class="appart_number left " id="appartNum5Icon">5</div>
+									<div class="select right" id="appartNum6"></div>
+									<div class="appart_number right" id="appartNum6Icon">6</div>
+								</div>
+								<div class="table_wrap">
+									<div class="table " id="appartNum5Table">
+										<div class="cell">
+											<div class="number">5</div>
+											<div class="title">№ квартиры</div>
+										</div>
+										<div class="cell">
+											<div class="number">2</div>
+											<div class="title">Кол-во комнат</div>
+										</div>
+										<div class="cell">
+											<div class="number">279.1</div>
+											<div class="title">Площадь, м<sup>2</sup></div>
+										</div>
+										<div class="cell">
+											<div class="number">3 540</div>
+											<div class="title">Цена, млн/руб.</div>
+										</div>
+										<div class="cell">
+											<a href="#">Скачать планировку</a>
+										</div>
+									</div>
+									<div class="table"  id="appartNum6Table">
+										<div class="cell">
+											<div class="number">6</div>
+											<div class="title">№ квартиры</div>
+										</div>
+										<div class="cell">
+											<div class="number">2</div>
+											<div class="title">Кол-во комнат</div>
+										</div>
+										<div class="cell">
+											<div class="number">287.1</div>
+											<div class="title">Площадь, м<sup>2</sup></div>
+										</div>
+										<div class="cell">
+											<div class="number">3 840</div>
+											<div class="title">Цена, млн/руб.</div>
+										</div>
+										<div class="cell">
+											<a href="#">Скачать планировку</a>
+										</div>
+									</div>
+								</div>
+								<div class="notification">Выберите квартиру на плане</div>
+							</div>
+							<div class="appartment" id="floor4">
+								<div class="title">Корпус А, 4 этаж</div>
+								<div class="subtitle">ул. Минина</div>
+								<div class="img_wrap">
+									<img src="img/block_A_5th_floor.png" alt="">
+									<div class="select  left" id="appartNum7"></div>
+									<div class="appart_number left " id="appartNum7Icon">7</div>
+									<div class="select right" id="appartNum8"></div>
+									<div class="appart_number right" id="appartNum8Icon">8</div>
+								</div>
+								<div class="table_wrap">
+									<div class="table " id="appartNum7Table">
+										<div class="cell">
+											<div class="number">7</div>
+											<div class="title">№ квартиры</div>
+										</div>
+										<div class="cell">
+											<div class="number">2</div>
+											<div class="title">Кол-во комнат</div>
+										</div>
+										<div class="cell">
+											<div class="number">279.1</div>
+											<div class="title">Площадь, м<sup>2</sup></div>
+										</div>
+										<div class="cell">
+											<div class="number">3 540</div>
+											<div class="title">Цена, млн/руб.</div>
+										</div>
+										<div class="cell">
+											<a href="#">Скачать планировку</a>
+										</div>
+									</div>
+									<div class="table"  id="appartNum8Table">
+										<div class="cell">
+											<div class="number">8</div>
+											<div class="title">№ квартиры</div>
+										</div>
+										<div class="cell">
+											<div class="number">2</div>
+											<div class="title">Кол-во комнат</div>
+										</div>
+										<div class="cell">
+											<div class="number">287.1</div>
+											<div class="title">Площадь, м<sup>2</sup></div>
+										</div>
+										<div class="cell">
+											<div class="number">3 840</div>
+											<div class="title">Цена, млн/руб.</div>
+										</div>
+										<div class="cell">
+											<a href="#">Скачать планировку</a>
+										</div>
+									</div>
+								</div>
+								<div class="notification">Выберите квартиру на плане</div>
+							</div>
+							<div class="appartment" id="floor5">
+								<div class="title">Корпус А, 5 этаж</div>
+								<div class="subtitle">ул. Минина</div>
+								<div class="img_wrap">
+									<img src="img/block_A_5th_floor.png" alt="">
+									<div class="select  left" id="appartNum9"></div>
+									<div class="appart_number left " id="appartNum9Icon">9</div>
+									<div class="select right" id="appartNum10"></div>
+									<div class="appart_number right" id="appartNum10Icon">10</div>
+								</div>
+								<div class="table_wrap">
+									<div class="table " id="appartNum9Table">
+										<div class="cell">
+											<div class="number">9</div>
+											<div class="title">№ квартиры</div>
+										</div>
+										<div class="cell">
+											<div class="number">2</div>
+											<div class="title">Кол-во комнат</div>
+										</div>
+										<div class="cell">
+											<div class="number">279.1</div>
+											<div class="title">Площадь, м<sup>2</sup></div>
+										</div>
+										<div class="cell">
+											<div class="number">3 540</div>
+											<div class="title">Цена, млн/руб.</div>
+										</div>
+										<div class="cell">
+											<a href="#">Скачать планировку</a>
+										</div>
+									</div>
+									<div class="table"  id="appartNum10Table">
+										<div class="cell">
+											<div class="number">10</div>
+											<div class="title">№ квартиры</div>
+										</div>
+										<div class="cell">
+											<div class="number">2</div>
+											<div class="title">Кол-во комнат</div>
+										</div>
+										<div class="cell">
+											<div class="number">287.1</div>
+											<div class="title">Площадь, м<sup>2</sup></div>
+										</div>
+										<div class="cell">
+											<div class="number">3 840</div>
+											<div class="title">Цена, млн/руб.</div>
+										</div>
+										<div class="cell">
+											<a href="#">Скачать планировку</a>
+										</div>
+									</div>
+								</div>
+								<div class="notification">Выберите квартиру на плане</div>
+							</div>
+							<div class="appartment" id="floor6">
+								<div class="title">Корпус А, 6 этаж</div>
+								<div class="subtitle">ул. Минина</div>
+								<div class="img_wrap">
+									<img src="img/block_A_5th_floor.png" alt="">
+									<div class="select  left" id="appartNum11"></div>
+									<div class="appart_number left " id="appartNum11Icon">11</div>
+									<div class="select right" id="appartNum12"></div>
+									<div class="appart_number right" id="appartNum12Icon">12</div>
+								</div>
+								<div class="table_wrap">
+									<div class="table " id="appartNum11Table">
+										<div class="cell">
+											<div class="number">11</div>
+											<div class="title">№ квартиры</div>
+										</div>
+										<div class="cell">
+											<div class="number">2</div>
+											<div class="title">Кол-во комнат</div>
+										</div>
+										<div class="cell">
+											<div class="number">279.1</div>
+											<div class="title">Площадь, м<sup>2</sup></div>
+										</div>
+										<div class="cell">
+											<div class="number">3 540</div>
+											<div class="title">Цена, млн/руб.</div>
+										</div>
+										<div class="cell">
+											<a href="#">Скачать планировку</a>
+										</div>
+									</div>
+									<div class="table"  id="appartNum12Table">
+										<div class="cell">
+											<div class="number">12</div>
+											<div class="title">№ квартиры</div>
+										</div>
+										<div class="cell">
+											<div class="number">2</div>
+											<div class="title">Кол-во комнат</div>
+										</div>
+										<div class="cell">
+											<div class="number">287.1</div>
+											<div class="title">Площадь, м<sup>2</sup></div>
+										</div>
+										<div class="cell">
+											<div class="number">3 840</div>
+											<div class="title">Цена, млн/руб.</div>
+										</div>
+										<div class="cell">
+											<a href="#">Скачать планировку</a>
+										</div>
+									</div>
+								</div>
+								<div class="notification">Выберите квартиру на плане</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="slider_navigation">
+			<div class="button" id="previous"></div>
+			<div class="navigation_line">
+				<div class="base_line"></div>
+				<div class="dots">
+					<div class="dot "><a href="index.html"></a><span>Главная</span></div>
+					<div class="dot "><a href="structure.html"></a><span>Инфраструктура</span></div>
+					<div class="dot active"><a href="#"><span>Квартиры</span></a></div>
+					<div class="dot"><a href="#"></a></div>
+					<div class="dot"><a href="#"></a></div>
+					<div class="dot "><a href="contacts.html"></a><span>Контакты</span></div>
+				</div>
+			</div>
+			<div class="button" id="next"></div>
+		</div>
+		<footer>
+			<div class="footer_wrap">
+				<p>Сервис-Отель &copy 2009-2020</p>
+				<a href="#">Политика обработки персональных данных</a>
+				<div class="social_links">
+					<a href="#"><img src="img/facebook_footer_icon.png" alt="facebook"></a>
+					<a href="#"><img src="img/insta_footer_icon.png" alt="instagram"></a>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="lib/fancybox/dist/jquery.fancybox.min.js"></script>
+	<script type="text/javascript" src="lib/slick/slick.js"></script>
+	<script src="script/script.js"></script>
+</body>
+</html>

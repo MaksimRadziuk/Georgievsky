@@ -225,6 +225,177 @@ $(document).ready(function(){
 	      }
 	  ]
 	});
+
+
+
+
+/* Квартиры */
+	
+	$('#blockB, #backToFirst').click(function(){
+		$('.tabs_wrap').toggleClass('active');
+	})
+
+	$('.camera').click(function(){
+		$('#popupBackground').fadeIn();
+		$('#cameraView').fadeIn();
+	})
+
+	$('.select').click(function(){
+		$(this).siblings('.select').removeClass('active');
+		$(this).addClass('active');
+		$('.appart_number').removeClass('active');
+		$('.table').removeClass('active');
+		$(this).parent('.img_wrap').siblings('.notification').remove();
+	})
+		
+	$('#appartNum1').click(function(){
+		$('#appartNum1Table').addClass('active');
+		$('#appartNum1Icon').addClass('active');
+	})
+	$('#appartNum2').click(function(){
+		$('#appartNum2Icon').addClass('active');
+		$('#appartNum2Table').addClass('active');
+	})
+	$('#appartNum3').click(function(){
+		$('#appartNum3Icon').addClass('active');
+		$('#appartNum3Table').addClass('active');
+	})
+	$('#appartNum4').click(function(){
+		$('#appartNum4Icon').addClass('active');
+		$('#appartNum4Table').addClass('active');
+	})
+	$('#appartNum5').click(function(){
+		$('#appartNum5Icon').addClass('active');
+		$('#appartNum5Table').addClass('active');
+	})
+	$('#appartNum6').click(function(){
+		$('#appartNum6Icon').addClass('active');
+		$('#appartNum6Table').addClass('active');
+	})
+	$('#appartNum7').click(function(){
+		$('#appartNum7Icon').addClass('active');
+		$('#appartNum7Table').addClass('active');
+	})
+	$('#appartNum8').click(function(){
+		$('#appartNum8Icon').addClass('active');
+		$('#appartNum8Table').addClass('active');
+	})
+	$('#appartNum9').click(function(){
+		$('#appartNum9Icon').addClass('active');
+		$('#appartNum9Table').addClass('active');
+	})
+	$('#appartNum10').click(function(){
+		$('#appartNum10Icon').addClass('active');
+		$('#appartNum10Table').addClass('active');
+	})
+	$('#appartNum11').click(function(){
+		$('#appartNum11Icon').addClass('active');
+		$('#appartNum11Table').addClass('active');
+	})
+	$('#appartNum12').click(function(){
+		$('#appartNum12Icon').addClass('active');
+		$('#appartNum12Table').addClass('active');
+	})
+
+	$('.floor-1').hover(
+	  function() {
+	    $(this).siblings('.floor-1').addClass('active');
+	    $('.block_info>.floor>.number').text('1');
+	  }, function() {
+	    $(this).siblings('.floor-1').removeClass('active');
+	    let index = $('.floor.checked').index()/2;
+	    $('.block_info>.floor>.number').text(++index);
+	  }
+	);
+	$('.floor-2').hover(
+	  function() {
+	    $(this).siblings('.floor-2').addClass('active');
+	    $('.block_info>.floor>.number').text('2');
+	  }, function() {
+	    $(this).siblings('.floor-2').removeClass('active');
+	    let index = $('.floor.checked').index()/2;
+	    $('.block_info>.floor>.number').text(++index);
+	  }
+	);
+	$('.floor-3').hover(
+	  function() {
+	    $(this).siblings('.floor-3').addClass('active');
+	    $('.block_info>.floor>.number').text('3');
+	  }, function() {
+	    $(this).siblings('.floor-3').removeClass('active');
+	    let index = $('.floor.checked').index()/2;
+	    $('.block_info>.floor>.number').text(++index);
+	  }
+	);
+	$('.floor-4').hover(
+	  function() {
+	    $(this).siblings('.floor-4').addClass('active');
+	    $('.block_info>.floor>.number').text('4');
+	  }, function() {
+	    $(this).siblings('.floor-4').removeClass('active');
+	    let index = $('.floor.checked').index()/2;
+	    $('.block_info>.floor>.number').text(++index);
+	  }
+	);
+	$('.floor-5').hover(
+	  function() {
+	    $(this).siblings('.floor-5').addClass('active');
+	    $('.block_info>.floor>.number').text('5');
+	  }, function() {
+	    $(this).siblings('.floor-5').removeClass('active');
+	    let index = $('.floor.checked').index()/2;
+	    $('.block_info>.floor>.number').text(++index);
+	  }
+	);
+	$('.floor-6').hover(
+	  function() {
+	    $(this).siblings('.floor-6').addClass('active');
+	    $('.block_info>.floor>.number').text('6');
+	  }, function() {
+	    $(this).siblings('.floor-6').removeClass('active');
+	    let index = $('.floor.checked').index()/2;
+	    $('.block_info>.floor>.number').text(++index);
+	  }
+	);
+
+
+	$('.floor-1').click(function(){
+		$('.floor').removeClass('checked');
+		$('.floor-1').addClass('checked');
+		$('.appartment').removeClass('active');
+		$('#floor1').addClass('active');
+	})
+	$('.floor-2').click(function(){
+		$('.floor').removeClass('checked');
+		$('.floor-2').addClass('checked');
+		$('.appartment').removeClass('active');
+		$('#floor2').addClass('active');
+	})
+	$('.floor-3').click(function(){
+		$('.floor').removeClass('checked');
+		$('.floor-3').addClass('checked');
+		$('.appartment').removeClass('active');
+		$('#floor3').addClass('active');
+	})
+	$('.floor-4').click(function(){
+		$('.floor').removeClass('checked');
+		$('.floor-4').addClass('checked');
+		$('.appartment').removeClass('active');
+		$('#floor4').addClass('active');
+	})
+	$('.floor-5').click(function(){
+		$('.floor').removeClass('checked');
+		$('.floor-5').addClass('checked');
+		$('.appartment').removeClass('active');
+		$('#floor5').addClass('active');
+	})
+	$('.floor-6').click(function(){
+		$('.floor').removeClass('checked');
+		$('.floor-6').addClass('checked');
+		$('.appartment').removeClass('active');
+		$('#floor6').addClass('active');
+	})
+
 	
 })
 
