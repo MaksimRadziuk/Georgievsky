@@ -233,6 +233,26 @@ $(document).ready(function(){
 	
 	$('#blockB, #backToFirst').click(function(){
 		$('.tabs_wrap').toggleClass('active');
+		$('#BlockBMinina, #BlockA').toggleClass('active');
+	})
+
+	$('#blockTemple').click(function(){
+		$('.tab_content').removeClass('active');
+		$('#BlockBTemple').addClass('active');
+		$('.tabs_wrap.second>.tab').removeClass('active');
+		$(this).addClass('active');
+	})
+	$('#blockMinina').click(function(){
+		$('.tab_content').removeClass('active');
+		$('#BlockBMinina').addClass('active');
+		$('.tabs_wrap.second>.tab').removeClass('active');
+		$(this).addClass('active');
+	})
+	$('#blockRiver').click(function(){
+		$('.tab_content').removeClass('active');
+		$('#BlockBRiver').addClass('active');
+		$('.tabs_wrap.second>.tab').removeClass('active');
+		$(this).addClass('active');
 	})
 
 	$('.camera').click(function(){
@@ -295,6 +315,70 @@ $(document).ready(function(){
 	$('#appartNum12').click(function(){
 		$('#appartNum12Icon').addClass('active');
 		$('#appartNum12Table').addClass('active');
+	})
+	$('#appartNum13').click(function(){
+		$('#appartNum13Icon').addClass('active');
+		$('#appartNum13Table').addClass('active');
+	})
+	$('#appartNum14').click(function(){
+		$('#appartNum14Icon').addClass('active');
+		$('#appartNum14Table').addClass('active');
+	})
+	$('#appartNum15').click(function(){
+		$('#appartNum15Icon').addClass('active');
+		$('#appartNum15Table').addClass('active');
+	})
+	$('#appartNum16').click(function(){
+		$('#appartNum16Icon').addClass('active');
+		$('#appartNum16Table').addClass('active');
+	})
+	$('#appartNum17').click(function(){
+		$('#appartNum17Icon').addClass('active');
+		$('#appartNum17Table').addClass('active');
+	})
+	$('#appartNum18').click(function(){
+		$('#appartNum18Icon').addClass('active');
+		$('#appartNum18Table').addClass('active');
+	})
+	$('#appartNum19').click(function(){
+		$('#appartNum19Icon').addClass('active');
+		$('#appartNum19Table').addClass('active');
+	})
+	$('#appartNum20').click(function(){
+		$('#appartNum20Icon').addClass('active');
+		$('#appartNum20Table').addClass('active');
+	})
+	$('#appartNum21').click(function(){
+		$('#appartNum21Icon').addClass('active');
+		$('#appartNum21Table').addClass('active');
+	})
+	$('#appartNum22').click(function(){
+		$('#appartNum22Icon').addClass('active');
+		$('#appartNum22Table').addClass('active');
+	})
+	$('#appartNum23').click(function(){
+		$('#appartNum23Icon').addClass('active');
+		$('#appartNum23Table').addClass('active');
+	})
+	$('#appartNum24').click(function(){
+		$('#appartNum24Icon').addClass('active');
+		$('#appartNum24Table').addClass('active');
+	})
+	$('#appartNum25').click(function(){
+		$('#appartNum25Icon').addClass('active');
+		$('#appartNum25Table').addClass('active');
+	})
+	$('#appartNum26').click(function(){
+		$('#appartNum26Icon').addClass('active');
+		$('#appartNum26Table').addClass('active');
+	})
+	$('#appartNum27').click(function(){
+		$('#appartNum27Icon').addClass('active');
+		$('#appartNum27Table').addClass('active');
+	})
+	$('#appartNum28').click(function(){
+		$('#appartNum28Icon').addClass('active');
+		$('#appartNum28Table').addClass('active');
 	})
 
 	$('.floor-1').hover(
@@ -359,41 +443,37 @@ $(document).ready(function(){
 	);
 
 
-	$('.floor-1').click(function(){
+	$('.floor').click(function(){
 		$('.floor').removeClass('checked');
-		$('.floor-1').addClass('checked');
 		$('.appartment').removeClass('active');
-		$('#floor1').addClass('active');
+		$('.select').removeClass('active');
+		$('.appart_number').removeClass('active');
+		$('.table').removeClass('active');
+	})
+
+	$('.floor-1').click(function(){
+		$('.appart_floor-1').addClass('active');
+		$('.floor-1').addClass('checked');
 	})
 	$('.floor-2').click(function(){
-		$('.floor').removeClass('checked');
+		$('.appart_floor-2').addClass('active');
 		$('.floor-2').addClass('checked');
-		$('.appartment').removeClass('active');
-		$('#floor2').addClass('active');
 	})
 	$('.floor-3').click(function(){
-		$('.floor').removeClass('checked');
+		$('.appart_floor-3').addClass('active');
 		$('.floor-3').addClass('checked');
-		$('.appartment').removeClass('active');
-		$('#floor3').addClass('active');
 	})
 	$('.floor-4').click(function(){
-		$('.floor').removeClass('checked');
+		$('.appart_floor-4').addClass('active');
 		$('.floor-4').addClass('checked');
-		$('.appartment').removeClass('active');
-		$('#floor4').addClass('active');
 	})
 	$('.floor-5').click(function(){
-		$('.floor').removeClass('checked');
+		$('.appart_floor-5').addClass('active');
 		$('.floor-5').addClass('checked');
-		$('.appartment').removeClass('active');
-		$('#floor5').addClass('active');
 	})
 	$('.floor-6').click(function(){
-		$('.floor').removeClass('checked');
+		$('.appart_floor-6').addClass('active');
 		$('.floor-6').addClass('checked');
-		$('.appartment').removeClass('active');
-		$('#floor6').addClass('active');
 	})
 
 	

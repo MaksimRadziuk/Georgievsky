@@ -117,9 +117,12 @@
 	width: 100%;
 }
 #blocksPage .tab_content {
-	display: flex;
+	display: none;
 	align-items: flex-start;
 	justify-content: space-between;
+}
+#blocksPage .tab_content.active {
+	display: flex;
 }
 #blocksPage .tab_content .block_wrap {
 	width: 880px;
@@ -240,6 +243,52 @@
 	height: 46px;
 }
 
+/*Block Minina*/
+#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.right {
+	perspective-origin: left;
+	width: 486px;
+	left: 311px;
+	height:44px;
+}
+#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.left {
+	perspective-origin: right;
+	width: 138px;
+	right: 640px;
+	height:52px;
+}
+#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-1.left {
+	transform: perspective(300px) rotateY(-30deg) skewY(-5.5deg);
+	top: 426px;
+}
+#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-1.right {
+    transform: perspective(300px) rotateY(20deg) skewY(3deg);
+    top: 440px;
+}
+#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-2.left {
+    transform: perspective(300px) rotateY(-30deg) skewY(-10.5deg);
+    top: 354px;
+}
+#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-2.right {
+    transform: perspective(300px) rotateY(20deg) skewY(6.5deg);
+    top: 384px;
+}
+#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-3.left {
+    transform: perspective(300px) rotateY(-30deg) skewY(-10.5deg);
+    top: 302px;
+}
+#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-3.right {
+    transform: perspective(300px) rotateY(20deg) skewY(8.7deg);
+    top: 342px;
+}
+#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-4.left {
+    transform: perspective(300px) rotateY(-30deg) skewY(-14.5deg);
+    top: 255px;
+}
+#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-4.right {
+    transform: perspective(300px) rotateY(20deg) skewY(10.7deg);
+    top: 300px;
+}
+/*Block Minina*/
 
 
 #blocksPage .block_wrap .img_wrap .camera {
@@ -254,6 +303,11 @@
 #blocksPage .block_wrap .img_wrap .camera.north_west {
 	top: 30px;
 	left: 0;
+}
+#blocksPage .block_wrap .img_wrap .camera.north_east {
+	top: 80px;
+	right: 70px;
+	width: 115px;
 }
 #blocksPage .block_wrap .img_wrap .camera.north {
 	top: 0px;
@@ -277,6 +331,7 @@
 	font-size: 14px;
 	text-align: center;
 	width: 100%;
+	line-height: 1.5;
 }
 #blocksPage .block_wrap .img_wrap .block_info {
 	position: absolute;
@@ -353,6 +408,11 @@
 	max-width: 660px;
 	position: relative;
 }
+#blocksPage #BlockBMinina .appartment>.img_wrap {
+	width: 100%;
+	max-width: 705px;
+	position: relative;
+}
 #blocksPage .appartment>.img_wrap img {
 	width: 100%;
 	position: relative;
@@ -386,6 +446,14 @@
 	width: 50%;
 	right: 0;
 }
+#blocksPage #BlockBMinina .appartment .select.left {
+	width: 40%;
+	left: 0;
+}
+#blocksPage #BlockBMinina .appartment .select.right {
+	width: 60%;
+	right: 0;
+}
 #blocksPage .appartment .img_wrap .appart_number {
 	width: 55px;
 	height: 55px;
@@ -409,6 +477,12 @@
 }
 #blocksPage .appartment .img_wrap .appart_number.right{
 	right: 17%;
+}
+#blocksPage #BlockBMinina .appartment .img_wrap .appart_number.left{
+	left: 21%;
+}
+#blocksPage #BlockBMinina .appartment .img_wrap .appart_number.right{
+	right: 23%;
 }
 
 #blocksPage .appartment .table_wrap {
@@ -495,7 +569,153 @@
 	text-align: center;
 }
 
+/*корпус Собор*/
+#blocksPage #BlockBTemple .appartment>.img_wrap {
+	max-width: 710px;
+}
+#blocksPage #BlockBTemple .appartment>.subtitle {
+	margin-bottom: 20px;
+}
+#blocksPage #BlockBTemple .appartment_wrap .notification {
+	margin-top: 7vh;
+}
+#blocksPage #BlockBTemple .appartment .select.left {
+	width: 39%;
+}
+#blocksPage #BlockBTemple .appartment .select.right {
+	width: 61%;
+}
+#blocksPage #BlockBTemple .appartment .img_wrap .appart_number.left {
+	left: 20%;
+}
+#blocksPage #BlockBTemple .appartment .img_wrap .appart_number.right {
+	right: 27%;
+}
+#blocksPage #BlockBTemple .tab_content .block_wrap {
+	margin-left: 40px;
+}
+#blocksPage #BlockBTemple .appartment_wrap {
+	width: calc(100% - 920px);
+}
+#blocksPage #BlockBTemple .block_wrap .img_wrap .block_info {
+	left: -40px;
+	top: 66%;
+}
+#blocksPage #BlockBTemple .block_wrap .img_wrap .camera.north {
+	left: 400px;
+}
 
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_right-1 {
+	perspective-origin: left;
+	width: 142px;
+	left: 448px;
+	height:49px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_right-2 {
+	perspective-origin: left;
+	width: 45px;
+	left: 580px;
+	height:32px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_left-1 {
+	perspective-origin: right;
+	width: 168px;
+	right: 434px;
+	height:46px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_left-2 {
+	perspective-origin: right;
+	width: 31px;
+	right: 578px;
+	height:42px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_left-3 {
+	perspective-origin: right;
+	width: 35px;
+	right: 604px;
+	height:42px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_right-1 {
+    transform: perspective(300px) rotateY(20deg) skewY(3deg);
+    top: 419px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_right-2 {
+    transform: perspective(300px) rotateY(20deg) skewY(2deg);
+    top: 436px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_left-1 {
+	transform: perspective(300px) rotateY(-30deg) skewY(-3.5deg);
+	top: 423px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_left-2 {
+	transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+	top: 430px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_left-3 {
+	transform: perspective(300px) rotateY(-30deg) skewY(-3.5deg);
+	top: 430px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-2.floor_right-1 {
+    transform: perspective(300px) rotateY(20deg) skewY(7deg);
+    top: 362px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-2.floor_right-2 {
+    transform: perspective(300px) rotateY(20deg) skewY(5deg);
+    top: 401px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-2.floor_left-1 {
+	transform: perspective(300px) rotateY(-30deg) skewY(-8deg);
+    top: 369px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-2.floor_left-2 {
+	transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+	top: 381px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-2.floor_left-3 {
+	transform: perspective(300px) rotateY(-30deg) skewY(-8.5deg);
+    top: 384px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-3.floor_right-1 {
+    transform: perspective(300px) rotateY(20deg) skewY(10deg);
+    top: 317px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-3.floor_right-2 {
+    transform: perspective(300px) rotateY(20deg) skewY(8deg);
+    top: 367px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-3.floor_left-1 {
+	transform: perspective(300px) rotateY(-30deg) skewY(-11deg);
+    top: 325px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-3.floor_left-2 {
+	transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+	top: 340px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-3.floor_left-3 {
+    transform: perspective(300px) rotateY(-30deg) skewY(-12.5deg);
+    top: 344px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_right-1 {
+    transform: perspective(300px) rotateY(20deg) skewY(12deg);
+    top: 272px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_right-2 {
+    transform: perspective(300px) rotateY(20deg) skewY(8deg);
+    top: 335px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_left-1 {
+    transform: perspective(300px) rotateY(-30deg) skewY(-14deg);
+    top: 281px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_left-2 {
+	transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+	top: 301px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_left-3 {
+    transform: perspective(300px) rotateY(-30deg) skewY(-12.5deg);
+    top: 304px;
+}
+/*корпус Собор*/
 
 @media all and (max-height: 1075px) {
 	#blocksPage .block_wrap>.title {
@@ -610,6 +830,50 @@
 	#blocksPage .appartment_wrap .notification {
 		margin-top: 15px;
 	}
+	/*Block Minina*/
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.right {
+	    width: 395px;
+	    left: 234px;
+	    height: 39px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.left {
+		width: 116px;
+	    right: 506px;
+	    height: 45px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-1.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(3deg);
+	    top: 347px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-1.left {
+		transform: perspective(300px) rotateY(-30deg) skewY(-5.5deg);
+		top: 337px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-2.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-10.5deg);
+	    top: 283px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-2.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(6.5deg);
+	    top: 303px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-3.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-10.5deg);
+	    top: 237px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-3.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(8.7deg);
+	    top: 266px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-4.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-14.5deg);
+	    top: 198px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-4.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(10.7deg);
+	    top: 232px;
+	}
+	/*Block Minina*/
 }
 @media all and (max-height:900px) {
 	#blocksPage .appartment .table {
@@ -629,6 +893,9 @@
 	}
 	#blocksPage .appartment>.img_wrap {
 		max-width: 550px;
+	}
+	#blocksPage #BlockBMinina .appartment>.img_wrap {
+		max-width: 630px;
 	}
 }
 @media all and (max-height: 790px) {
@@ -651,8 +918,12 @@
 	#blocksPage .block_wrap .img_wrap .camera.north {
 	    left: 310px;
 	}
+	#blocksPage .block_wrap .img_wrap .camera.north_east {
+	    right: 0;
+	    top: 30px;
+	}
 	#blocksPage .block_wrap .img_wrap .camera {
-		width: 70px;
+		width: 80px;
 	}
 	#blocksPage .block_wrap .img_wrap .camera .icon {
 		width: 40px;
@@ -766,6 +1037,53 @@
 	#blocksPage .appartment>.img_wrap {
 		max-width: 430px;
 	}
+	/*Block Minina*/
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.right {
+        width: 317px;
+	    left: 174px;
+	    height: 31px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.left {
+		width: 91px;
+	    right: 396px;
+	    height: 33px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-1.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(3deg);
+	    top: 272px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-1.left {
+		transform: perspective(300px) rotateY(-30deg) skewY(-5.5deg);
+		top: 265px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-2.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-10.5deg);
+	    top: 225px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-2.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(6.5deg);
+	    top: 240px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-3.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-10.5deg);
+	    top: 189px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-3.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(8.7deg);
+	    top: 209px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-4.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-14.5deg);
+	    top: 156px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-4.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(10.7deg);
+	    top: 180px;
+	}
+	/*Block Minina*/
+	#blocksPage #BlockBMinina .appartment>.img_wrap {
+		max-width: 500px;
+	}
 }
 @media all and (max-height: 720px) {
 	#blocksPage .appartment .table {
@@ -872,10 +1190,57 @@
 	}
 	#blocksPage .appartment .table {
 		height: 70px;
-		padding: 0;
+		padding: 5px 0;
 	}
 	#blocksPage .appartment_wrap {
 	    width: calc(100% - 470px);
+	}
+	/*Block Minina*/
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.right {
+        width: 273px;
+	    left: 144px;
+	    height: 28px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.left {
+		width: 78px;
+	    right: 338px;
+	    height: 31px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-1.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(3deg);
+	    top: 231px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-1.left {
+		transform: perspective(300px) rotateY(-30deg) skewY(-5.5deg);
+		top: 224px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-2.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-10.5deg);
+	    top: 192px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-2.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(6.3deg);
+	    top: 204px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-3.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-10.5deg);
+	    top: 160px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-3.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(8.7deg);
+	    top: 177px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-4.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-14.5deg);
+	    top: 131px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-4.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(10.7deg);
+	    top: 152px;
+	}
+	/*Block Minina*/
+	#blocksPage #BlockBMinina .appartment>.img_wrap {
+	    max-width: 420px;
 	}
 }
 
@@ -1070,6 +1435,54 @@
 	#blocksPage .appartment_wrap .notification {
 		padding-bottom: 50px;
 	}
+	#blocksPage .block_wrap .img_wrap .camera.north_east {
+		right: 20px;
+		top: 40px;
+	}
+	/*Block Minina*/
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.right {
+	    width: 395px;
+	    left: 234px;
+	    height: 39px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.left {
+		width: 116px;
+	    right: 506px;
+	    height: 45px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-1.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(3deg);
+	    top: 347px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-1.left {
+		transform: perspective(300px) rotateY(-30deg) skewY(-5.5deg);
+		top: 337px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-2.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-10.5deg);
+	    top: 283px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-2.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(6.5deg);
+	    top: 303px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-3.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-10.5deg);
+	    top: 237px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-3.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(8.7deg);
+	    top: 266px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-4.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-14.5deg);
+	    top: 198px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-4.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(10.7deg);
+	    top: 232px;
+	}
+	/*Block Minina*/
 }
 @media all and (max-width: 870px) {
 	#blocksPage .block_wrap .img_wrap .camera.north_west {
@@ -1077,6 +1490,24 @@
 	}
 	#blocksPage .block_wrap .img_wrap .block_info {
 		left: 0px;
+	}
+	#blocksPage .tabs_wrap.second {
+		width: 660px;
+		height: 40px;
+	}
+	#blocksPage .tabs_wrap.second .tab.active {
+		font-size: 18px;
+	}
+	#blocksPage .tabs_wrap.second .tab {
+		padding-bottom: 10px;
+	}
+	#blocksPage .tab#backToFirst img {
+		height: 15px;
+		width: auto;
+	}
+	#blocksPage .tab#backToFirst {
+		padding-left: 20px;
+		margin-right: 0;
 	}
 }
 @media all and (max-width: 768px) {
@@ -1185,6 +1616,63 @@
 	    right: 384px;
 	    width: 103px;
 	}
+	/*Block Minina*/
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.right {
+        width: 317px;
+	    left: 174px;
+	    height: 31px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.left {
+		width: 91px;
+	    right: 396px;
+	    height: 33px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-1.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(3deg);
+	    top: 272px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-1.left {
+		transform: perspective(300px) rotateY(-30deg) skewY(-5.5deg);
+		top: 265px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-2.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-10.5deg);
+	    top: 225px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-2.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(6.5deg);
+	    top: 240px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-3.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-10.5deg);
+	    top: 189px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-3.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(8.7deg);
+	    top: 209px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-4.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-14.5deg);
+	    top: 156px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-4.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(10.7deg);
+	    top: 180px;
+	}
+	/*Block Minina*/
+	#blocksPage .tabs_wrap.second {
+		width: 480px;
+		height: 30px;
+	}
+	#blocksPage .tabs_wrap.second .tab.active {
+		font-size: 14px;
+	}
+	#blocksPage .tabs_wrap.second .tab {
+		font-size: 12px;
+	}
+	#blocksPage .tab#backToFirst img {
+		transform: translateY(-60%);
+	}
 }
 @media all and (max-width: 700px) {
 	#blocksPage .appartment .table.active {
@@ -1286,6 +1774,74 @@
 	    top: 75px;
 	    height: 30px;
 	}
+	/*Block Minina*/
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.right {
+        width: 273px;
+	    left: 144px;
+	    height: 28px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.left {
+		width: 78px;
+	    right: 338px;
+	    height: 31px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-1.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(3deg);
+	    top: 231px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-1.left {
+		transform: perspective(300px) rotateY(-30deg) skewY(-5.5deg);
+		top: 224px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-2.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-10.5deg);
+	    top: 192px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-2.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(6.3deg);
+	    top: 204px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-3.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-10.5deg);
+	    top: 160px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-3.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(8.7deg);
+	    top: 177px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-4.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-14.5deg);
+	    top: 131px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-4.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(10.7deg);
+	    top: 152px;
+	}
+	/*Block Minina*/
+	#blocksPage #BlockBMinina .block_wrap .img_wrap .camera.north_west {
+		top: 0px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .img_wrap .camera.north_east {
+		right: 0;
+	}
+	#blocksPage #BlockBMinina .block_wrap .img_wrap .camera.north {
+		left: 265px;
+	}
+}
+@media all and (max-width: 520px) {
+	#blocksPage .tabs_wrap.second.active {
+		width: 100%;
+		display: grid;
+		grid-template-rows: 30px 30px;
+		grid-template-columns: repeat(3,auto);
+		grid-row-gap: 10px;
+		grid-column-gap: 15px;
+		height: auto;
+	}
+	#blocksPage .tab#backToFirst {
+		grid-column-start: 1;
+		grid-column-end: 4
+	}
 }
 @media all and (max-width: 500px) {
 	#blocksPage .blocksPage_wrap {
@@ -1322,6 +1878,10 @@
 	}
 	#blocksPage .tabs_wrap.active {
 		width: 190px;
+	}
+	#blocksPage .tabs_wrap.second.active {
+		width: 100%;
+		margin-top: 30px;
 	}
 	#blocksPage .appartment>.title {
 		font-size: 16px;
@@ -1407,6 +1967,66 @@
 	    top: 62px;
 	    height: 24px;
 	}
+	/*Block Minina*/
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.right {
+        width: 230px;
+	    left: 90px;
+	    height: 24px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.left {
+		width: 66px;
+	    right: 246px;
+	    height: 25px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-1.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(3deg);
+	    top: 195px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-1.left {
+		transform: perspective(300px) rotateY(-30deg) skewY(-5.5deg);
+		top: 192px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-2.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-10.5deg);
+	    top: 161px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-2.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(6.3deg);
+	    top: 170px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-3.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-10.5deg);
+	    top: 134px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-3.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(8.7deg);
+	    top: 148px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-4.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-14.5deg);
+	    top: 112px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-4.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(10.7deg);
+	    top: 128px;
+	}
+	/*Block Minina*/
+	#blocksPage #BlockBMinina .block_wrap .img_wrap .camera.north {
+		left: 180px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .img_wrap .camera.north_east {
+		width: 80px;
+		right: -25px;
+		top: 30px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .img_wrap .camera.north_west {
+		top: -20px;
+	}
+}
+@media all and (max-width: 480px) {
+	#blocksPage .tabs_wrap.second.active {
+		margin-top: 0;
+	}
 }
 @media all and (max-width: 450px) {
 	#blocksPage .appartment .table.active {
@@ -1429,5 +2049,21 @@
 	    grid-row-end: 3;
 	    grid-column-start: 1;
 	    grid-column-end: 2;
+	}
+	#blocksPage #BlockBMinina .block_wrap .img_wrap .camera.north_east {
+		width: 80px;
+		right: -15px;
+		top: 00px;
+	}
+}
+@media all and (max-width: 415px) {
+	#blocksPage .tabs_wrap.second.active {
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(4,30px);
+		width: 145px;
+	}
+	#blocksPage .tab#backToFirst {
+		grid-column-start: 1;
+    	grid-column-end: 2;
 	}
 }
