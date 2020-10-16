@@ -241,18 +241,27 @@ $(document).ready(function(){
 		$('#BlockBTemple').addClass('active');
 		$('.tabs_wrap.second>.tab').removeClass('active');
 		$(this).addClass('active');
+		$('.appart_number').removeClass('active');
+		$('.table').removeClass('active');
+		$('.select').removeClass('active');
 	})
 	$('#blockMinina').click(function(){
 		$('.tab_content').removeClass('active');
 		$('#BlockBMinina').addClass('active');
 		$('.tabs_wrap.second>.tab').removeClass('active');
 		$(this).addClass('active');
+		$('.appart_number').removeClass('active');
+		$('.table').removeClass('active');
+		$('.select').removeClass('active');
 	})
 	$('#blockRiver').click(function(){
 		$('.tab_content').removeClass('active');
 		$('#BlockBRiver').addClass('active');
 		$('.tabs_wrap.second>.tab').removeClass('active');
 		$(this).addClass('active');
+		$('.appart_number').removeClass('active');
+		$('.table').removeClass('active');
+		$('.select').removeClass('active');
 	})
 
 	$('.camera').click(function(){
@@ -379,6 +388,38 @@ $(document).ready(function(){
 	$('#appartNum28').click(function(){
 		$('#appartNum28Icon').addClass('active');
 		$('#appartNum28Table').addClass('active');
+	})
+	$('#appartNum29').click(function(){
+		$('#appartNum29Icon').addClass('active');
+		$('#appartNum29Table').addClass('active');
+	})
+	$('#appartNum30').click(function(){
+		$('#appartNum30Icon').addClass('active');
+		$('#appartNum30Table').addClass('active');
+	})
+	$('#appartNum31').click(function(){
+		$('#appartNum31Icon').addClass('active');
+		$('#appartNum31Table').addClass('active');
+	})
+	$('#appartNum32').click(function(){
+		$('#appartNum32Icon').addClass('active');
+		$('#appartNum32Table').addClass('active');
+	})
+	$('#appartNum33').click(function(){
+		$('#appartNum33Icon').addClass('active');
+		$('#appartNum33Table').addClass('active');
+	})
+	$('#appartNum34').click(function(){
+		$('#appartNum34Icon').addClass('active');
+		$('#appartNum34Table').addClass('active');
+	})
+	$('#appartNum35').click(function(){
+		$('#appartNum35Icon').addClass('active');
+		$('#appartNum35Table').addClass('active');
+	})
+	$('#appartNum36').click(function(){
+		$('#appartNum36Icon').addClass('active');
+		$('#appartNum36Table').addClass('active');
 	})
 
 	$('.floor-1').hover(
