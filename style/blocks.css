@@ -288,6 +288,38 @@
     transform: perspective(300px) rotateY(20deg) skewY(10.7deg);
     top: 300px;
 }
+#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-5.left {
+    transform: perspective(300px) rotateY(-30deg) skewY(-18.5deg);
+    top: 190px;
+}
+#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-5.right {
+    transform: perspective(300px) rotateY(20deg) skewY(13.7deg);
+    top: 249px;
+}
+#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-6.left {
+    display: none;
+}
+#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-6.right {
+    transform: perspective(300px) rotateY(20deg) skewY(16deg);
+    top: 226px;
+    width: 415px;
+    left: 362px;
+    height: 27px;
+}
+#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-7.left {
+    transform: perspective(300px) rotateY(-30deg) skewY(-21deg);
+    top: 129px;
+    width: 147px;
+    right: 565px;
+    height: 38px;
+}
+#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-7.right {
+    transform: perspective(300px) rotateY(20deg) skewY(17.7deg);
+    top: 189px;
+    width: 415px;
+    left: 362px;
+    height: 36px;
+}
 /*Block Minina*/
 
 
@@ -498,7 +530,7 @@
 	position: relative;
 	display: none;
 	grid-template-rows: 1fr;
-	grid-template-columns: repeat(6,auto);
+	grid-template-columns: repeat(4,auto);
 	align-items: top;
 }
 #blocksPage .appartment .table .cell:last-child {
@@ -613,9 +645,9 @@
 }
 #blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_right-2 {
 	perspective-origin: left;
-	width: 45px;
+	width: 130px;
 	left: 580px;
-	height:32px;
+	height:33px;
 }
 #blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_left-1 {
 	perspective-origin: right;
@@ -640,8 +672,8 @@
     top: 419px;
 }
 #blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_right-2 {
-    transform: perspective(300px) rotateY(20deg) skewY(2deg);
-    top: 436px;
+    transform: perspective(300px) rotateY(20deg) skewY(4deg);
+    top: 442px;
 }
 #blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_left-1 {
 	transform: perspective(300px) rotateY(-30deg) skewY(-3.5deg);
@@ -661,7 +693,7 @@
 }
 #blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-2.floor_right-2 {
     transform: perspective(300px) rotateY(20deg) skewY(5deg);
-    top: 401px;
+    top: 404px;
 }
 #blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-2.floor_left-1 {
 	transform: perspective(300px) rotateY(-30deg) skewY(-8deg);
@@ -681,7 +713,7 @@
 }
 #blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-3.floor_right-2 {
     transform: perspective(300px) rotateY(20deg) skewY(8deg);
-    top: 367px;
+    top: 372px;
 }
 #blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-3.floor_left-1 {
 	transform: perspective(300px) rotateY(-30deg) skewY(-11deg);
@@ -701,7 +733,7 @@
 }
 #blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_right-2 {
     transform: perspective(300px) rotateY(20deg) skewY(8deg);
-    top: 335px;
+    top: 340px;
 }
 #blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_left-1 {
     transform: perspective(300px) rotateY(-30deg) skewY(-14deg);
@@ -714,6 +746,68 @@
 #blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_left-3 {
     transform: perspective(300px) rotateY(-30deg) skewY(-12.5deg);
     top: 304px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_right-1 {
+    transform: perspective(300px) rotateY(20deg) skewY(15deg);
+    top: 221px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_right-2 {
+    transform: perspective(300px) rotateY(20deg) skewY(12deg);
+    top: 305px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-1 {
+    transform: perspective(300px) rotateY(-30deg) skewY(-17deg);
+    top: 234px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-2 {
+	transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+	top: 256px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-3 {
+    transform: perspective(300px) rotateY(-30deg) skewY(-22.5deg);
+    top: 261px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-1 {
+    transform: perspective(300px) rotateY(20deg) skewY(12deg);
+    top: 206px;
+    width: 142px;
+    left: 419px;
+    height: 13px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-2 {
+    transform: perspective(300px) rotateY(20deg) skewY(13deg);
+    top: 286px;
+    width: 92px;
+    left: 580px;
+    height: 17px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_left-1 {
+    transform: perspective(300px) rotateY(-30deg) skewY(-19deg);
+    top: 221px;
+    width: 168px;
+    right: 460px;
+    height: 24px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-1 {
+    transform: perspective(300px) rotateY(20deg) skewY(17deg);
+    top: 165px;
+    width: 139px;
+    left: 419px;
+    height: 37px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-2 {
+    transform: perspective(300px) rotateY(20deg) skewY(15deg);
+    top: 264px;
+    width: 92px;
+    left: 580px;
+    height: 21px;
+}
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_left-1 {
+    transform: perspective(300px) rotateY(-30deg) skewY(-23deg);
+    top: 182px;
+    width: 167px;
+    right: 462px;
+    height: 36px;
 }
 /*корпус Собор*/
 
@@ -744,13 +838,13 @@
 }
 #blocksPage #BlockBRiver .block_wrap .floor_overlays .floor.left {
 	perspective-origin: right;
-	width: 452px;
-    right: 228px;
+	width: 375px;
+    right: 196px;
     height: 39px;
 }
 #blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-1.left {
     transform: perspective(300px) rotateY(-25deg) skewY(-4deg);
-    top: 414px;
+    top: 411px;
 }
 #blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-1.right {
     transform: perspective(300px) rotateY(20deg) skewY(3deg);
@@ -758,8 +852,8 @@
 }
 #blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-2.left {
     transform: perspective(300px) rotateY(-21deg) skewY(-6.5deg);
-    top: 363px;
-    right: 216px;
+    top: 356px;
+    right: 191px;
 }
 #blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-2.right {
     transform: perspective(300px) rotateY(20deg) skewY(11.5deg);
@@ -767,7 +861,7 @@
 }
 #blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-3.left {
     transform: perspective(300px) rotateY(-25deg) skewY(-8.5deg);
-    top: 326px;
+    top: 318px;
 }
 #blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-3.right {
     transform: perspective(300px) rotateY(20deg) skewY(14.7deg);
@@ -775,48 +869,101 @@
 }
 #blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-4.left {
     transform: perspective(300px) rotateY(-25deg) skewY(-10.5deg);
-    top: 290px;
+    top: 277px;
 }
 #blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-4.right {
     transform: perspective(300px) rotateY(20deg) skewY(18.7deg);
     top: 243px;
+}
+#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-5.left {
+    transform: perspective(300px) rotateY(-16deg) skewY(-13.5deg);
+    top: 224px;
+    width: 369px;
+    right: 182px;
+    height: 44px;
+}
+#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-5.right {
+    transform: perspective(300px) rotateY(20deg) skewY(21.7deg);
+    top: 191px;
+}
+#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-6.left {
+    transform: perspective(300px) rotateY(-25deg) skewY(-14.5deg);
+    top: 207px;
+    width: 324px;
+    height: 17px;
+    right: 203px;
+}
+#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-6.right {
+    transform: perspective(300px) rotateY(20deg) skewY(23.7deg);
+    top: 173px;
+    width: 68px;
+    left: 766px;
+    height: 29px;
+}
+#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.left-1 {
+    transform: perspective(300px) rotateY(-25deg) skewY(-15.5deg);
+    top: 175px;
+    width: 290px;
+    right: 228px;
+    height: 34px;
+}
+#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.left-2 {
+    transform: perspective(300px) rotateY(-4deg) skewY(19.5deg);
+    top: 128px;
+    width: 36px;
+    right: 174px;
+    height: 39px;
+}
+#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.right-1 {
+    transform: perspective(300px) rotateY(20deg) skewY(-16.3deg);
+    top: 128px;
+    width: 67px;
+    left: 705px;
+    height: 34px;
+}
+#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.right-2 {
+    transform: perspective(300px) rotateY(20deg) skewY(23.7deg);
+    top: 136px;
+    width: 63px;
+    left: 768px;
+    height: 39px;
 }
 /*корпус Река*/
 #blocksPage #BlockBRiver .appartment .table_wrap .cell .title {
 	font-size: 12px;
 }
 
-@media all and (max-height: 1075px) {
-	#blocksPage .block_wrap>.title {
-		margin-top: 15px;
+
+
+@media all and (max-width: 1900px) {
+	#blocksPage .appartment .table_wrap .cell .number {
+		font-size: 22px;
 	}
-	#blocksPage #BlockBTemple .appartment .table {
-		margin-top: 20px;
+	#blocksPage .appartment .table_wrap .cell .title {
+		font-size: 12px;
 	}
-}
-@media all and (max-height: 1040px) {
-	#blocksPage .block_wrap>.title {
-		margin-top: 0px;
-	}
-}
-@media all and (max-height: 1030px) {
-	#blocksPage .tabs_wrap.active {
-		margin-bottom: 15px;
+	#blocksPage #BlockBRiver .appartment_wrap {
+		padding-left: 30px;
 	}
 }
-@media all and (max-height: 990px) {
-	#blocksPage  {
-		padding-top: 120px;
+@media all and (max-width: 1800px) {
+	#blocksPage .appartment_wrap {
+		padding: 0;
 	}
-	#blocksPage .blocksPage_wrap {
-		height: calc(100vh - 255px);
-		width: calc(100% - 100px);
+	#blocksPage #BlockBTemple .appartment_wrap {
+		padding-left:20px;
+	}
+	#blocksPage #BlockBRiver .appartment_wrap {
+		padding-left: 15px;
 	}
 
 }
-@media all and (max-height: 920px) {
+@media all and (max-width: 1750px) {
+	#blocksPage .appartment>.subtitle {
+		margin-bottom: 20px;
+	}
 	#blocksPage .appartment_wrap {
-		width: calc(100% - 700px)
+		width: calc(100% - 700px);
 	}
 	#blocksPage .tab_content .block_wrap {
 		width: 700px;
@@ -946,6 +1093,40 @@
 	    transform: perspective(300px) rotateY(20deg) skewY(10.7deg);
 	    top: 232px;
 	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-5.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-18.5deg);
+	    top: 161px;
+	    height: 30px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-5.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(13.7deg);
+	    top: 203px;
+	    height: 27px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-6.left {
+	    display: none;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-6.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(16deg);
+	    top: 179px;
+	    width: 338px;
+	    left: 277px;
+	    height: 21px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-7.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-21deg);
+	    top: 107px;
+	    width: 119px;
+	    right: 448px;
+	    height: 19px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-7.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(17.7deg);
+	    top: 151px;
+	    width: 338px;
+	    left: 277px;
+	    height: 25px;
+	}
 	/*Block Minina*/
 
 	/*Block Temple*/
@@ -957,7 +1138,7 @@
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_right-2 {
 		perspective-origin: left;
-	    width: 35px;
+	    width: 107px;
 	    left: 459px;
 	    height: 24px;
 	}
@@ -1059,6 +1240,68 @@
 	    transform: perspective(300px) rotateY(-30deg) skewY(-12.5deg);
 	    top: 246px;
 	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
+	    top: 178px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(12deg);
+	    top: 243px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-1 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-17deg);
+	    top: 189px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-2 {
+		transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+		top: 207px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-3 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-22.5deg);
+	    top: 212px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(12deg);
+	    top: 165px;
+	    width: 112px;
+	    left: 333px;
+	    height: 8px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(13deg);
+	    top: 228px;
+	    width: 71px;
+	    left: 463px;
+	    height: 13px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_left-1 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-19deg);
+	    top: 176px;
+	    width: 136px;
+	    right: 365px;
+	    height: 20px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(17deg);
+        top: 141px;
+	    width: 106px;
+	    left: 334px;
+	    height: 22px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
+	    top: 212px;
+	    width: 70px;
+	    left: 465px;
+	    height: 18px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_left-1 {
+	    transform: perspective(300px) rotateY(-61deg) skewY(-12deg);
+	    top: 157px;
+	    width: 221px;
+	    right: 334px;
+	    height: 19px;
+	}
 	/*Block Temple*/
 	#blocksPage #BlockBTemple .appartment .table {
 		margin-top: 10px;
@@ -1069,6 +1312,10 @@
 	#blocksPage #BlockBTemple .appartment_wrap {
 		width: calc(100% - 700px);
 	}
+	#blocksPage #BlockBTemple .block_wrap .img_wrap .camera.north_east {
+		right: 0px;
+		left: auto;
+	}
 
 	/*Block River*/
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor.right {
@@ -1077,13 +1324,13 @@
 	    height: 43px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor.left {
-	    width: 375px;
-		right: 164px;
+	    width: 309px;
+		right: 145px;
 		height: 32px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-1.left {
         transform: perspective(300px) rotateY(-25deg) skewY(-3.5deg);
-   		top: 328px;
+   		top: 325px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-1.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(5deg);
@@ -1091,8 +1338,8 @@
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-2.left {
 	    transform: perspective(300px) rotateY(-21deg) skewY(-6.5deg);
-	    top: 289px;
-    	right: 159px;
+	    top: 285px;
+    	right: 143px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-2.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(11.5deg);
@@ -1100,7 +1347,7 @@
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-3.left {
 	    transform: perspective(300px) rotateY(-25deg) skewY(-8.5deg);
-	    top: 259px;
+	    top: 251px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-3.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(14.7deg);
@@ -1108,11 +1355,64 @@
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-4.left {
 	    transform: perspective(300px) rotateY(-25deg) skewY(-10.5deg);
-	    top: 230px;
+	    top: 219px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-4.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(18.7deg);
 	    top: 192px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-5.left {
+	    transform: perspective(300px) rotateY(-16deg) skewY(-13.5deg);
+        top: 176px;
+	    width: 299px;
+	    right: 138px;
+	    height: 37px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-5.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(21.7deg);
+	    top: 154px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-6.left {
+	    transform: perspective(300px) rotateY(-25deg) skewY(-14.5deg);
+	    top: 164px;
+	    width: 242px;
+	    height: 14px;
+	    right: 171px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-6.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(23.7deg);
+        top: 139px;
+	    width: 57px;
+	    left: 605px;
+	    height: 22px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.left-1 {
+	    transform: perspective(300px) rotateY(-25deg) skewY(-15.5deg);
+        top: 142px;
+	    width: 239px;
+	    right: 174px;
+	    height: 22px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.left-2 {
+	    transform: perspective(300px) rotateY(-4deg) skewY(19.5deg);
+        top: 104px;
+	    width: 28px;
+	    right: 137px;
+	    height: 25px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(-16.3deg);
+	    top: 105px;
+	    width: 52px;
+	    left: 562px;
+	    height: 24px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(23.7deg);
+	    top: 115px;
+	    width: 55px;
+	    left: 609px;
+	    height: 24px;
 	}
 	/*корпус Река*/
 	#blocksPage #BlockBRiver .block_wrap .img_wrap .camera.north {
@@ -1122,44 +1422,20 @@
 		top: 0;
 		right: 245px;
 	}
+	#blocksPage #BlockBMinina .block_wrap .img_wrap .camera.north_east {
+		top: 50px;
+		right: 0;
+	}
 	#blocksPage #BlockBRiver .appartment_wrap {
 		width: calc(100% - 750px);
 	}
 
-}
-@media all and (max-height:900px) {
-	#blocksPage .appartment .table {
-		margin-top: 20px;
-	}
-	#blocksPage #BlockBTemple .appartment_wrap .notification {
-		margin-top: 20px;
-	}
-	#blocksPage #BlockBRiver .appartment>.subtitle {
-		margin-bottom: 20px;
+
+	#blocksPage .blocksPage_wrap {
+		width: calc(100% - 90px);
 	}
 }
-@media all and (max-height: 850px) {
-	#blocksPage .tabs_wrap.active {
-		margin-bottom: 15px;
-		margin-top: 0;
-	}
-	#blocksPage .tabs_wrap.active {
-		height: 50px;
-	}
-	#blocksPage .appartment>.subtitle {
-		margin-bottom: 20px;
-	}
-	#blocksPage .appartment>.img_wrap {
-		max-width: 550px;
-	}
-	#blocksPage #BlockBMinina .appartment>.img_wrap {
-		max-width: 630px;
-	}
-	#blocksPage #BlockBTemple .appartment>.img_wrap {
-		max-width: 490px;
-	}
-}
-@media all and (max-height: 790px) {
+@media all and (max-width: 1510px) {
 	#blocksPage .appartment_wrap {
 		width: calc(100% - 550px)
 	}
@@ -1344,6 +1620,40 @@
 	    transform: perspective(300px) rotateY(20deg) skewY(10.7deg);
 	    top: 180px;
 	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-5.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-18.5deg);
+	    top: 125px;
+	    height: 24px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-5.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(13.7deg);
+	    top: 160px;
+	    height: 20px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-6.left {
+	    display: none;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-6.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(16deg);
+	    top: 140px;
+	    width: 270px;
+	    left: 211px;
+	    height: 18px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-7.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-21deg);
+	    top: 82px;
+	    width: 91px;
+	    right: 350px;
+	    height: 20px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-7.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(17.7deg);
+	    top: 120px;
+	    width: 270px;
+	    left: 212px;
+	    height: 18px;
+	}
 	/*Block Minina*/
 	#blocksPage #BlockBMinina .appartment>.img_wrap {
 		max-width: 500px;
@@ -1358,7 +1668,7 @@
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_right-2 {
 		perspective-origin: left;
-		width: 28px;
+		width:72px;
 	    left: 363px;
 	    height: 19px;
 	}
@@ -1385,8 +1695,8 @@
 	    top:262px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_right-2 {
-	    transform: perspective(300px) rotateY(20deg) skewY(2deg);
-	    top: 272px;
+	    transform: perspective(300px) rotateY(20deg) skewY(5deg);
+	    top: 275px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_left-1 {
 		transform: perspective(300px) rotateY(-30deg) skewY(-3.5deg);
@@ -1445,8 +1755,8 @@
 	    top: 173px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_right-2 {
-	    transform: perspective(300px) rotateY(20deg) skewY(8deg);
-	    top: 210px;
+	    transform: perspective(300px) rotateY(20deg) skewY(10deg);
+	    top: 213px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_left-1 {
 	    transform: perspective(300px) rotateY(-30deg) skewY(-14deg);
@@ -1459,6 +1769,68 @@
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_left-3 {
 	    transform: perspective(300px) rotateY(-30deg) skewY(-12.5deg);
 	    top: 193px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
+	    top: 139px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(12deg);
+	    top: 190px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-1 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-17deg);
+	    top: 147px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-2 {
+		transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+		top: 161px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-3 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-22.5deg);
+	    top: 165px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-1 {
+        transform: perspective(300px) rotateY(20deg) skewY(15deg);
+	    top: 128px;
+	    width: 88px;
+	    left: 261px;
+	    height: 8px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(13deg);
+	    top: 181px;
+	    width: 57px;
+	    left: 362px;
+	    height: 10px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_left-1 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-19deg);
+	    top: 135px;
+	    width: 110px;
+	    right: 283px;
+	    height: 18px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(17deg);
+        top: 109px;
+	    width: 85px;
+	    left: 263px;
+	    height: 17px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
+        top: 165px;
+	    width: 57px;
+	    left: 362px;
+	    height: 13px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_left-1 {
+	    transform: perspective(300px) rotateY(-61deg) skewY(-12deg);
+	    top: 121px;
+	    width: 179px;
+	    right: 255px;
+	    height: 15px;
 	}
 	/*Block Temple*/
 	#blocksPage #BlockBTemple .appartment>.subtitle {
@@ -1478,8 +1850,8 @@
 	    height: 31px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor.left {
-        width: 296px;
-	    right: 117px;
+        width: 247px;
+	    right: 108px;
 	    height: 26px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-1.right {
@@ -1488,7 +1860,7 @@
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-1.left {
         transform: perspective(300px) rotateY(-25deg) skewY(-3.5deg);
-   		top:256px;
+   		top:254px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-2.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(11.5deg);
@@ -1496,8 +1868,8 @@
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-2.left {
 	    transform: perspective(300px) rotateY(-21deg) skewY(-6.5deg);
-        top: 226px;
-    	right: 116px;
+        top: 223px;
+    	right: 108px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-3.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(14.7deg);
@@ -1505,7 +1877,7 @@
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-3.left {
 	    transform: perspective(300px) rotateY(-25deg) skewY(-8.5deg);
-	    top: 202px;
+	    top: 196px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-4.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(18.7deg);
@@ -1513,46 +1885,103 @@
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-4.left {
 	    transform: perspective(300px) rotateY(-25deg) skewY(-10.5deg);
-	    top: 178px;
+	    top: 171px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-5.left {
+	    transform: perspective(300px) rotateY(-16deg) skewY(-13.5deg);
+        top: 136px;
+	    width: 234px;
+	    right: 105px;
+	    height: 31px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-5.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(21.7deg);
+	    top: 119px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-6.left {
+	    transform: perspective(300px) rotateY(-25deg) skewY(-14.5deg);
+        top: 129px;
+	    width: 206px;
+	    height: 12px;
+	    right: 128px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-6.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(23.7deg);
+        top: 110px;
+	    width: 49px;
+	    left: 473px;
+	    height: 14px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.left-1 {
+	    transform: perspective(300px) rotateY(-25deg) skewY(-15.5deg);
+        top: 109px;
+	    width: 188px;
+	    right: 131px;
+	    height: 18px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.left-2 {
+	    transform: perspective(300px) rotateY(-4deg) skewY(19.5deg);
+        top: 81px;
+	    width: 22px;
+	    right: 109px;
+	    height: 20px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(-16.3deg);
+        top: 76px;
+	    width: 43px;
+	    left: 440px;
+	    height: 24px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(23.7deg);
+	    top: 87px;
+	    width: 45px;
+	    left: 476px;
+	    height: 20px;
 	}
 	/*корпус Река*/
 	#blocksPage #BlockBRiver .appartment_wrap {
 		width: calc(100% - 605px);
 	}
 
+
+	#blocksPage .appartment .table {
+		height: auto;
+		margin-top: 15px;
+		grid-template-rows: 1fr auto;
+		grid-template-columns: repeat(3, auto);
+		grid-row-gap: 20px;
+	}
+	#blocksPage .appartment .table .cell:nth-child(3) {
+		border:none;
+	}
+	#blocksPage .appartment .table .cell:last-child {
+		grid-row-start: 2;
+		grid-row-end: 3;
+		grid-column-start: 1;
+		grid-column-end: 4;
+	}
 }
-@media all and (max-height: 720px) {
+@media all and (max-width: 1380px) {
 	#blocksPage .appartment .table {
 		padding: 10px 0;
 	}
-	#blocksPage #BlockBTemple .appartment>.img_wrap {
-		max-width: 500px;
+	#blocksPage .appartment>.img_wrap {
+		max-width: 370px;
 	}
-	#blocksPage #BlockBTemple .appartment_wrap .notification {
-		margin-top: 10px;
+	#blocksPage .appartment .table_wrap .cell .number {
+		font-size: 18px;
 	}
-	#blocksPage #BlockBTemple .appartment>.img_wrap {
-		max-width: 420px;
+	#blocksPage .appartment .img_wrap .appart_number {
+		width: 40px;
+		height: 40px;
 	}
 }
-@media all and (max-height: 700px) {
-	header {
-		height: 90px;
-	}
-	#blocksPage {
-		padding-top: 80px;
-	}
-	#blocksPage .tabs_wrap.active {
-		width: 200px;
-	}
-	#blocksPage .tabs_wrap.second {
-		width: 650px;
-	}
+@media all and (max-width: 1300px) {
 	#blocksPage .blocksPage_wrap {
-	    height: calc(100vh - 220px);
+	    width: calc(100% - 85px);
 	}
-}
-@media all and (max-height: 650px) {
 	#blocksPage .tab_content .block_wrap {
 		width: 470px;
 	}
@@ -1634,7 +2063,6 @@
 		margin-bottom: 15px;
 	}
 	#blocksPage .appartment .table {
-		height: 70px;
 		padding: 5px 0;
 	}
 	#blocksPage .appartment_wrap {
@@ -1683,6 +2111,40 @@
 	    transform: perspective(300px) rotateY(20deg) skewY(10.7deg);
 	    top: 152px;
 	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-5.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-18.5deg);
+	    top: 107px;
+	    height: 22px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-5.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(13.7deg);
+	    top: 133px;
+	    height: 20px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-6.left {
+	    display: none;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-6.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(16deg);
+	    top: 118px;
+	    width: 230px;
+	    left: 178px;
+	    height: 15px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-7.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-21deg);
+	    top: 70px;
+	    width: 78px;
+	    right: 298px;
+	    height: 14px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-7.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(17.7deg);
+	    top: 99px;
+	    width: 230px;
+	    left: 178px;
+	    height: 19px;
+	}
 	/*Block Minina*/
 
 	#blocksPage #BlockBMinina .appartment>.img_wrap {
@@ -1698,7 +2160,7 @@
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_right-2 {
 		perspective-origin: left;
-		width: 24px;
+		width: 67px;
 	    left: 310px;
 	    height: 16px;
 	}
@@ -1726,7 +2188,7 @@
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_right-2 {
 	    transform: perspective(300px) rotateY(20deg) skewY(2deg);
-	    top: 233px;
+	    top: 237px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_left-1 {
 		transform: perspective(300px) rotateY(-30deg) skewY(-3.5deg);
@@ -1785,8 +2247,8 @@
 	    top: 146px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_right-2 {
-	    transform: perspective(300px) rotateY(20deg) skewY(8deg);
-	    top: 179px;
+	    transform: perspective(300px) rotateY(20deg) skewY(10deg);
+	    top:183px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_left-1 {
 	    transform: perspective(300px) rotateY(-30deg) skewY(-14deg);
@@ -1799,6 +2261,68 @@
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_left-3 {
 	    transform: perspective(300px) rotateY(-30deg) skewY(-12.5deg);
 	    top: 165px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
+	    top: 119px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(12deg);
+	    top: 163px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-1 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-17deg);
+	    top: 123px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-2 {
+		transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+		top: 137px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-3 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-22.5deg);
+	    top: 141px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-1 {
+        transform: perspective(300px) rotateY(20deg) skewY(15deg);
+	    top: 109px;
+	    width: 75px;
+	    left: 222px;
+	    height: 8px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(13deg);
+	    top: 153px;
+	    width: 51px;
+	    left: 309px;
+	    height: 9px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_left-1 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-19deg);
+        top: 118px;
+	    width: 93px;
+	    right: 243px;
+	    height: 15px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(17deg);
+        top: 90px;
+	    width: 72px;
+	    left: 222px;
+	    height: 16px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
+        top: 142px;
+	    width: 49px;
+	    left: 309px;
+	    height: 9px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_left-1 {
+	    transform: perspective(300px) rotateY(-61deg) skewY(-12deg);
+	    top: 102px;
+	    width: 160px;
+	    right: 214px;
+	    height: 14px;
 	}
 	/*Block Temple*/
 	#blocksPage #BlockBTemple .appartment_wrap {
@@ -1818,8 +2342,8 @@
 	    height: 29px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor.left {
-        width: 262px;
-	    right: 96px;
+        width: 212px;
+	    right: 88px;
 	    height: 23px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-1.right {
@@ -1828,7 +2352,7 @@
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-1.left {
         transform: perspective(300px) rotateY(-25deg) skewY(-3.5deg);
-   		top:219px;
+   		top:217px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-2.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(11.5deg);
@@ -1836,8 +2360,8 @@
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-2.left {
 	    transform: perspective(300px) rotateY(-21deg) skewY(-6.5deg);
-        top: 194px;
-    	right: 95px;
+        top: 190px;
+    	right: 88px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-3.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(14.7deg);
@@ -1845,7 +2369,7 @@
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-3.left {
 	    transform: perspective(300px) rotateY(-25deg) skewY(-8.5deg);
-	    top: 173px;
+	    top: 167px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-4.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(18.7deg);
@@ -1853,7 +2377,60 @@
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-4.left {
 	    transform: perspective(300px) rotateY(-25deg) skewY(-10.5deg);
-	    top: 151px;
+	    top: 145px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-5.left {
+	    transform: perspective(300px) rotateY(-16deg) skewY(-13.5deg);
+        top: 116px;
+	    width: 204px;
+	    right: 86px;
+	    height: 26px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-5.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(21.7deg);
+	    top: 102px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-6.left {
+	    transform: perspective(300px) rotateY(-25deg) skewY(-14.5deg);
+        top: 108px;
+	    width: 167px;
+	    height: 10px;
+	    right: 109px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-6.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(23.7deg);
+        top: 93px;
+	    width: 43px;
+	    left: 403px;
+	    height: 14px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.left-1 {
+	    transform: perspective(300px) rotateY(-25deg) skewY(-15.5deg);
+        top: 94px;
+	    width: 163px;
+	    right: 111px;
+	    height: 14px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.left-2 {
+	    transform: perspective(300px) rotateY(-4deg) skewY(19.5deg);
+        top: 69px;
+	    width: 18px;
+	    right: 92px;
+	    height: 16px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(-16.3deg);
+        top: 68px;
+	    width: 36px;
+	    left: 376px;
+	    height: 18px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(23.7deg);
+        top: 76px;
+	    width: 37px;
+	    left: 408px;
+	    height: 15px;
 	}
 	/*корпус Река*/
 	#blocksPage #BlockBRiver .appartment_wrap {
@@ -1862,68 +2439,6 @@
 	#blocksPage #BlockBRiver .block_wrap .img_wrap .camera.north {
 		top: 20px;
 	}
-
-}
-
-
-@media all and (max-width: 1900px) {
-	#blocksPage .appartment .table_wrap .cell .number {
-		font-size: 22px;
-	}
-	#blocksPage .appartment .table_wrap .cell .title {
-		font-size: 12px;
-	}
-	#blocksPage #BlockBRiver .appartment_wrap {
-		padding-left: 30px;
-	}
-}
-@media all and (max-width: 1800px) {
-	#blocksPage .appartment_wrap {
-		padding: 0;
-	}
-	#blocksPage #BlockBTemple .appartment_wrap {
-		padding-left:20px;
-	}
-	#blocksPage #BlockBRiver .appartment_wrap {
-		padding-left: 15px;
-	}
-
-}
-@media all and (max-width: 1750px) {
-	#blocksPage .appartment>.subtitle {
-		margin-bottom: 20px;
-	}
-	#blocksPage .appartment .table {
-		height: auto;
-		margin-top: 15px;
-		grid-template-rows: 1fr auto;
-		grid-template-columns: repeat(4, auto);
-		grid-row-gap: 20px;
-	}
-	#blocksPage .appartment .table .cell:nth-child(4) {
-		border:none;
-	}
-	#blocksPage .appartment .table .cell:last-child {
-		grid-row-start: 2;
-		grid-row-end: 3;
-		grid-column-start: 2;
-		grid-column-end: 4;
-	}
-}
-@media all and (max-width: 1380px) {
-	#blocksPage .appartment .table {
-		padding: 10px 0;
-	}
-	#blocksPage .appartment>.img_wrap {
-		max-width: 370px;
-	}
-	#blocksPage .appartment .table_wrap .cell .number {
-		font-size: 18px;
-	}
-	#blocksPage .appartment .img_wrap .appart_number {
-		width: 40px;
-		height: 40px;
-	}
 }
 @media all and (max-width: 1160px) {
 	#blocksPage #BlockBRiver .appartment .table_wrap .cell .title {
@@ -1931,9 +2446,6 @@
 	}
 	#blocksPage #BlockBRiver .appartment .table_wrap .cell .number {
 		font-size: 14px;
-	}
-	#blocksPage .appartment .table {
-		grid-template-columns: repeat(4, 1fr);
 	}
 }
 @media all and (max-width: 1100px) {
@@ -1944,7 +2456,7 @@
 }
 @media all and (max-width: 1024px) {
 	#blocksPage .blocksPage_wrap {
-		width: 100%;
+		width: 100%!important;
 		padding: 0 30px;
 		height: calc(100vh - 250px);
 	}
@@ -2039,7 +2551,7 @@
 	    height: 44px;
 	}
 	#blocksPage .appartment_wrap {
-		width: 100%;
+		width: 100%!important;
 		margin-top: 30px;
 	}
 	#blocksPage .appartment>.img_wrap {
@@ -2052,7 +2564,7 @@
 		margin-top: 30px;
 	}
 	#blocksPage .appartment .table.active {
-		grid-template-columns: repeat(5,auto);
+		grid-template-columns: repeat(4,auto);
 		grid-template-rows: 1fr;
 	}
 	#blocksPage .appartment .table .cell:last-child {
@@ -2123,6 +2635,40 @@
 	    transform: perspective(300px) rotateY(20deg) skewY(10.7deg);
 	    top: 232px;
 	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-5.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-18.5deg);
+	    top: 161px;
+	    height: 30px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-5.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(13.7deg);
+	    top: 203px;
+	    height: 27px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-6.left {
+	    display: none;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-6.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(16deg);
+	    top: 179px;
+	    width: 338px;
+	    left: 277px;
+	    height: 21px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-7.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-21deg);
+	    top: 107px;
+	    width: 119px;
+	    right: 448px;
+	    height: 19px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-7.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(17.7deg);
+	    top: 151px;
+	    width: 338px;
+	    left: 277px;
+	    height: 25px;
+	}
 	/*Block Minina*/
 
 	/*Block Temple*/
@@ -2134,7 +2680,7 @@
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_right-2 {
 		perspective-origin: left;
-	    width: 35px;
+	    width: 107px;
 	    left: 459px;
 	    height: 24px;
 	}
@@ -2236,6 +2782,68 @@
 	    transform: perspective(300px) rotateY(-30deg) skewY(-12.5deg);
 	    top: 246px;
 	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
+	    top: 178px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(12deg);
+	    top: 243px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-1 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-17deg);
+	    top: 189px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-2 {
+		transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+		top: 207px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-3 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-22.5deg);
+	    top: 212px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(12deg);
+	    top: 165px;
+	    width: 112px;
+	    left: 333px;
+	    height: 8px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(13deg);
+	    top: 228px;
+	    width: 71px;
+	    left: 463px;
+	    height: 13px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_left-1 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-19deg);
+	    top: 176px;
+	    width: 136px;
+	    right: 365px;
+	    height: 20px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(17deg);
+        top: 141px;
+	    width: 106px;
+	    left: 334px;
+	    height: 22px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
+	    top: 212px;
+	    width: 70px;
+	    left: 465px;
+	    height: 18px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_left-1 {
+	    transform: perspective(300px) rotateY(-61deg) skewY(-12deg);
+	    top: 157px;
+	    width: 221px;
+	    right: 334px;
+	    height: 19px;
+	}
 	/*Block Temple*/
 	#blocksPage #BlockBTemple .appartment_wrap {
 		width: 100%;
@@ -2261,13 +2869,13 @@
 	    height: 43px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor.left {
-	    width: 375px;
-		right: 164px;
+	    width: 309px;
+		right: 145px;
 		height: 32px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-1.left {
         transform: perspective(300px) rotateY(-25deg) skewY(-3.5deg);
-   		top: 328px;
+   		top: 325px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-1.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(5deg);
@@ -2275,8 +2883,8 @@
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-2.left {
 	    transform: perspective(300px) rotateY(-21deg) skewY(-6.5deg);
-	    top: 289px;
-    	right: 159px;
+	    top: 285px;
+    	right: 143px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-2.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(11.5deg);
@@ -2284,7 +2892,7 @@
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-3.left {
 	    transform: perspective(300px) rotateY(-25deg) skewY(-8.5deg);
-	    top: 259px;
+	    top: 251px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-3.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(14.7deg);
@@ -2292,11 +2900,64 @@
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-4.left {
 	    transform: perspective(300px) rotateY(-25deg) skewY(-10.5deg);
-	    top: 230px;
+	    top: 219px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-4.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(18.7deg);
 	    top: 192px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-5.left {
+	    transform: perspective(300px) rotateY(-16deg) skewY(-13.5deg);
+        top: 176px;
+	    width: 299px;
+	    right: 138px;
+	    height: 37px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-5.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(21.7deg);
+	    top: 154px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-6.left {
+	    transform: perspective(300px) rotateY(-25deg) skewY(-14.5deg);
+	    top: 164px;
+	    width: 242px;
+	    height: 14px;
+	    right: 171px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-6.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(23.7deg);
+        top: 139px;
+	    width: 57px;
+	    left: 605px;
+	    height: 22px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.left-1 {
+	    transform: perspective(300px) rotateY(-25deg) skewY(-15.5deg);
+        top: 142px;
+	    width: 239px;
+	    right: 174px;
+	    height: 22px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.left-2 {
+	    transform: perspective(300px) rotateY(-4deg) skewY(19.5deg);
+        top: 104px;
+	    width: 28px;
+	    right: 137px;
+	    height: 25px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(-16.3deg);
+	    top: 105px;
+	    width: 52px;
+	    left: 562px;
+	    height: 24px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(23.7deg);
+	    top: 115px;
+	    width: 55px;
+	    left: 609px;
+	    height: 24px;
 	}
 	/*корпус Река*/
 	#blocksPage #BlockBRiver .block_wrap .img_wrap .camera.north {
@@ -2486,6 +3147,40 @@
 	    transform: perspective(300px) rotateY(20deg) skewY(10.7deg);
 	    top: 180px;
 	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-5.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-18.5deg);
+	    top: 125px;
+	    height: 24px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-5.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(13.7deg);
+	    top: 160px;
+	    height: 20px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-6.left {
+	    display: none;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-6.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(16deg);
+	    top: 140px;
+	    width: 270px;
+	    left: 211px;
+	    height: 18px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-7.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-21deg);
+	    top: 82px;
+	    width: 91px;
+	    right: 350px;
+	    height: 20px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-7.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(17.7deg);
+	    top: 120px;
+	    width: 270px;
+	    left: 212px;
+	    height: 18px;
+	}
 	/*Block Minina*/
 	#blocksPage .tabs_wrap.second {
 		width: 480px;
@@ -2510,7 +3205,7 @@
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_right-2 {
 		perspective-origin: left;
-		width: 28px;
+		width:72px;
 	    left: 363px;
 	    height: 19px;
 	}
@@ -2537,8 +3232,8 @@
 	    top:262px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_right-2 {
-	    transform: perspective(300px) rotateY(20deg) skewY(2deg);
-	    top: 272px;
+	    transform: perspective(300px) rotateY(20deg) skewY(5deg);
+	    top: 275px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_left-1 {
 		transform: perspective(300px) rotateY(-30deg) skewY(-3.5deg);
@@ -2597,8 +3292,8 @@
 	    top: 173px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_right-2 {
-	    transform: perspective(300px) rotateY(20deg) skewY(8deg);
-	    top: 210px;
+	    transform: perspective(300px) rotateY(20deg) skewY(10deg);
+	    top: 213px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_left-1 {
 	    transform: perspective(300px) rotateY(-30deg) skewY(-14deg);
@@ -2612,6 +3307,68 @@
 	    transform: perspective(300px) rotateY(-30deg) skewY(-12.5deg);
 	    top: 193px;
 	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
+	    top: 139px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(12deg);
+	    top: 190px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-1 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-17deg);
+	    top: 147px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-2 {
+		transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+		top: 161px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-3 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-22.5deg);
+	    top: 165px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-1 {
+        transform: perspective(300px) rotateY(20deg) skewY(15deg);
+	    top: 128px;
+	    width: 88px;
+	    left: 261px;
+	    height: 8px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(13deg);
+	    top: 181px;
+	    width: 57px;
+	    left: 362px;
+	    height: 10px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_left-1 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-19deg);
+	    top: 135px;
+	    width: 110px;
+	    right: 283px;
+	    height: 18px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(17deg);
+        top: 109px;
+	    width: 85px;
+	    left: 263px;
+	    height: 17px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
+        top: 165px;
+	    width: 57px;
+	    left: 362px;
+	    height: 13px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_left-1 {
+	    transform: perspective(300px) rotateY(-61deg) skewY(-12deg);
+	    top: 121px;
+	    width: 179px;
+	    right: 255px;
+	    height: 15px;
+	}
 	/*Block Temple*/
 	#blocksPage #BlockBTemple .block_wrap .img_wrap .camera.north {
 		left: 240px;
@@ -2624,8 +3381,8 @@
 	    height: 31px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor.left {
-        width: 296px;
-	    right: 117px;
+        width: 247px;
+	    right: 108px;
 	    height: 26px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-1.right {
@@ -2634,7 +3391,7 @@
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-1.left {
         transform: perspective(300px) rotateY(-25deg) skewY(-3.5deg);
-   		top:256px;
+   		top:254px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-2.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(11.5deg);
@@ -2642,8 +3399,8 @@
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-2.left {
 	    transform: perspective(300px) rotateY(-21deg) skewY(-6.5deg);
-        top: 226px;
-    	right: 116px;
+        top: 223px;
+    	right: 108px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-3.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(14.7deg);
@@ -2651,7 +3408,7 @@
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-3.left {
 	    transform: perspective(300px) rotateY(-25deg) skewY(-8.5deg);
-	    top: 202px;
+	    top: 196px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-4.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(18.7deg);
@@ -2659,25 +3416,1619 @@
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-4.left {
 	    transform: perspective(300px) rotateY(-25deg) skewY(-10.5deg);
-	    top: 178px;
+	    top: 171px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-5.left {
+	    transform: perspective(300px) rotateY(-16deg) skewY(-13.5deg);
+        top: 136px;
+	    width: 234px;
+	    right: 105px;
+	    height: 31px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-5.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(21.7deg);
+	    top: 119px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-6.left {
+	    transform: perspective(300px) rotateY(-25deg) skewY(-14.5deg);
+        top: 129px;
+	    width: 206px;
+	    height: 12px;
+	    right: 128px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-6.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(23.7deg);
+        top: 110px;
+	    width: 49px;
+	    left: 473px;
+	    height: 14px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.left-1 {
+	    transform: perspective(300px) rotateY(-25deg) skewY(-15.5deg);
+        top: 109px;
+	    width: 188px;
+	    right: 131px;
+	    height: 18px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.left-2 {
+	    transform: perspective(300px) rotateY(-4deg) skewY(19.5deg);
+        top: 81px;
+	    width: 22px;
+	    right: 109px;
+	    height: 20px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(-16.3deg);
+        top: 76px;
+	    width: 43px;
+	    left: 440px;
+	    height: 24px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(23.7deg);
+	    top: 87px;
+	    width: 45px;
+	    left: 476px;
+	    height: 20px;
 	}
 	/*корпус Река*/
 }
 @media all and (max-width: 700px) {
 	#blocksPage .appartment .table.active {
-		grid-template-columns: repeat(4,auto);
+		grid-template-columns: repeat(3,auto);
 		grid-template-rows: 1fr 1fr;
 	}
 	#blocksPage .appartment .table .cell:last-child {
 	    grid-row-start: 2;
 	    grid-row-end: 3;
 	    grid-column-start: 1;
-	    grid-column-end: 5;
+	    grid-column-end: 4;
 	}
-	#blocksPage .appartment .table .cell:nth-child(4) {
+	#blocksPage .appartment .table .cell:nth-child(3) {
 		border-right: 1px solid #cfc5b7;
 	}
 }
+
+
+
+@media all and (max-height: 1075px) {
+	#blocksPage .block_wrap>.title {
+		margin-top: 15px;
+	}
+	#blocksPage #BlockBTemple .appartment .table {
+		margin-top: 20px;
+	}
+}
+@media all and (max-height: 1040px)  {
+	#blocksPage .block_wrap>.title {
+		margin-top: 0px;
+	}
+}
+@media all and (max-height: 1030px) {
+	#blocksPage .tabs_wrap.active {
+		margin-bottom: 15px;
+	}
+}
+@media all and (max-height: 990px)  {
+	#blocksPage  {
+		padding-top: 120px;
+	}
+	#blocksPage .blocksPage_wrap {
+		height: calc(100vh - 255px);
+		width: calc(100% - 100px);
+	}
+
+}
+@media all and (max-height: 920px)  {
+	#blocksPage .appartment_wrap {
+		width: calc(100% - 700px);
+	}
+	#blocksPage .tab_content .block_wrap {
+		width: 700px;
+	}
+	#blocksPage .block_wrap .img_wrap .camera.north {
+		left: 400px;
+	}
+	#blocksPage .block_wrap .floor_overlays .right {
+		width: 396px;
+		height: 42px;
+		left: 245px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-1.right {
+		top: 340px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-1.left {
+	    top: 334px;
+	    transform: perspective(300px) rotateY(-39deg) skewY(-7.6deg);
+	}
+	#blocksPage .block_wrap .floor_overlays .left {
+	    perspective-origin: right;
+	    width: 130px;
+	    right: 490px;
+	    height: 44px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-2.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(6deg);
+	    top: 304px;
+	    height: 40px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-2.left {
+	    transform: perspective(300px) rotateY(-43deg) skewY(-16deg);
+	    width: 138px;
+	    right: 488px;
+	    top: 297px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-3.right {
+	    top: 264px;
+	    height: 40px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-3.left {
+    	transform: perspective(300px) rotateY(-43deg) skewY(-21deg);
+	    width: 133px;
+	    right: 488px;
+	    top: 250px;
+	    height: 40px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-4.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(12.5deg);
+	    top: 227px;
+	    height: 40px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-4.left {
+	    transform: perspective(300px) rotateY(-43deg) skewY(-26deg);
+	    width: 106px;
+	    right: 488px;
+	    top: 200px;
+	    height: 43px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-5.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(14.5deg);
+	    top: 189px;
+	    height: 39px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-5.left {
+	    transform: perspective(300px) rotateY(-43deg) skewY(-31deg);
+	    width: 105px;
+	    right: 488px;
+	    top: 158px;
+	    height: 42px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-6.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(17deg);
+	    top: 150px;
+	    height: 39px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-6.left {
+	    transform: perspective(300px) rotateY(-43deg) skewY(-36deg);
+	    width: 107px;
+	    right: 488px;
+	    top: 113px;
+	    height: 44px;
+	}
+	#blocksPage .appartment_wrap .notification {
+		margin-top: 15px;
+	}
+	/*Block Minina*/
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.right {
+	    width: 395px;
+	    left: 234px;
+	    height: 39px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.left {
+		width: 116px;
+	    right: 506px;
+	    height: 45px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-1.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(3deg);
+	    top: 347px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-1.left {
+		transform: perspective(300px) rotateY(-30deg) skewY(-5.5deg);
+		top: 337px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-2.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-10.5deg);
+	    top: 283px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-2.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(6.5deg);
+	    top: 303px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-3.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-10.5deg);
+	    top: 237px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-3.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(8.7deg);
+	    top: 266px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-4.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-14.5deg);
+	    top: 198px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-4.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(10.7deg);
+	    top: 232px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-5.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-18.5deg);
+	    top: 161px;
+	    height: 30px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-5.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(13.7deg);
+	    top: 203px;
+	    height: 27px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-6.left {
+	    display: none;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-6.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(16deg);
+	    top: 179px;
+	    width: 338px;
+	    left: 277px;
+	    height: 21px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-7.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-21deg);
+	    top: 107px;
+	    width: 119px;
+	    right: 448px;
+	    height: 19px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-7.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(17.7deg);
+	    top: 151px;
+	    width: 338px;
+	    left: 277px;
+	    height: 25px;
+	}
+	/*Block Minina*/
+
+	/*Block Temple*/
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_right-1 {
+		perspective-origin: left;
+		width: 112px;
+	    left: 357px;
+	    height: 35px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_right-2 {
+		perspective-origin: left;
+	    width: 107px;
+	    left: 459px;
+	    height: 24px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_left-1 {
+		perspective-origin: right;
+	    width: 138px;
+	    right: 341px;
+	    height: 34px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_left-2 {
+		perspective-origin: right;
+		width: 22px;
+	    right: 462px;
+	    height: 31px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_left-3 {
+		perspective-origin: right;
+		width: 28px;
+	    right: 480px;
+	    height: 30px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(3deg);
+	    top:333px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(2deg);
+	    top: 348px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_left-1 {
+		transform: perspective(300px) rotateY(-30deg) skewY(-3.5deg);
+		top: 336px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_left-2 {
+		transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+		top: 341px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_left-3 {
+		transform: perspective(300px) rotateY(-30deg) skewY(-3.5deg);
+		top: 342px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-2.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(7deg);
+	    top: 293px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-2.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(5deg);
+	    top: 319px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-2.floor_left-1 {
+		transform: perspective(300px) rotateY(-30deg) skewY(-8deg);
+	    top: 296px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-2.floor_left-2 {
+		transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+		top: 307px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-2.floor_left-3 {
+		transform: perspective(300px) rotateY(-30deg) skewY(-8.5deg);
+	    top: 309px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-3.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(10deg);
+	    top: 255px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-3.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(8deg);
+	    top: 292px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-3.floor_left-1 {
+		transform: perspective(300px) rotateY(-30deg) skewY(-11deg);
+	    top: 260px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-3.floor_left-2 {
+		transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+		top:273px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-3.floor_left-3 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-12.5deg);
+	    top: 277px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(12deg);
+	    top: 219px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(8deg);
+	    top: 267px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_left-1 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-14deg);
+	    top: 227px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_left-2 {
+		transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+		top: 241px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_left-3 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-12.5deg);
+	    top: 246px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
+	    top: 178px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(12deg);
+	    top: 243px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-1 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-17deg);
+	    top: 189px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-2 {
+		transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+		top: 207px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-3 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-22.5deg);
+	    top: 212px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(12deg);
+	    top: 165px;
+	    width: 112px;
+	    left: 333px;
+	    height: 8px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(13deg);
+	    top: 228px;
+	    width: 71px;
+	    left: 463px;
+	    height: 13px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_left-1 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-19deg);
+	    top: 176px;
+	    width: 136px;
+	    right: 365px;
+	    height: 20px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(17deg);
+        top: 141px;
+	    width: 106px;
+	    left: 334px;
+	    height: 22px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
+	    top: 212px;
+	    width: 70px;
+	    left: 465px;
+	    height: 18px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_left-1 {
+	    transform: perspective(300px) rotateY(-61deg) skewY(-12deg);
+	    top: 157px;
+	    width: 221px;
+	    right: 334px;
+	    height: 19px;
+	}
+	/*Block Temple*/
+	#blocksPage #BlockBTemple .appartment .table {
+		margin-top: 10px;
+	}
+	#blocksPage #BlockBTemple .appartment>.img_wrap {
+		max-width: 600px;
+	}
+	#blocksPage #BlockBTemple .appartment_wrap {
+		width: calc(100% - 700px);
+	}
+	#blocksPage #BlockBTemple .block_wrap .img_wrap .camera.north_east {
+		right: 0px;
+		left: auto;
+	}
+
+	/*Block River*/
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor.right {
+	    width: 93px;
+	    left: 579px;
+	    height: 43px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor.left {
+	    width: 309px;
+		right: 145px;
+		height: 32px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-1.left {
+        transform: perspective(300px) rotateY(-25deg) skewY(-3.5deg);
+   		top: 325px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-1.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(5deg);
+    	top: 311px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-2.left {
+	    transform: perspective(300px) rotateY(-21deg) skewY(-6.5deg);
+	    top: 285px;
+    	right: 143px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-2.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(11.5deg);
+	    top: 266px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-3.left {
+	    transform: perspective(300px) rotateY(-25deg) skewY(-8.5deg);
+	    top: 251px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-3.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(14.7deg);
+	    top: 230px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-4.left {
+	    transform: perspective(300px) rotateY(-25deg) skewY(-10.5deg);
+	    top: 219px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-4.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(18.7deg);
+	    top: 192px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-5.left {
+	    transform: perspective(300px) rotateY(-16deg) skewY(-13.5deg);
+        top: 176px;
+	    width: 299px;
+	    right: 138px;
+	    height: 37px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-5.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(21.7deg);
+	    top: 154px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-6.left {
+	    transform: perspective(300px) rotateY(-25deg) skewY(-14.5deg);
+	    top: 164px;
+	    width: 242px;
+	    height: 14px;
+	    right: 171px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-6.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(23.7deg);
+        top: 139px;
+	    width: 57px;
+	    left: 605px;
+	    height: 22px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.left-1 {
+	    transform: perspective(300px) rotateY(-25deg) skewY(-15.5deg);
+        top: 142px;
+	    width: 239px;
+	    right: 174px;
+	    height: 22px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.left-2 {
+	    transform: perspective(300px) rotateY(-4deg) skewY(19.5deg);
+        top: 104px;
+	    width: 28px;
+	    right: 137px;
+	    height: 25px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(-16.3deg);
+	    top: 105px;
+	    width: 52px;
+	    left: 562px;
+	    height: 24px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(23.7deg);
+	    top: 115px;
+	    width: 55px;
+	    left: 609px;
+	    height: 24px;
+	}
+	/*корпус Река*/
+	#blocksPage #BlockBRiver .block_wrap .img_wrap .camera.north {
+		left: 190px;
+	}
+	#blocksPage .block_wrap .img_wrap .camera.north_east {
+		top: 0;
+		right: 245px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .img_wrap .camera.north_east {
+		top: 50px;
+		right: 0;
+	}
+	#blocksPage #BlockBRiver .appartment_wrap {
+		width: calc(100% - 750px);
+	}
+
+}
+@media all and (max-height:900px)  {
+	#blocksPage .appartment .table {
+		margin-top: 20px;
+	}
+	#blocksPage #BlockBTemple .appartment_wrap .notification {
+		margin-top: 20px;
+	}
+	#blocksPage #BlockBRiver .appartment>.subtitle {
+		margin-bottom: 20px;
+	}
+}
+@media all and (max-height: 850px)  {
+	#blocksPage .tabs_wrap.active {
+		margin-bottom: 15px;
+		margin-top: 0;
+	}
+	#blocksPage .tabs_wrap.active {
+		height: 50px;
+	}
+	#blocksPage .appartment>.subtitle {
+		margin-bottom: 20px;
+	}
+	#blocksPage .appartment>.img_wrap {
+		max-width: 550px;
+	}
+	#blocksPage #BlockBMinina .appartment>.img_wrap {
+		max-width: 630px;
+	}
+	#blocksPage #BlockBTemple .appartment>.img_wrap {
+		max-width: 490px;
+	}
+}
+@media all and (max-height: 790px) {
+	#blocksPage .appartment_wrap {
+		width: calc(100% - 550px);
+	}
+	#blocksPage .tab_content .block_wrap {
+		width: 550px;
+	}
+	#blocksPage .block_wrap .img_wrap .block_info {
+		width: 60px;
+		padding:10px 5px;
+	}
+	#blocksPage .block_wrap .img_wrap .block_info .title {
+		font-size: 10px;
+	}
+	#blocksPage .block_wrap .img_wrap .block_info .number {
+		font-size: 18px;
+	}
+	#blocksPage .block_wrap .img_wrap .camera.north {
+	    left: 310px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .img_wrap .camera.north {
+	    left: 260px;
+	}
+	#blocksPage .block_wrap .img_wrap .camera.north_east {
+	    right: 0;
+	    top: 30px;
+	}
+	#blocksPage .block_wrap .img_wrap .camera {
+		width: 80px;
+	}
+	#blocksPage .block_wrap .img_wrap .camera .icon {
+		width: 40px;
+		height: 40px;
+		margin-bottom: 5px;
+	}
+	#blocksPage .block_wrap .img_wrap .camera .icon>img {
+		width: 60%;
+	}
+	#blocksPage .block_wrap .img_wrap .camera>.title {
+		font-size: 10px;
+	}
+	#blocksPage .block_wrap .floor_overlays .right {
+	    width: 317px;
+	    left: 182px;
+	    height: 33px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-6.left {
+	    transform: perspective(300px) rotateY(-43deg) skewY(-36deg);
+	    width: 85px;
+	    right: 382px;
+	    top: 88px;
+	    height: 34px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-6.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(17deg);
+	    top: 114px;
+	    height: 32px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-5.left {
+    transform: perspective(300px) rotateY(-43deg) skewY(-31deg);
+	    width: 85px;
+	    right: 382px;
+	    top: 121px;
+	    height: 38px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-5.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(14.5deg);
+	    top: 146px;
+	    height: 34px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-4.left {
+	    transform: perspective(300px) rotateY(-43deg) skewY(-26deg);
+	    width: 85px;
+	    right: 382px;
+	    top: 155px;
+	    height: 35px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-4.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(12.5deg);
+	    top: 176px;
+	    height: 33px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-3.right {
+	    top: 205px;
+	    height: 33px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-3.left {
+		transform: perspective(300px) rotateY(-43deg) skewY(-21deg);
+		width: 108px;
+		right: 382px;
+		top: 197px;
+		height: 31px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-2.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(6deg);
+	    top: 238px;
+	    height: 32px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-2.left {
+	    transform: perspective(300px) rotateY(-43deg) skewY(-16deg);
+	    width: 107px;
+	    right: 382px;
+	    top: 235px;
+	    height: 34px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-1.right {
+	    top: 267px;
+	    height: 35px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-1.left {
+	    transform: perspective(300px) rotateY(-39deg) skewY(-7.6deg);
+	    top: 264px;
+	    height: 34px;
+	    right: 384px;
+	    width: 103px;
+	}
+	#blocksPage .block_wrap>.title {
+		font-size: 16px;
+	}
+	#blocksPage .appartment_wrap {
+		padding-top: 0;
+	}
+	#blocksPage .appartment>.title {
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	#blocksPage .appartment>.subtitle {
+		margin-bottom: 30px;
+	}
+	#blocksPage .tab.active {
+		font-size: 18px;
+	}
+	#blocksPage .tab {
+		font-size: 14px;
+		padding-bottom: 10px;
+	}
+	#blocksPage .tabs_wrap.active {
+		height: 40px;
+	}
+	#blocksPage .appartment>.img_wrap {
+		max-width: 430px;
+	}
+	/*Block Minina*/
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.right {
+        width: 317px;
+	    left: 174px;
+	    height: 31px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.left {
+		width: 91px;
+	    right: 396px;
+	    height: 33px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-1.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(3deg);
+	    top: 272px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-1.left {
+		transform: perspective(300px) rotateY(-30deg) skewY(-5.5deg);
+		top: 265px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-2.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-10.5deg);
+	    top: 225px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-2.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(6.5deg);
+	    top: 240px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-3.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-10.5deg);
+	    top: 189px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-3.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(8.7deg);
+	    top: 209px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-4.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-14.5deg);
+	    top: 156px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-4.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(10.7deg);
+	    top: 180px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-5.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-18.5deg);
+	    top: 125px;
+	    height: 24px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-5.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(13.7deg);
+	    top: 160px;
+	    height: 20px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-6.left {
+	    display: none;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-6.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(16deg);
+	    top: 140px;
+	    width: 270px;
+	    left: 211px;
+	    height: 18px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-7.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-21deg);
+	    top: 82px;
+	    width: 91px;
+	    right: 350px;
+	    height: 20px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-7.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(17.7deg);
+	    top: 120px;
+	    width: 270px;
+	    left: 212px;
+	    height: 18px;
+	}
+	/*Block Minina*/
+	#blocksPage #BlockBMinina .appartment>.img_wrap {
+		max-width: 500px;
+	}
+
+	/*Block Temple*/
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_right-1 {
+		perspective-origin: left;
+		width: 89px;
+	    left: 279px;
+	    height: 27px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_right-2 {
+		perspective-origin: left;
+		width:72px;
+	    left: 363px;
+	    height: 19px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_left-1 {
+		perspective-origin: right;
+		width: 107px;
+	    right: 268px;
+	    height: 26px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_left-2 {
+		perspective-origin: right;
+		width: 19px;
+	    right: 361px;
+	    height: 26px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_left-3 {
+		perspective-origin: right;
+	    width: 24px;
+	    right: 376px;
+	    height: 24px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(3deg);
+	    top:262px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(5deg);
+	    top: 275px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_left-1 {
+		transform: perspective(300px) rotateY(-30deg) skewY(-3.5deg);
+		top: 264px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_left-2 {
+		transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+		top: 268px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_left-3 {
+		transform: perspective(300px) rotateY(-30deg) skewY(-3.5deg);
+		top: 270px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-2.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(7deg);
+	    top: 229px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-2.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(5deg);
+	    top: 251px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-2.floor_left-1 {
+		transform: perspective(300px) rotateY(-30deg) skewY(-8deg);
+	    top: 232px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-2.floor_left-2 {
+		transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+		top: 239px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-2.floor_left-3 {
+		transform: perspective(300px) rotateY(-30deg) skewY(-8.5deg);
+	    top: 241px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-3.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(10deg);
+	    top: 200px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-3.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(8deg);
+	    top: 230px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-3.floor_left-1 {
+		transform: perspective(300px) rotateY(-30deg) skewY(-11deg);
+	    top: 204px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-3.floor_left-2 {
+		transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+		top:213px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-3.floor_left-3 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-12.5deg);
+	    top: 216px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(12deg);
+	    top: 173px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(10deg);
+	    top: 213px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_left-1 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-14deg);
+	    top: 178px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_left-2 {
+		transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+		top: 189px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_left-3 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-12.5deg);
+	    top: 193px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
+	    top: 139px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(12deg);
+	    top: 190px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-1 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-17deg);
+	    top: 147px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-2 {
+		transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+		top: 161px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-3 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-22.5deg);
+	    top: 165px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-1 {
+        transform: perspective(300px) rotateY(20deg) skewY(15deg);
+	    top: 128px;
+	    width: 88px;
+	    left: 261px;
+	    height: 8px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(13deg);
+	    top: 181px;
+	    width: 57px;
+	    left: 362px;
+	    height: 10px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_left-1 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-19deg);
+	    top: 135px;
+	    width: 110px;
+	    right: 283px;
+	    height: 18px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(17deg);
+        top: 109px;
+	    width: 85px;
+	    left: 263px;
+	    height: 17px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
+        top: 165px;
+	    width: 57px;
+	    left: 362px;
+	    height: 13px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_left-1 {
+	    transform: perspective(300px) rotateY(-61deg) skewY(-12deg);
+	    top: 121px;
+	    width: 179px;
+	    right: 255px;
+	    height: 15px;
+	}
+	/*Block Temple*/
+	#blocksPage #BlockBTemple .appartment>.subtitle {
+		margin-bottom: 10px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .img_wrap .camera.north {
+		left: 330px;
+	}
+	#blocksPage #BlockBTemple .appartment_wrap {
+		width: calc(100% - 590px);
+	}
+
+	/*Block River*/
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor.right {
+	    width: 74px;
+	    left: 453px;
+	    height: 31px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor.left {
+        width: 247px;
+	    right: 108px;
+	    height: 26px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-1.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(5deg);
+    	top: 246px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-1.left {
+        transform: perspective(300px) rotateY(-25deg) skewY(-3.5deg);
+   		top:254px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-2.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(11.5deg);
+	    top: 211px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-2.left {
+	    transform: perspective(300px) rotateY(-21deg) skewY(-6.5deg);
+        top: 223px;
+    	right: 108px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-3.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(14.7deg);
+	    top: 181px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-3.left {
+	    transform: perspective(300px) rotateY(-25deg) skewY(-8.5deg);
+	    top: 196px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-4.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(18.7deg);
+	    top: 154px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-4.left {
+	    transform: perspective(300px) rotateY(-25deg) skewY(-10.5deg);
+	    top: 171px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-5.left {
+	    transform: perspective(300px) rotateY(-16deg) skewY(-13.5deg);
+        top: 136px;
+	    width: 234px;
+	    right: 105px;
+	    height: 31px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-5.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(21.7deg);
+	    top: 119px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-6.left {
+	    transform: perspective(300px) rotateY(-25deg) skewY(-14.5deg);
+        top: 129px;
+	    width: 206px;
+	    height: 12px;
+	    right: 128px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-6.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(23.7deg);
+        top: 110px;
+	    width: 49px;
+	    left: 473px;
+	    height: 14px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.left-1 {
+	    transform: perspective(300px) rotateY(-25deg) skewY(-15.5deg);
+        top: 109px;
+	    width: 188px;
+	    right: 131px;
+	    height: 18px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.left-2 {
+	    transform: perspective(300px) rotateY(-4deg) skewY(19.5deg);
+        top: 81px;
+	    width: 22px;
+	    right: 109px;
+	    height: 20px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(-16.3deg);
+        top: 76px;
+	    width: 43px;
+	    left: 440px;
+	    height: 24px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(23.7deg);
+	    top: 87px;
+	    width: 45px;
+	    left: 476px;
+	    height: 20px;
+	}
+	/*корпус Река*/
+	#blocksPage #BlockBRiver .appartment_wrap {
+		width: calc(100% - 605px);
+	}
+
+}
+@media all and (max-height: 720px) {
+	#blocksPage .appartment .table {
+		padding: 10px 0;
+	}
+	#blocksPage #BlockBTemple .appartment>.img_wrap {
+		max-width: 500px;
+	}
+	#blocksPage #BlockBTemple .appartment_wrap .notification {
+		margin-top: 10px;
+	}
+	#blocksPage #BlockBTemple .appartment>.img_wrap {
+		max-width: 420px;
+	}
+}
+@media all and (max-height: 700px) {
+	header {
+		height: 90px;
+	}
+	#blocksPage {
+		padding-top: 80px;
+	}
+	#blocksPage .tabs_wrap.active {
+		width: 200px;
+	}
+	#blocksPage .tabs_wrap.second {
+		width: 650px;
+	}
+	#blocksPage .blocksPage_wrap {
+	    height: calc(100vh - 220px);
+	}
+}
+@media all and (max-height: 650px) {
+	#blocksPage .tab_content .block_wrap {
+		width: 470px;
+	}
+	#blocksPage .block_wrap .floor_overlays .right {
+	    width: 272px;
+	    left: 151px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-1.right {
+	    top: 227px;
+	    height: 30px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-1.left {
+	    transform: perspective(279px) rotateY(-64deg) skewY(-5.6deg);
+	    top: 229px;
+	    height: 27px;
+	    right: 303px;
+	    width: 147px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-2.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(6deg);
+	    top: 204px;
+	    height: 26px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-2.left {
+	    transform: perspective(300px) rotateY(-43deg) skewY(-16deg);
+	    width: 93px;
+	    right: 325px;
+	    top: 200px;
+	    height: 28px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-3.right {
+		top: 174px;
+		height: 29px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-3.left {
+	    transform: perspective(300px) rotateY(-43deg) skewY(-21deg);
+	    width: 93px;
+	    right: 325px;
+	    top: 167px;
+	    height: 28px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-4.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(12.5deg);
+	    top: 148px;
+	    height: 29px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-4.left {
+	    transform: perspective(300px) rotateY(-43deg) skewY(-26deg);
+	    width: 73px;
+	    right: 326px;
+	    top: 132px;
+	    height: 30px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-5.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(14.5deg);
+	    top: 121px;
+	    height: 30px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-5.left {
+	    transform: perspective(300px) rotateY(-43deg) skewY(-31deg);
+	    width: 73px;
+	    right: 326px;
+	    top: 104px;
+	    height: 30px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-6.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(17deg);
+	    top: 95px;
+	    height: 30px;
+	}
+	#blocksPage .block_wrap .floor_overlays .floor-6.left {
+	    transform: perspective(300px) rotateY(-43deg) skewY(-36deg);
+	    width: 73px;
+	    right: 326px;
+	    top: 75px;
+	    height: 30px;
+	}
+	#blocksPage .appartment>.subtitle {
+		margin-bottom: 15px;
+	}
+	#blocksPage .appartment .table {
+		padding: 5px 0;
+	}
+	#blocksPage .appartment_wrap {
+	    width: calc(100% - 470px);
+	}
+	/*Block Minina*/
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.right {
+        width: 273px;
+	    left: 144px;
+	    height: 28px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.left {
+		width: 78px;
+	    right: 338px;
+	    height: 31px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-1.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(3deg);
+	    top: 231px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-1.left {
+		transform: perspective(300px) rotateY(-30deg) skewY(-5.5deg);
+		top: 224px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-2.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-10.5deg);
+	    top: 192px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-2.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(6.3deg);
+	    top: 204px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-3.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-10.5deg);
+	    top: 160px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-3.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(8.7deg);
+	    top: 177px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-4.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-14.5deg);
+	    top: 131px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-4.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(10.7deg);
+	    top: 152px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-5.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-18.5deg);
+	    top: 107px;
+	    height: 22px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-5.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(13.7deg);
+	    top: 133px;
+	    height: 20px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-6.left {
+	    display: none;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-6.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(16deg);
+	    top: 118px;
+	    width: 230px;
+	    left: 178px;
+	    height: 15px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-7.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-21deg);
+	    top: 70px;
+	    width: 78px;
+	    right: 298px;
+	    height: 14px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-7.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(17.7deg);
+	    top: 99px;
+	    width: 230px;
+	    left: 178px;
+	    height: 19px;
+	}
+	/*Block Minina*/
+
+	#blocksPage #BlockBMinina .appartment>.img_wrap {
+	    max-width: 420px;
+	}
+
+	/*Block Temple*/
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_right-1 {
+		perspective-origin: left;
+		width: 75px;
+	    left: 239px;
+	    height: 24px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_right-2 {
+		perspective-origin: left;
+		width: 67px;
+	    left: 310px;
+	    height: 16px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_left-1 {
+		perspective-origin: right;
+		width: 92px;
+	    right: 227px;
+	    height: 24px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_left-2 {
+		perspective-origin: right;
+		width: 16px;
+	    right: 309px;
+	    height: 22px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_left-3 {
+		perspective-origin: right;
+        width: 20px;
+	    right: 322px;
+	    height: 19px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(3deg);
+	    top:224px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(2deg);
+	    top: 237px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_left-1 {
+		transform: perspective(300px) rotateY(-30deg) skewY(-3.5deg);
+		top: 226px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_left-2 {
+		transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+		top: 230px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_left-3 {
+		transform: perspective(300px) rotateY(-30deg) skewY(-3.5deg);
+		top: 231px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-2.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(7deg);
+	    top: 196px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-2.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(5deg);
+	    top: 215px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-2.floor_left-1 {
+		transform: perspective(300px) rotateY(-30deg) skewY(-8deg);
+	    top: 199px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-2.floor_left-2 {
+		transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+		top: 206px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-2.floor_left-3 {
+		transform: perspective(300px) rotateY(-30deg) skewY(-8.5deg);
+	    top: 208px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-3.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(10deg);
+	    top: 170px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-3.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(8deg);
+	    top: 196px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-3.floor_left-1 {
+		transform: perspective(300px) rotateY(-30deg) skewY(-11deg);
+	    top: 173px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-3.floor_left-2 {
+		transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+		top:183px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-3.floor_left-3 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-12.5deg);
+	    top: 186px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(12deg);
+	    top: 146px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(10deg);
+	    top:183px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_left-1 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-14deg);
+	    top: 147px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_left-2 {
+		transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+		top: 160px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_left-3 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-12.5deg);
+	    top: 165px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
+	    top: 119px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(12deg);
+	    top: 163px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-1 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-17deg);
+	    top: 123px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-2 {
+		transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+		top: 137px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-3 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-22.5deg);
+	    top: 141px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-1 {
+        transform: perspective(300px) rotateY(20deg) skewY(15deg);
+	    top: 109px;
+	    width: 75px;
+	    left: 222px;
+	    height: 8px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(13deg);
+	    top: 153px;
+	    width: 51px;
+	    left: 309px;
+	    height: 9px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_left-1 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-19deg);
+        top: 118px;
+	    width: 93px;
+	    right: 243px;
+	    height: 15px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(17deg);
+        top: 90px;
+	    width: 72px;
+	    left: 222px;
+	    height: 16px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
+        top: 142px;
+	    width: 49px;
+	    left: 309px;
+	    height: 9px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_left-1 {
+	    transform: perspective(300px) rotateY(-61deg) skewY(-12deg);
+	    top: 102px;
+	    width: 160px;
+	    right: 214px;
+	    height: 14px;
+	}
+	/*Block Temple*/
+	#blocksPage #BlockBTemple .appartment_wrap {
+		width: calc(100% - 470px);
+	}
+	#blocksPage #BlockBTemple .block_wrap .img_wrap .camera.north {
+		left: 250px;
+	}
+	#blocksPage #BlockBTemple .appartment>.img_wrap {
+	    max-width: 350px;
+	}
+
+	/*Block River*/
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor.right {
+        width: 63px;
+	    left: 388px;
+	    height: 29px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor.left {
+        width: 212px;
+	    right: 88px;
+	    height: 23px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-1.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(5deg);
+    	top: 209px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-1.left {
+        transform: perspective(300px) rotateY(-25deg) skewY(-3.5deg);
+   		top:217px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-2.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(11.5deg);
+	    top: 178px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-2.left {
+	    transform: perspective(300px) rotateY(-21deg) skewY(-6.5deg);
+        top: 190px;
+    	right: 88px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-3.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(14.7deg);
+	    top: 154px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-3.left {
+	    transform: perspective(300px) rotateY(-25deg) skewY(-8.5deg);
+	    top: 167px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-4.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(18.7deg);
+	    top: 129px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-4.left {
+	    transform: perspective(300px) rotateY(-25deg) skewY(-10.5deg);
+	    top: 145px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-5.left {
+	    transform: perspective(300px) rotateY(-16deg) skewY(-13.5deg);
+        top: 116px;
+	    width: 204px;
+	    right: 86px;
+	    height: 26px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-5.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(21.7deg);
+	    top: 102px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-6.left {
+	    transform: perspective(300px) rotateY(-25deg) skewY(-14.5deg);
+        top: 108px;
+	    width: 167px;
+	    height: 10px;
+	    right: 109px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-6.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(23.7deg);
+        top: 93px;
+	    width: 43px;
+	    left: 403px;
+	    height: 14px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.left-1 {
+	    transform: perspective(300px) rotateY(-25deg) skewY(-15.5deg);
+        top: 94px;
+	    width: 163px;
+	    right: 111px;
+	    height: 14px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.left-2 {
+	    transform: perspective(300px) rotateY(-4deg) skewY(19.5deg);
+        top: 69px;
+	    width: 18px;
+	    right: 92px;
+	    height: 16px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(-16.3deg);
+        top: 68px;
+	    width: 36px;
+	    left: 376px;
+	    height: 18px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(23.7deg);
+        top: 76px;
+	    width: 37px;
+	    left: 408px;
+	    height: 15px;
+	}
+	/*корпус Река*/
+	#blocksPage #BlockBRiver .appartment_wrap {
+		width: calc(100% - 530px);
+	}
+	#blocksPage #BlockBRiver .block_wrap .img_wrap .camera.north {
+		top: 20px;
+	}
+
+	#blocksPage .appartment>.img_wrap {
+	    max-width: 340px;
+	}
+
+}
+
+
 @media all and (max-width: 600px) {
 	#blocksPage .blocksPage_wrap, #wrap {
 		height: auto;
@@ -2806,6 +5157,40 @@
 	    transform: perspective(300px) rotateY(20deg) skewY(10.7deg);
 	    top: 152px;
 	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-5.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-18.5deg);
+	    top: 107px;
+	    height: 22px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-5.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(13.7deg);
+	    top: 133px;
+	    height: 20px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-6.left {
+	    display: none;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-6.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(16deg);
+	    top: 118px;
+	    width: 230px;
+	    left: 178px;
+	    height: 15px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-7.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-21deg);
+	    top: 70px;
+	    width: 78px;
+	    right: 298px;
+	    height: 14px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-7.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(17.7deg);
+	    top: 99px;
+	    width: 230px;
+	    left: 178px;
+	    height: 19px;
+	}
 	/*Block Minina*/
 	#blocksPage #BlockBMinina .block_wrap .img_wrap .camera.north_west {
 		top: 0px;
@@ -2826,7 +5211,7 @@
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor_right-2 {
 		perspective-origin: left;
-		width: 24px;
+		width: 67px;
 	    left: 310px;
 	    height: 16px;
 	}
@@ -2854,7 +5239,7 @@
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_right-2 {
 	    transform: perspective(300px) rotateY(20deg) skewY(2deg);
-	    top: 233px;
+	    top: 237px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-1.floor_left-1 {
 		transform: perspective(300px) rotateY(-30deg) skewY(-3.5deg);
@@ -2913,8 +5298,8 @@
 	    top: 146px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_right-2 {
-	    transform: perspective(300px) rotateY(20deg) skewY(8deg);
-	    top: 179px;
+	    transform: perspective(300px) rotateY(20deg) skewY(10deg);
+	    top:183px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-4.floor_left-1 {
 	    transform: perspective(300px) rotateY(-30deg) skewY(-14deg);
@@ -2928,6 +5313,68 @@
 	    transform: perspective(300px) rotateY(-30deg) skewY(-12.5deg);
 	    top: 165px;
 	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
+	    top: 119px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(12deg);
+	    top: 163px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-1 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-17deg);
+	    top: 123px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-2 {
+		transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+		top: 137px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-3 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-22.5deg);
+	    top: 141px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-1 {
+        transform: perspective(300px) rotateY(20deg) skewY(15deg);
+	    top: 109px;
+	    width: 75px;
+	    left: 222px;
+	    height: 8px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(13deg);
+	    top: 153px;
+	    width: 51px;
+	    left: 309px;
+	    height: 9px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_left-1 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-19deg);
+        top: 118px;
+	    width: 93px;
+	    right: 243px;
+	    height: 15px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(17deg);
+        top: 90px;
+	    width: 72px;
+	    left: 222px;
+	    height: 16px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
+        top: 142px;
+	    width: 49px;
+	    left: 309px;
+	    height: 9px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_left-1 {
+	    transform: perspective(300px) rotateY(-61deg) skewY(-12deg);
+	    top: 102px;
+	    width: 160px;
+	    right: 214px;
+	    height: 14px;
+	}
 	/*Block Temple*/
 	#blocksPage #BlockBTemple .block_wrap .img_wrap .block_info {
 		left: 0;
@@ -2940,8 +5387,8 @@
 	    height: 29px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor.left {
-        width: 262px;
-	    right: 96px;
+        width: 212px;
+	    right: 88px;
 	    height: 23px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-1.right {
@@ -2950,7 +5397,7 @@
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-1.left {
         transform: perspective(300px) rotateY(-25deg) skewY(-3.5deg);
-   		top:219px;
+   		top:217px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-2.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(11.5deg);
@@ -2958,8 +5405,8 @@
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-2.left {
 	    transform: perspective(300px) rotateY(-21deg) skewY(-6.5deg);
-        top: 194px;
-    	right: 95px;
+        top: 190px;
+    	right: 88px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-3.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(14.7deg);
@@ -2967,7 +5414,7 @@
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-3.left {
 	    transform: perspective(300px) rotateY(-25deg) skewY(-8.5deg);
-	    top: 173px;
+	    top: 167px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-4.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(18.7deg);
@@ -2975,7 +5422,60 @@
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-4.left {
 	    transform: perspective(300px) rotateY(-25deg) skewY(-10.5deg);
-	    top: 151px;
+	    top: 145px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-5.left {
+	    transform: perspective(300px) rotateY(-16deg) skewY(-13.5deg);
+        top: 116px;
+	    width: 204px;
+	    right: 86px;
+	    height: 26px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-5.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(21.7deg);
+	    top: 102px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-6.left {
+	    transform: perspective(300px) rotateY(-25deg) skewY(-14.5deg);
+        top: 108px;
+	    width: 167px;
+	    height: 10px;
+	    right: 109px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-6.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(23.7deg);
+        top: 93px;
+	    width: 43px;
+	    left: 403px;
+	    height: 14px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.left-1 {
+	    transform: perspective(300px) rotateY(-25deg) skewY(-15.5deg);
+        top: 94px;
+	    width: 163px;
+	    right: 111px;
+	    height: 14px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.left-2 {
+	    transform: perspective(300px) rotateY(-4deg) skewY(19.5deg);
+        top: 69px;
+	    width: 18px;
+	    right: 92px;
+	    height: 16px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(-16.3deg);
+        top: 68px;
+	    width: 36px;
+	    left: 376px;
+	    height: 18px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(23.7deg);
+        top: 76px;
+	    width: 37px;
+	    left: 408px;
+	    height: 15px;
 	}
 	/*корпус Река*/
 	#blocksPage #BlockBRiver .block_wrap .img_wrap .camera.north_east {
@@ -3168,6 +5668,40 @@
 	    transform: perspective(300px) rotateY(20deg) skewY(10.7deg);
 	    top: 106px;
 	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-5.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-18.5deg);
+	    top: 73px;
+	    height: 17px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-5.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(13.7deg);
+	    top: 89px;
+	    height: 17px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-6.left {
+	    display: none;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-6.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(16deg);
+	    top: 81px;
+	    width: 164px;
+	    left: 120px;
+	    height: 12px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-7.left {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-21deg);
+	    top: 49px;
+	    width: 56px;
+	    right: 209px;
+	    height: 10px;
+	}
+	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-7.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(17.7deg);
+	    top: 67px;
+	    width: 164px;
+	    left: 120px;
+	    height: 14px;
+	}
 	/*Block Minina*/
 	#blocksPage #BlockBMinina .block_wrap .img_wrap .camera.north {
 		left: 180px;
@@ -3294,6 +5828,68 @@
 	    transform: perspective(300px) rotateY(-30deg) skewY(-12.5deg);
 	    top: 115px;
 	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
+	    top: 83px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(12deg);
+	    top: 110px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-1 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-17deg);
+	    top: 88px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-2 {
+		transform: perspective(300px) rotateY(35deg) skewY(1.5deg);
+		top: 95px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-5.floor_left-3 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-22.5deg);
+	    top: 98px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-1 {
+        transform: perspective(300px) rotateY(20deg) skewY(15deg);
+        top: 76px;
+	    width: 53px;
+	    left: 156px;
+	    height: 7px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(13deg);
+	    top: 109px;
+	    width: 38px;
+	    left: 215px;
+	    height: 5px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_left-1 {
+	    transform: perspective(300px) rotateY(-30deg) skewY(-19deg);
+        top: 80px;
+	    width: 67px;
+	    right: 169px;
+	    height: 11px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(17deg);
+        top: 61px;
+	    width: 52px;
+	    left: 157px;
+	    height: 14px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
+        top: 99px;
+	    width: 41px;
+	    left: 218px;
+	    height: 9px;
+	}
+	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_left-1 {
+	    transform: perspective(300px) rotateY(-61deg) skewY(-12deg);
+        top: 70px;
+	    width: 118px;
+	    right: 147px;
+	    height: 14px;
+	}
 	/*Block Temple*/
 	#blocksPage #BlockBTemple .block_wrap .img_wrap .camera.north {
 		top: -20px;
@@ -3315,8 +5911,8 @@
 	    height: 21px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor.left {
-        width: 183px;
-	    right: 62px;
+        width: 145px;
+	    right: 58px;
 	    height: 17px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-1.right {
@@ -3325,7 +5921,7 @@
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-1.left {
         transform: perspective(300px) rotateY(-25deg) skewY(-3.5deg);
-   		top:153px;
+   		top:151px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-2.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(11.5deg);
@@ -3333,8 +5929,7 @@
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-2.left {
 	    transform: perspective(300px) rotateY(-21deg) skewY(-6.5deg);
-        top: 135px;
-    	right: 62px;
+        top: 133px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-3.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(14.7deg);
@@ -3342,7 +5937,7 @@
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-3.left {
 	    transform: perspective(300px) rotateY(-25deg) skewY(-8.5deg);
-	    top: 119px;
+	    top: 115px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-4.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(18.7deg);
@@ -3350,7 +5945,60 @@
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-4.left {
 	    transform: perspective(300px) rotateY(-25deg) skewY(-10.5deg);
-	    top: 105px;
+	    top: 101px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-5.left {
+	    transform: perspective(300px) rotateY(-16deg) skewY(-13.5deg);
+        top: 82px;
+	    width: 141px;
+	    right: 60px;
+	    height: 17px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-5.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(21.7deg);
+	    top: 72px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-6.left {
+	    transform: perspective(300px) rotateY(-25deg) skewY(-14.5deg);
+        top: 74px;
+	    width: 139px;
+	    right: 60px;
+	    height: 7px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-6.right {
+	    transform: perspective(300px) rotateY(20deg) skewY(23.7deg);
+	    top: 65px;
+	    width: 30px;
+	    left: 284px;
+	    height: 10px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.left-1 {
+	    transform: perspective(300px) rotateY(-25deg) skewY(-15.5deg);
+        top: 64px;
+	    width: 115px;
+	    right: 76px;
+	    height: 11px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.left-2 {
+	    transform: perspective(300px) rotateY(-4deg) skewY(19.5deg);
+        top: 49px;
+	    width: 15px;
+	    right: 63px;
+	    height: 14px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.right-1 {
+	    transform: perspective(300px) rotateY(20deg) skewY(-16.3deg);
+        top: 47px;
+	    width: 25px;
+	    left: 266px;
+	    height: 14px;
+	}
+	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor-7.right-2 {
+	    transform: perspective(300px) rotateY(20deg) skewY(23.7deg);
+        top: 52px;
+	    width: 26px;
+	    left: 286px;
+	    height: 12px;
 	}
 	/*корпус Река*/
 	#blocksPage #BlockBRiver .block_wrap .img_wrap .camera.north_east {
@@ -3372,22 +6020,6 @@
 		margin-top: 30px;
 		grid-template-columns: auto auto auto;
 		grid-template-rows: 1fr 1fr;
-	}
-	#blocksPage .appartment .table .cell:last-child {
-	    grid-row-start: 2;
-	    grid-row-end: 3;
-	    grid-column-start: 2;
-	    grid-column-end: 4;
-	}
-	#blocksPage .appartment .table .cell:nth-child(3) {
-		border-right: none;
-	}
-	#blocksPage .appartment .table .cell:nth-child(4) {
-		border-right: none;
-		grid-row-start: 2;
-	    grid-row-end: 3;
-	    grid-column-start: 1;
-	    grid-column-end: 2;
 	}
 	#blocksPage #BlockBMinina .block_wrap .img_wrap .camera.north_east {
 		width: 80px;

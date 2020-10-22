@@ -231,9 +231,31 @@ $(document).ready(function(){
 
 /* Квартиры */
 	
-	$('#blockB, #backToFirst').click(function(){
+	$('#blockB').click(function(){
 		$('.tabs_wrap').toggleClass('active');
-		$('#BlockBMinina, #BlockA').toggleClass('active');
+		$('#BlockBMinina').addClass('active');
+		$('#BlockA').removeClass('active');
+		$('.appart_number').removeClass('active');
+		$('.table').removeClass('active');
+		$('.select').removeClass('active');
+		$('.floor').removeClass('checked');
+		$('.floor-1').addClass('checked');
+	    $('.block_info>.floor>.number').text('2');
+		$('.appartment').removeClass('active');
+		$('#BlockBMinina .appart_floor-1').addClass('active');
+	})
+	$('#backToFirst').click(function(){
+		$('.tabs_wrap').toggleClass('active');
+		$('.tab_content').removeClass('active');
+		$('#BlockA').addClass('active');
+		$('.appart_number').removeClass('active');
+		$('.table').removeClass('active');
+		$('.select').removeClass('active');
+		$('.floor').removeClass('checked');
+		$('.floor-1').addClass('checked');
+	    $('.block_info>.floor>.number').text('2');
+		$('.appartment').removeClass('active');
+		$('#BlockA .appart_floor-1').addClass('active');
 	})
 
 	$('#blockTemple').click(function(){
@@ -244,6 +266,8 @@ $(document).ready(function(){
 		$('.appart_number').removeClass('active');
 		$('.table').removeClass('active');
 		$('.select').removeClass('active');
+		$('.appartment').removeClass('active');
+		$('#BlockBTemple .appart_floor-1').addClass('active');
 	})
 	$('#blockMinina').click(function(){
 		$('.tab_content').removeClass('active');
@@ -253,6 +277,8 @@ $(document).ready(function(){
 		$('.appart_number').removeClass('active');
 		$('.table').removeClass('active');
 		$('.select').removeClass('active');
+		$('.appartment').removeClass('active');
+		$('#BlockBMinina .appart_floor-1').addClass('active');
 	})
 	$('#blockRiver').click(function(){
 		$('.tab_content').removeClass('active');
@@ -262,11 +288,8 @@ $(document).ready(function(){
 		$('.appart_number').removeClass('active');
 		$('.table').removeClass('active');
 		$('.select').removeClass('active');
-	})
-
-	$('.camera').click(function(){
-		$('#popupBackground').fadeIn();
-		$('#cameraView').fadeIn();
+		$('.appartment').removeClass('active');
+		$('#BlockBRiver .appart_floor-1').addClass('active');
 	})
 
 	$('.select').click(function(){
@@ -421,65 +444,147 @@ $(document).ready(function(){
 		$('#appartNum36Icon').addClass('active');
 		$('#appartNum36Table').addClass('active');
 	})
+	$('#appartNum37').click(function(){
+		$('#appartNum37Icon').addClass('active');
+		$('#appartNum37Table').addClass('active');
+	})
+	$('#appartNum38').click(function(){
+		$('#appartNum38Icon').addClass('active');
+		$('#appartNum38Table').addClass('active');
+	})
+	$('#appartNum39').click(function(){
+		$('#appartNum39Icon').addClass('active');
+		$('#appartNum39Table').addClass('active');
+	})
+	$('#appartNum40').click(function(){
+		$('#appartNum40Icon').addClass('active');
+		$('#appartNum40Table').addClass('active');
+	})
+	$('#appartNum41').click(function(){
+		$('#appartNum41Icon').addClass('active');
+		$('#appartNum41Table').addClass('active');
+	})
+	$('#appartNum42').click(function(){
+		$('#appartNum42Icon').addClass('active');
+		$('#appartNum42Table').addClass('active');
+	})
+	$('#appartNum43').click(function(){
+		$('#appartNum43Icon').addClass('active');
+		$('#appartNum43Table').addClass('active');
+	})
+	$('#appartNum44').click(function(){
+		$('#appartNum44Icon').addClass('active');
+		$('#appartNum44Table').addClass('active');
+	})
+	$('#appartNum45').click(function(){
+		$('#appartNum45Icon').addClass('active');
+		$('#appartNum45Table').addClass('active');
+	})
+	$('#appartNum46').click(function(){
+		$('#appartNum46Icon').addClass('active');
+		$('#appartNum46Table').addClass('active');
+	})
+	$('#appartNum47').click(function(){
+		$('#appartNum47Icon').addClass('active');
+		$('#appartNum47Table').addClass('active');
+	})
+	$('#appartNum48').click(function(){
+		$('#appartNum48Icon').addClass('active');
+		$('#appartNum48Table').addClass('active');
+	})
+	$('#appartNum49').click(function(){
+		$('#appartNum49Icon').addClass('active');
+		$('#appartNum49Table').addClass('active');
+	})
+	$('#appartNum50').click(function(){
+		$('#appartNum50Icon').addClass('active');
+		$('#appartNum50Table').addClass('active');
+	})
+	$('#appartNum51').click(function(){
+		$('#appartNum51Icon').addClass('active');
+		$('#appartNum51Table').addClass('active');
+	})
+	$('#appartNum52').click(function(){
+		$('#appartNum52Icon').addClass('active');
+		$('#appartNum52Table').addClass('active');
+	})
+	$('#appartNum53').click(function(){
+		$('#appartNum53Icon').addClass('active');
+		$('#appartNum53Table').addClass('active');
+	})
+	$('#appartNum54').click(function(){
+		$('#appartNum54Icon').addClass('active');
+		$('#appartNum54Table').addClass('active');
+	})
 
 	$('.floor-1').hover(
 	  function() {
 	    $(this).siblings('.floor-1').addClass('active');
-	    $('.block_info>.floor>.number').text('1');
+	    $('.block_info>.floor>.number').text('2');
 	  }, function() {
 	    $(this).siblings('.floor-1').removeClass('active');
 	    let index = $('.floor.checked').index()/2;
-	    $('.block_info>.floor>.number').text(++index);
+	    $('.block_info>.floor>.number').text(++index+1);
 	  }
 	);
 	$('.floor-2').hover(
 	  function() {
 	    $(this).siblings('.floor-2').addClass('active');
-	    $('.block_info>.floor>.number').text('2');
+	    $('.block_info>.floor>.number').text('3');
 	  }, function() {
 	    $(this).siblings('.floor-2').removeClass('active');
 	    let index = $('.floor.checked').index()/2;
-	    $('.block_info>.floor>.number').text(++index);
+	    $('.block_info>.floor>.number').text(++index+1);
 	  }
 	);
 	$('.floor-3').hover(
 	  function() {
 	    $(this).siblings('.floor-3').addClass('active');
-	    $('.block_info>.floor>.number').text('3');
+	    $('.block_info>.floor>.number').text('4');
 	  }, function() {
 	    $(this).siblings('.floor-3').removeClass('active');
 	    let index = $('.floor.checked').index()/2;
-	    $('.block_info>.floor>.number').text(++index);
+	    $('.block_info>.floor>.number').text(++index+1);
 	  }
 	);
 	$('.floor-4').hover(
 	  function() {
 	    $(this).siblings('.floor-4').addClass('active');
-	    $('.block_info>.floor>.number').text('4');
+	    $('.block_info>.floor>.number').text('5');
 	  }, function() {
 	    $(this).siblings('.floor-4').removeClass('active');
 	    let index = $('.floor.checked').index()/2;
-	    $('.block_info>.floor>.number').text(++index);
+	    $('.block_info>.floor>.number').text(++index+1);
 	  }
 	);
 	$('.floor-5').hover(
 	  function() {
 	    $(this).siblings('.floor-5').addClass('active');
-	    $('.block_info>.floor>.number').text('5');
+	    $('.block_info>.floor>.number').text('6');
 	  }, function() {
 	    $(this).siblings('.floor-5').removeClass('active');
 	    let index = $('.floor.checked').index()/2;
-	    $('.block_info>.floor>.number').text(++index);
+	    $('.block_info>.floor>.number').text(++index+1);
 	  }
 	);
 	$('.floor-6').hover(
 	  function() {
 	    $(this).siblings('.floor-6').addClass('active');
-	    $('.block_info>.floor>.number').text('6');
+	    $('.block_info>.floor>.number').text('7');
 	  }, function() {
 	    $(this).siblings('.floor-6').removeClass('active');
 	    let index = $('.floor.checked').index()/2;
-	    $('.block_info>.floor>.number').text(++index);
+	    $('.block_info>.floor>.number').text(++index+1);
+	  }
+	);
+	$('.floor-7').hover(
+	  function() {
+	    $(this).siblings('.floor-7').addClass('active');
+	    $('.block_info>.floor>.number').text('8');
+	  }, function() {
+	    $(this).siblings('.floor-7').removeClass('active');
+	    let index = $('.floor.checked').index()/2;
+	    $('.block_info>.floor>.number').text(++index+1);
 	  }
 	);
 
@@ -515,6 +620,10 @@ $(document).ready(function(){
 	$('.floor-6').click(function(){
 		$('.appart_floor-6').addClass('active');
 		$('.floor-6').addClass('checked');
+	})
+	$('.floor-7').click(function(){
+		$('.appart_floor-7').addClass('active');
+		$('.floor-7').addClass('checked');
 	})
 
 	
