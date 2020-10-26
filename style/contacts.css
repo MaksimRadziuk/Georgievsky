@@ -26,7 +26,7 @@
 	padding-left: 70px;
 }
 #contactPage .contact_wrap .text_wrap h2 {
-	color: #111820;
+	color: var(--dark-color);
 	font-size: 44px;
 	font-weight: 700;
 	letter-spacing: 2px;
@@ -38,7 +38,7 @@
 }
 #contactPage .contact_wrap .text_wrap a,
 #contactPage .contact_wrap .text_wrap p {
-	color: #111820;
+	color: var(--dark-color);
 	font-weight: 300;
 	display: block;
 	position: relative;

@@ -59,7 +59,7 @@
 .project_wrap .tabs .tab span {
 	position: relative;
 	font-size: 16px;
-	color: #111820;
+	color: var(--dark-color);
 }
 .project_wrap .tabs .tab.active span {
 	color: #886e4c;
@@ -169,7 +169,7 @@
 	padding: 0 40px;
 	padding-top: 50px;
 	font-size: 18px;
-	color: #111820; 
+	color: var(--dark-color); 
 	height: auto;
 	text-align: center;
 }
@@ -230,7 +230,7 @@
 	font-weight: 700;
 	margin-top: -8px;
 	margin-bottom: 80px;
-	color: #111820;
+	color: var(--dark-color);
 	text-transform: uppercase;
 	line-height: 1.4;
 }
@@ -241,7 +241,7 @@
 .tab_content.interior .text_wrap .title {
 	font-size: 24px;
 	margin-bottom: 35px;
-	color: #111820;
+	color: var(--dark-color);
 }
 .tab_content.interior .text_wrap .title {
 	font-weight: 300;
@@ -251,7 +251,7 @@
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 1.5;
-	color: #111820;
+	color: var(--dark-color);
 	margin-bottom: 50px;
 	margin-top: 0;
 }
@@ -295,7 +295,7 @@
 }
 .tab_content.exterior .tiles_wrap .tile .text .title {
 	font-size: 18px;
-	color: #111820;
+	color: var(--dark-color);
 	margin-bottom: 30px;
 }
 .tab_content.exterior .tiles_wrap .tile .text p {
