@@ -322,9 +322,6 @@
 	display: none;
 }
 
-.slider_navigation .dots .dot:before {
-	box-shadow: inset 0 0 0 8px #fff;
-}
 
 @media all and (max-width: 1660px) {
 	#aboutPage .about_wrap .video_wrap {

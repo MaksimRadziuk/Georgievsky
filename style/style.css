@@ -1,6 +1,7 @@
 :root {
   --dark-color: #262626;
   --bege-color:#f2e2ce;
+  --brown-color:#886e4c;
 }
 
 
@@ -11,7 +12,7 @@
 
 * {
 	box-sizing: border-box;
-	font-family: 'Roboto Condenced', serif;
+	font-family: 'Gotham Pro', serif;
 }
 body {
 	padding: 0;
@@ -562,6 +563,9 @@ footer .social_links a:hover img {
 	background-image: url(../img/arrow_pagination.png);
 	cursor: pointer;
 }
+.slider_navigation.main_page .button {
+	background-image: url(../img/arrow_pagination_mainPage.png);
+}
 .slider_navigation .button:hover {
 	-webkit-filter:saturate(200%);
 	        filter:saturate(200%);
@@ -580,8 +584,11 @@ footer .social_links a:hover img {
 	position: relative;
 	width: 100%;
 	height: 2px;
-	background-color:  var(--bege-color); 
+	background-color:  var(--brown-color); 
 	opacity: 0.7;
+}
+.slider_navigation.main_page .base_line {
+	background-color:  var(--bege-color); 
 }
 .slider_navigation .dots {
 	position: absolute;
@@ -598,9 +605,12 @@ footer .social_links a:hover img {
 	min-width: 14px;
 	min-height: 14px;
 	border-radius: 50%;
-	background-color: var(--bege-color);
+	background-color: var(--brown-color);
 	cursor: pointer;
 	position: relative;
+}
+.slider_navigation.main_page .dots .dot {
+	background-color: var(--bege-color);
 }
 .slider_navigation .dots .dot:before {
 	content: '';
@@ -612,9 +622,12 @@ footer .social_links a:hover img {
 	height: 30px;
 	min-width: 30px;
 	min-height: 30px;
-	border:1px solid #886e4c;
+	border:1px solid var(--brown-color);
 	border-radius: 50%;
 	display: none;
+}
+.slider_navigation.main_page .dots .dot:before {
+	border:1px solid var(--bege-color);
 }
 .slider_navigation .dots .dot.active:before {
 	display: block;
@@ -622,13 +635,16 @@ footer .social_links a:hover img {
 .slider_navigation .dots .dot span {
 	display: none;
 	font-size: 14px;
-	color: var(--bege-color);
+	color: var(--brown-color);
 	position: absolute;
 	top: -35px;
 	left: 50%;
 	transform: translateX(-50%);
 	font-weight: 300;
 	white-space: nowrap;
+}
+.slider_navigation.main_page .dots .dot span {
+	color: var(--bege-color);
 }
 .slider_navigation .dots .dot.active span {
 	display: block;
@@ -646,6 +662,9 @@ footer .social_links a:hover img {
 }
 .slider_navigation .dots .dot.active:hover {
 	background-color: #886e4c;
+}
+.slider_navigation.main_page .dots .dot.active:hover {
+	background-color: #f1cb9c;
 }
 
 
@@ -801,10 +820,15 @@ header.black .mobile .hamburger span {
 	padding: 20px 0;
 }
 #mobileMenu .popup_body a:hover {
-	color: var(--bege-color);
+	color: var(--brown-color);
 }
 
-
+.main_page * {
+	font-family: 'Roboto Condenced';
+}
+.main_page .close span {
+	background-color: var(--bege-color);
+}
 
 
 
