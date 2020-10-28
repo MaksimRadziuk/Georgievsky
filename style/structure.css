@@ -440,9 +440,6 @@
 		width: 100%;
 		height: 38vh;
 	}
-	header {
-		height: 110px;
-	}
 	#structurePage {
 		padding-top: 130px;
 	}
@@ -562,9 +559,6 @@
 	#structurePage .structure_wrap .left_part ul {
 		margin-bottom: 30px;
 		grid-template-columns: 1fr 1fr;
-	}
-	header {
-		height: 80px;
 	}
 }
 @media all and (max-width: 520px) {

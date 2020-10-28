@@ -232,9 +232,6 @@
 		font-size: 30px!important;
 		margin-bottom: 10px!important;
 	}
-	header {
-		height: 100px;
-	}
 }
 @media all and (max-width: 1024px) {
 	#progrressPage .progrres_wrap {

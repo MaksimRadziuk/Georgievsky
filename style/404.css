@@ -1,4 +1,11 @@
 
+header .phone {
+	color: #fff;
+}
+.mobile .hamburger span {
+	background-color: #fff;
+}
+
 #page404 {
 	background-position: center center;
 	background-repeat: no-repeat;

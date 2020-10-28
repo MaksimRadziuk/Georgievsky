@@ -357,7 +357,7 @@ section	{
 	background-image: url(../img/checkbox_checked.png);
 }
 
-header {
+.main_page header {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -369,7 +369,7 @@ header {
 	justify-content: center;
 	padding-left: 80px;
 }
-header .header_wrap {
+.main_page header .header_wrap {
 	display: grid;
 	grid-template-rows: 1fr;
 	grid-template-columns: 290px 1fr;
@@ -470,6 +470,40 @@ header .buttons_wrap .video_button {
 header .buttons_wrap .phone_button {
 	background-color: var(--bege-color);
 	background-image: url(../img/phone_icon.png);
+}
+
+
+header {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+	height: 140px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-left: 80px;
+}
+header .header_wrap {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 290px 1fr 365px;
+	align-items: center;
+}
+header nav ul li>a {
+	transition: 0.2s linear;
+}
+header.black nav ul li>a {
+	color: var(--dark-color);
+}
+header nav ul li>a:hover {
+	color:#a69885;
+}
+header .phone {
+	font-size: 24px;
+	font-weight: 300;
+	margin-right: 80px;
+	margin-left: 50px;
 }
 
 
@@ -720,7 +754,6 @@ footer .social_links a:hover img {
 	display: block;
 }
 
-
 .mobile {
 	display: flex;
 	width: 80px;
@@ -731,7 +764,10 @@ footer .social_links a:hover img {
 	position: absolute; 
 	top: 0px;
 	left: 0px;
-	padding-bottom: 27px;
+	padding-bottom:64px;
+}
+.main_page .mobile {
+	padding-bottom: 15px;
 }
 .mobile .hamburger {
 	width: 25px;
@@ -837,6 +873,9 @@ header.black .mobile .hamburger span {
 		width: 100%;
 		padding: 0 30px;
 	}
+	header nav ul li {
+		margin-right: 20px;
+	}
 }
 @media all and (max-width: 1700px) {
 	header nav ul li {
@@ -848,8 +887,20 @@ header.black .mobile .hamburger span {
 	#mainPage:after {
 		top: 525px;
 	}
+	header nav ul li>a {
+		font-size: 14px;
+	}
 }
 @media all and (max-width: 1600px) {
+	header .phone {
+		font-size: 20px;
+	}
+	header .logo {
+		width: 200px;
+	}
+	header .header_wrap {
+		grid-template-columns: 200px 1fr 320px;
+	}
 }
 @media all and (max-width: 1450px) {
 	header nav ul li>a {
@@ -861,12 +912,37 @@ header.black .mobile .hamburger span {
 	#mainPage:after {
 		top: 480px;
 	}
+	.main_page header .phone {
+		padding-bottom: 2px;
+	}
+	header .phone {
+		text-align: left;
+		margin-right: 0;
+		margin-left: 30px;
+	}
+	.main_page header .header_wrap {
+	    grid-template-columns: 200px 1fr;
+	}
+	header .header_wrap {
+	    grid-template-columns: 200px 1fr 270px;
+	}
+	.main_page header {
+		height: 70px;
+	}
+}
+@media all and (max-width: 1380px) {
+	.mobile {
+		padding-bottom: 35px;
+	}
+	header {
+		height: 90px;
+	}
 }
 @media all and (max-width: 1350px) {
 	header nav ul li>a {
 		font-size: 12px;
 	}
-	header .phone {
+	.main_page header .phone {
 		margin-left: 30px;
 		margin-right: 55px;
 	}
@@ -913,7 +989,7 @@ header.black .mobile .hamburger span {
 	}
 	header .logo {
 		position: absolute;
-		top: 50%;
+		top: 45%;
 		transform: translateY(-50%);
 		left: 100px;
 	}
@@ -929,13 +1005,16 @@ header.black .mobile .hamburger span {
 		grid-column-end:3;
 		margin: 0;
 		text-align: right;
-		padding-bottom: 13px;
+		padding-bottom: 0px;
 	}
 	header .header_wrap {
 		grid-template-columns: 1fr;
 	}
 }
 @media all and (max-width: 1024px) {
+	.mobile {
+	    padding-bottom: 25px;
+	} 
 	header {
 		height: 70px;
 	}
@@ -945,7 +1024,11 @@ header.black .mobile .hamburger span {
 	header .phone {
 		font-size: 20px;
 	}
-	.mobile {
+	.main_page header .phone {
+		margin: 0;
+		padding-bottom: 13px;
+	}
+	.main_page .mobile {
 		padding-bottom: 16px;
 	}
 	#mobileMenu .popup_body {
@@ -1091,6 +1174,12 @@ header.black .mobile .hamburger span {
 	}
 }
 @media all and (max-width: 600px) {
+	.main_page header {
+		height: 100px;
+	}
+	.main_page header .logo {
+		top: 67%;
+	}
 	#mainPage h1 {
 		width: 335px;
 	}
@@ -1256,12 +1345,15 @@ header.black .mobile .hamburger span {
 	header {
 		height: 60px;
 	}
+	.main_page header .header_wrap {
+		grid-template-columns: 1fr;
+	}
 	.mobile .hamburger {
 		width: 20px;
 		height: 17px;
 	}
 	#mainPage {
-		padding-top: 135px!important;
+		padding-top: 170px!important;
 	}
 	#mainPage>.section_wrap {
 		padding-left: 15px;
@@ -1319,6 +1411,12 @@ header.black .mobile .hamburger span {
 	}
 	header .phone {
 		font-size: 12px;
+	}
+	.main_page .mobile {
+	    padding-bottom: 22px;
+	}
+	.main_page header .phone {
+		padding-bottom: 21px;
 	}
 }
 
