@@ -58,7 +58,7 @@
 	align-items: center;
 	justify-content: space-between;
 	height: 60px;
-	margin-bottom: 50px;
+	margin-bottom: 15px;
 }
 #blocksPage .tabs_wrap.second {
 	width: 780px;
@@ -414,6 +414,18 @@
 	width: calc(100% - 880px);
 	padding-top: 30px;
 	padding-left: 50px;
+	position: relative;
+}
+#blocksPage .appartment_wrap .rose_wrap{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 70px;
+	pointer-events: none;
+	z-index: 4;
+}
+#blocksPage .appartment_wrap .rose_wrap img{
+	width: 100%;
 }
 #blocksPage .appartment {
 	width: 100%;
@@ -433,11 +445,11 @@
 #blocksPage .appartment>.subtitle {
 	font-size: 16px;
 	font-weight: 300;
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 }
 #blocksPage .appartment>.img_wrap {
 	width: 100%;
-	max-width: 660px;
+	max-width: 830px;
 	position: relative;
 }
 #blocksPage #BlockBMinina .appartment>.img_wrap {
@@ -596,7 +608,7 @@
 	height: 43%;
 }
 #blocksPage #BlockBMinina .appartment .select.right-top {
-	width: 23%;
+	width: 26%;
 	right: 0;
 	top: 0;
 	height: 52%;
@@ -879,7 +891,7 @@
 }
 #blocksPage .appartment .table_wrap .cell .title{
 	font-size: 14px;
-	margin-top: 5px;
+	margin-top: 2px;
 	color: #fff;
 	font-weight: 300;
 	text-align: center;
@@ -906,7 +918,7 @@
 	font-size: 16px;
 	font-weight: 300;
 	font-style: italic;
-	margin-top: 10vh;
+	margin-top: 5vh;
 	color: #886e4c;
 	text-align: center;
 }
@@ -1767,9 +1779,9 @@
 	#blocksPage #BlockBTemple .appartment .table {
 		margin-top: 10px;
 	}
-	#blocksPage #BlockBTemple .appartment>.img_wrap {
+	/*#blocksPage #BlockBTemple .appartment>.img_wrap {
 		max-width: 600px;
-	}
+	}*/
 	#blocksPage #BlockBTemple .appartment_wrap {
 		width: calc(100% - 700px);
 	}
@@ -2035,9 +2047,9 @@
 	#blocksPage .tabs_wrap.active {
 		height: 40px;
 	}
-	#blocksPage .appartment>.img_wrap {
+	/*#blocksPage .appartment>.img_wrap {
 		max-width: 430px;
-	}
+	}*/
 	/*Block Minina*/
 	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.right {
         width: 317px;
@@ -2411,28 +2423,24 @@
 		height: auto;
 		margin-top: 15px;
 		grid-template-rows: 1fr auto;
-		grid-template-columns: repeat(3, auto);
-		grid-row-gap: 20px;
+		grid-template-columns: repeat(4, auto);
 	}
-	#blocksPage .appartment .table .cell:nth-child(3) {
+	/*#blocksPage .appartment .table .cell:nth-child(3) {
 		border:none;
-	}
-	#blocksPage .appartment .table .cell:last-child {
+	}*/
+	/*#blocksPage .appartment .table .cell:last-child {
 		grid-row-start: 2;
 		grid-row-end: 3;
 		grid-column-start: 1;
 		grid-column-end: 4;
-	}
+	}*/
 }
 @media all and (max-width: 1380px) {
 	#blocksPage .appartment .table {
 		padding: 10px 0;
 	}
-	#blocksPage .appartment>.img_wrap {
-		max-width: 370px;
-	}
 	#blocksPage .appartment .table_wrap .cell .number {
-		font-size: 18px;
+		font-size: 14px;
 	}
 	#blocksPage .appartment .img_wrap .appart_number {
 		width: 40px;
@@ -2924,6 +2932,9 @@
 	#blocksPage {
 		padding-top: 110px;
 	}
+	#blocksPage .appartment_wrap .rose_wrap {
+		right: 50px;
+	}
 	#blocksPage .tab_content {
 		flex-direction: column;
 		align-items: center;
@@ -3016,7 +3027,7 @@
 		margin-top: 30px;
 	}
 	#blocksPage .appartment>.img_wrap {
-		max-width: 550px;
+		max-width: 700px;
 	}
 	#blocksPage .block_wrap>.title {
 		display: none;
@@ -4452,7 +4463,7 @@
 }
 @media all and (max-height:900px)  {
 	#blocksPage .appartment .table {
-		margin-top: 20px;
+		margin-top: 10px;
 	}
 	#blocksPage #BlockBTemple .appartment_wrap .notification {
 		margin-top: 20px;
@@ -5191,7 +5202,7 @@
 	/*Block Minina*/
 
 	#blocksPage #BlockBMinina .appartment>.img_wrap {
-	    max-width: 420px;
+	    max-width: 690px;
 	}
 
 	/*Block Temple*/
@@ -5375,7 +5386,7 @@
 		left: 250px;
 	}
 	#blocksPage #BlockBTemple .appartment>.img_wrap {
-	    max-width: 350px;
+	    max-width: 510px;
 	}
 
 	/*Block River*/
@@ -5484,7 +5495,18 @@
 	}
 
 	#blocksPage .appartment>.img_wrap {
-	    max-width: 340px;
+	    max-width: 570px;
+	}
+
+	.slider_navigation {
+		bottom: 55px;
+		height: 40px;
+	}
+	.slider_navigation .dots .dot span {
+		top: -27px;
+	} 
+	#blocksPage .blocksPage_wrap {
+	    height: calc(100vh - 190px);
 	}
 
 }
@@ -6492,6 +6514,9 @@
 	}
 }
 @media all and (max-width: 415px) {
+	#blocksPage .appartment_wrap .rose_wrap {
+		right: 0px;
+	}
 	#blocksPage .tabs_wrap.second.active {
 		grid-template-columns: 1fr;
 		grid-template-rows: repeat(4,30px);
