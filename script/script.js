@@ -820,6 +820,10 @@ $(document).ready(function(){
 		$('#appartNum127Icon').addClass('active');
 		$('#appartNum127Table').addClass('active');
 	})
+	$('#appartNum128').click(function(){
+		$('#appartNum128Icon').addClass('active');
+		$('#appartNum128Table').addClass('active');
+	})
 
 	$('.floor-1').hover(
 	  function() {

@@ -156,7 +156,7 @@
 #blocksPage .block_wrap .floor_overlays .left {
 	perspective-origin: right;
 	width: 160px;
-	right: 621px;
+	right: 620px;
 	height:57px;
 }
 #blocksPage .block_wrap .floor_overlays .floor.active,
@@ -486,25 +486,73 @@
 
 
 #blocksPage #BlockBRiver .appartment .select.left {
-	width: 31%;
+	width: 27.3%;
 	left: 0;
+	z-index: 2;
+}
+#blocksPage #BlockBRiver .appartment .select.left:after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 16%;
+	height: 10%;
+	right: -16%;
+	top: 39%;
+	background-color: inherit;
+}
+#blocksPage #BlockBRiver .appartment.appart_floor-5 .select.left {
+	width: 32%;
+}
+#blocksPage #BlockBRiver .appartment.appart_floor-5 .select.left:after {
+	display: none;
 }
 #blocksPage #BlockBRiver .appartment .select.left-mid {
-	width: 19%;
-	left: 31%;
+	width: 24%;
+	left: 27%;
+	z-index: 1;
+}
+#blocksPage #BlockBRiver .appartment.appart_floor-5 .select.left-mid {
+    width: 19%;
+    left: 32%;
 }
 #blocksPage #BlockBRiver .appartment .select.right-mid {
-	width: 19%;
-	right: 31%;
+	width: 14.3%;
+	right: 35%;
+	z-index: 2;
+}
+#blocksPage #BlockBRiver .appartment.appart_floor-5 .select.right-mid {
+    width: 19.3%;
+    right: 30.5%;
+}
+#blocksPage #BlockBRiver .appartment.appart_floor-5 .select.right-mid:after {
+	display: none;
+}
+#blocksPage #BlockBRiver .appartment .select.right-mid:after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 27%;
+	height: 10%;
+	right: -27%;
+	top: 39%;
+	background-color: inherit;
 }
 #blocksPage #BlockBRiver .appartment .select.right {
-	width: 31%;
+	width: 35%;
 	right: 0;
+	z-index: 1;
+}
+#blocksPage #BlockBRiver .appartment.appart_floor-5 .select.right {
+	width: 31%;
 }
 #blocksPage #BlockBRiver .appartment.appart_floor-6 .select.left,
 #blocksPage #BlockBRiver .appartment.appart_floor-7 .select.left {
 	width: 50%;
 	left: 0;
+}
+#blocksPage #BlockBRiver .appartment.appart_floor-6 .select.left:after,
+#blocksPage #BlockBRiver .appartment.appart_floor-7 .select.left:after {
+	display: none;
 }
 #blocksPage #BlockBRiver .appartment.appart_floor-6 .select.right,
 #blocksPage #BlockBRiver .appartment.appart_floor-7 .select.right {
@@ -534,31 +582,31 @@
 	right: 0;
 }
 #blocksPage #BlockBMinina .appartment .select.right-mid {
-	width:18%;
-	right: 26%;
+	width:17%;
+	right: 27%;
 	top: auto;
 	bottom: 5%;
 	height: 45%;
 }
 #blocksPage #BlockBMinina .appartment .select.right-bottom {
-	width: 18%;
-	right: 9%;
+	width: 17%;
+	right: 10%;
 	top: auto;
 	bottom: 5%;
-	height: 45%;
+	height: 43%;
 }
 #blocksPage #BlockBMinina .appartment .select.right-top {
-	width: 22%;
+	width: 23%;
 	right: 0;
 	top: 0;
-	height: 50%;
+	height: 52%;
 }
 #blocksPage #BlockBMinina .appartment .select.right-top:after{
 	content: '';
 	display: block;
 	position: absolute;
 	top: 100%;
-	height: 95%;
+	height: 87%;
 	right: 0;
 	width: 41%;
 	background-color: #f4ebdf;
@@ -596,14 +644,14 @@
 	right: 53%;
 	left: auto;
 	top: 0;
-	height: 50%;
+	height: 52%;
 }
 #blocksPage #BlockBMinina .appartment .select.left-center:after{
 	content: '';
 	display: block;
 	position: absolute;
 	top: 100%;
-	height: 95%;
+	height: 87%;
 	right: 0;
 	width: 41%;
 	background-color: #f4ebdf;
@@ -619,29 +667,57 @@
 	left: 21%;
 	top: auto;
 	bottom: 5%;
-	height: 45%;
+	height: 43%;
 }
 #blocksPage #BlockBMinina .appartment .select.left-bottom {
 	width:20%;
 	left: 1%;
 	top: auto;
 	bottom: 5%;
-	height: 45%;
+	height: 50%;
+	z-index: 1;
 }
 #blocksPage #BlockBMinina .appartment .select.left-top {
-	width:20%;
-	left: 1%;
+	width:16%;
+	left: 3%;
 	top: 1%;
 	height: 49%;
+	z-index: 2;
 }
 
-#blocksPage #BlockBMinina .appartment.appart_floor-7 .select.left-bottom,
+#blocksPage #BlockBMinina .appartment.appart_floor-7 .select.left-bottom {
+	width:50%;
+	left: 1%;
+	top: auto;
+	bottom: 5%;
+	height: 95%;
+}
+#blocksPage #BlockBMinina .appartment.appart_floor-7 .select.right-top {
+	width:50%;
+	right: 1%;
+	top: auto;
+	bottom: 5%;
+	height: 95%;
+}
+#blocksPage #BlockBMinina .appartment.appart_floor-7 .select.right-top:after {
+	display: none;
+}
 #blocksPage #BlockBMinina .appartment.appart_floor-6 .select.left-bottom {
 	width:20%;
 	left: 1%;
 	top: auto;
 	bottom: 5%;
 	height: 95%;
+}
+#blocksPage #BlockBMinina .appartment.appart_floor-6 .select.left-bottom:after{
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 0;
+	right: -89%;
+	width: 89%;
+	height: 50%;
+	background-color: inherit;
 }
 
 
@@ -711,6 +787,9 @@
 	right: 2%;
 	top: 39%;
 }
+#blocksPage .appartment.appart_floor-7 .img_wrap .appart_number.right-top {
+	right: 22%;
+}
 #blocksPage .appartment .img_wrap .appart_number.right-bottom {
 	right: 9%;
 	top: 68%;
@@ -734,6 +813,10 @@
 #blocksPage .appartment .img_wrap .appart_number.left-bottom {
 	left: 12%;
 	top: 68%;
+}
+#blocksPage .appartment.appart_floor-7 .img_wrap .appart_number.left-bottom {
+    left: 32%;
+    top: 39%;
 }
 #blocksPage .appartment .img_wrap .appart_number.left-top {
 	left: 12%;
@@ -841,55 +924,92 @@
 
 
 #blocksPage #BlockBTemple .appartment .select.left {
-	width: 24.5%;
+	width: 21%;
+	z-index: 2;
+}
+#blocksPage #BlockBTemple .appartment .select.left:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 63%;
+    right: -17%;
+    width: 17%;
+    height: 7%;
+	background-color: inherit;
+}
+#blocksPage #BlockBTemple .appartment.appart_floor-5 .select.left {
+	width: 25%;
+}
+#blocksPage #BlockBTemple .appartment.appart_floor-5 .select.left:after,
+#blocksPage #BlockBTemple .appartment.appart_floor-6 .select.left:after,
+#blocksPage #BlockBTemple .appartment.appart_floor-7 .select.left:after {
+	display: none;
 }
 #blocksPage #BlockBTemple .appartment .select.left-mid {
-	width: 16.5%;
-	left: 24%;
+	width: 20%;
+	left: 21%;
+	z-index: 1;
+}
+#blocksPage #BlockBTemple .appartment.appart_floor-5 .select.left-mid {
+    width: 16%;
+    left: 25%;
 }
 #blocksPage #BlockBTemple .appartment .select.mid {
-	width: 16%;
+	width: 19%;
 	left: 40.5%;
+	z-index: 1;
 }
 #blocksPage #BlockBTemple .appartment .select.right-bottom {
 	width: 33%;
 	bottom: 5%;
-	height: 30%;
+	height: 22%;
 	right: 0;
 	top: auto;
 }
+#blocksPage #BlockBTemple .appartment .select.right-bottom:after {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 100%;
+    width: 12%;
+    height: 19%;
+    left: 0;
+	background-color: inherit;
+}
 #blocksPage #BlockBTemple .appartment .select.right-center {
 	width: 27%;
-	right: 0;
+	right: 2%;
 	height: 31%;
-	bottom: 35%;
+	bottom: 27%;
 	top: auto;
+	z-index: 1;
 }
 #blocksPage #BlockBTemple .appartment .select.right-top {
 	width: 36%;
 	right: 0;
 	bottom: 65%;
-	height: 32%;
+	height: 40%;
+	z-index: 2;
 }
 #blocksPage #BlockBTemple .appartment .select.right-top:after{
 	content: '';
 	display: block;
-    width: 19%;
-    height: 77%;
+    width: 23%;
+    height: 44%;
     background-color: inherit;
     position: absolute;
     top: 100%;
-    right: 82%;
+    right: 74%;
 }
 #blocksPage #BlockBTemple .appartment .select.right-top:before{
 	content: '';
 	display: block;
-    width: 19%;
-    height: 77%;
+    width: 22%;
+    height: 66%;
     background-color: inherit;
     position: absolute;
-    top: 133%;
-    right: 100%;
+    top: 104%;
+    right: 97%;
 }
 #blocksPage #BlockBTemple .appartment .select.sold {
 	background-color: transparent;
@@ -901,14 +1021,25 @@
 }
 #blocksPage #BlockBTemple .appartment.appart_floor-6 .select.right-top,
 #blocksPage #BlockBTemple .appartment.appart_floor-7 .select.right-top {
-	height: 64%;
+	height: 61%;
 }
 #blocksPage #BlockBTemple .appartment.appart_floor-6 .select.right-top:before,
 #blocksPage #BlockBTemple .appartment.appart_floor-7 .select.right-top:before {
-	top: 27%;
+	top: 45%;
 }
 #blocksPage #BlockBTemple .appartment.appart_floor-6 .select.right-top:after,
-#blocksPage #BlockBTemple .appartment.appart_floor-7 .select.right-top:after {
+#blocksPage #BlockBTemple .appartment.appart_floor-7 .select.right-top:after  {
+    width: 17%;
+    height: 11%;
+    bottom: -11%;
+    left: 19%;
+}
+#blocksPage #BlockBTemple .appartment.appart_floor-6 .select.right-bottom,
+#blocksPage #BlockBTemple .appartment.appart_floor-7 .select.right-bottom {
+	height: 34%;
+}
+#blocksPage #BlockBTemple .appartment.appart_floor-6 .select.right-bottom:after,
+#blocksPage #BlockBTemple .appartment.appart_floor-7 .select.right-bottom:after {
 	display: none;
 }
 
@@ -927,11 +1058,11 @@
 }
 #blocksPage #BlockBTemple .appartment .img_wrap .appart_number.right-bottom {
 	right: 15%;
-	top: 77%;
+	top: 82%;
 }
 #blocksPage #BlockBTemple .appartment .img_wrap .appart_number.right-center {
     left: 79%;
-    top: 49%;
+    top: 56%;
 }
 #blocksPage #BlockBTemple .appartment .img_wrap .appart_number.right-top {
 	right: 16%;
@@ -1388,7 +1519,7 @@
 	}
 	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.left {
 		width: 116px;
-	    right: 506px;
+	    right: 505px;
 	    height: 45px;
 	}
 	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-1.right {
@@ -1650,7 +1781,7 @@
 	/*Block River*/
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor.right {
 	    width: 93px;
-	    left: 579px;
+	    left: 578px;
 	    height: 43px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor.left {
@@ -2668,7 +2799,7 @@
 	/*Block River*/
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor.right {
         width: 63px;
-	    left: 388px;
+	    left: 387px;
 	    height: 29px;
 	}
 	#blocksPage #BlockBRiver .block_wrap .floor_overlays .floor.left {
@@ -2930,7 +3061,7 @@
 	}
 	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.left {
 		width: 116px;
-	    right: 506px;
+	    right: 505px;
 	    height: 45px;
 	}
 	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor-1.right {
