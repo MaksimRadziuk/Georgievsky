@@ -345,6 +345,19 @@
 	top: 0px;
 	left: 475px;
 }
+#blocksPage .block_wrap .img_wrap .camera.north .icon:after {
+	content: '';
+	display: block;
+	position: absolute;
+    width: 100px;
+    height: 80px;
+    top: -13px;
+    left: -22px;
+	background-image: url(../img/eye_icon_overlook.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
 #blocksPage .block_wrap .img_wrap .camera .icon {
 	display: flex;
 	align-items: center;
@@ -354,6 +367,7 @@
 	border-radius: 50%;
 	border:1px solid #cfc5b7;
 	margin-bottom: 10px;
+	position: relative;
 }
 #blocksPage .block_wrap .img_wrap .camera .icon>img {
 	width: auto;
@@ -1945,6 +1959,13 @@
 	}
 	#blocksPage .block_wrap .img_wrap .camera .icon>img {
 		width: 60%;
+	}
+
+	#blocksPage .block_wrap .img_wrap .camera.north .icon:after {
+	    width: 69px;
+	    height: 69px;
+	    top: -17px;
+	    left: -16px;
 	}
 	#blocksPage .block_wrap .img_wrap .camera>.title {
 		font-size: 10px;
