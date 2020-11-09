@@ -258,33 +258,33 @@ $(document).ready(function(){
 		$('#BlockA .appart_floor-1').addClass('active');
 	})
 
-	$('#blockTemple').click(function(){
+	$('#blockTemple, #BlockBMinina .move-2, #BlockBRiver .move-2').click(function(){
 		$('.tab_content').removeClass('active');
 		$('#BlockBTemple').addClass('active');
 		$('.tabs_wrap.second>.tab').removeClass('active');
-		$(this).addClass('active');
+		$('#blockTemple').addClass('active');
 		$('.appart_number').removeClass('active');
 		$('.table').removeClass('active');
 		$('.select').removeClass('active');
 		$('.appartment').removeClass('active');
 		$('#BlockBTemple .appart_floor-1').addClass('active');
 	})
-	$('#blockMinina').click(function(){
+	$('#blockMinina, #BlockBTemple .move-1').click(function(){
 		$('.tab_content').removeClass('active');
 		$('#BlockBMinina').addClass('active');
 		$('.tabs_wrap.second>.tab').removeClass('active');
-		$(this).addClass('active');
+		$('#blockMinina').addClass('active');
 		$('.appart_number').removeClass('active');
 		$('.table').removeClass('active');
 		$('.select').removeClass('active');
 		$('.appartment').removeClass('active');
 		$('#BlockBMinina .appart_floor-1').addClass('active');
 	})
-	$('#blockRiver').click(function(){
+	$('#blockRiver, #BlockBTemple .move-3').click(function(){
 		$('.tab_content').removeClass('active');
 		$('#BlockBRiver').addClass('active');
 		$('.tabs_wrap.second>.tab').removeClass('active');
-		$(this).addClass('active');
+		$('#blockRiver').addClass('active');
 		$('.appart_number').removeClass('active');
 		$('.table').removeClass('active');
 		$('.select').removeClass('active');
@@ -300,29 +300,137 @@ $(document).ready(function(){
 		$(this).parent('.img_wrap').siblings('.notification').remove();
 	})
 		
-	$('#appartNum1').click(function(){
-		$('#appartNum1Table').addClass('active');
-		$('#appartNum1Icon').addClass('active');
+	$('#appartNum1_1').click(function(){
+		$('#appartNum1_1Table').addClass('active');
+		$('#appartNum1_1Icon').addClass('active');
+	})	
+	$('#appartNum1_2').click(function(){
+		$('#appartNum1_2Table').addClass('active');
+		$('#appartNum1_2Icon').addClass('active');
+	})	
+	$('#appartNum1_3').click(function(){
+		$('#appartNum1_3Table').addClass('active');
+		$('#appartNum1_3Icon').addClass('active');
+	})	
+	$('#appartNum1_4').click(function(){
+		$('#appartNum1_4Table').addClass('active');
+		$('#appartNum1_4Icon').addClass('active');
 	})
-	$('#appartNum2').click(function(){
-		$('#appartNum2Icon').addClass('active');
-		$('#appartNum2Table').addClass('active');
+	$('#appartNum2_1').click(function(){
+		$('#appartNum2_1Icon').addClass('active');
+		$('#appartNum2_1Table').addClass('active');
 	})
-	$('#appartNum3').click(function(){
-		$('#appartNum3Icon').addClass('active');
-		$('#appartNum3Table').addClass('active');
+	$('#appartNum2_2').click(function(){
+		$('#appartNum2_2Icon').addClass('active');
+		$('#appartNum2_2Table').addClass('active');
 	})
-	$('#appartNum4').click(function(){
-		$('#appartNum4Icon').addClass('active');
-		$('#appartNum4Table').addClass('active');
+	$('#appartNum2_3').click(function(){
+		$('#appartNum2_3Icon').addClass('active');
+		$('#appartNum2_3Table').addClass('active');
 	})
-	$('#appartNum5').click(function(){
-		$('#appartNum5Icon').addClass('active');
-		$('#appartNum5Table').addClass('active');
+	$('#appartNum2_4').click(function(){
+		$('#appartNum2_4Icon').addClass('active');
+		$('#appartNum2_4Table').addClass('active');
 	})
-	$('#appartNum6').click(function(){
-		$('#appartNum6Icon').addClass('active');
-		$('#appartNum6Table').addClass('active');
+	$('#appartNum3_1').click(function(){
+		$('#appartNum3_1Icon').addClass('active');
+		$('#appartNum3_1Table').addClass('active');
+	})
+	$('#appartNum3_2').click(function(){
+		$('#appartNum3_2Icon').addClass('active');
+		$('#appartNum3_2Table').addClass('active');
+	})
+	$('#appartNum3_3').click(function(){
+		$('#appartNum3_3Icon').addClass('active');
+		$('#appartNum3_3Table').addClass('active');
+	})
+	$('#appartNum3_4').click(function(){
+		$('#appartNum3_4Icon').addClass('active');
+		$('#appartNum3_4Table').addClass('active');
+	})
+	$('#appartNum3_5').click(function(){
+		$('#appartNum3_5Icon').addClass('active');
+		$('#appartNum3_5Table').addClass('active');
+	})
+	$('#appartNum3_6').click(function(){
+		$('#appartNum3_6Icon').addClass('active');
+		$('#appartNum3_6Table').addClass('active');
+	})
+	$('#appartNum3_7').click(function(){
+		$('#appartNum3_7Icon').addClass('active');
+		$('#appartNum3_7Table').addClass('active');
+	})
+	$('#appartNum4_1').click(function(){
+		$('#appartNum4_1Icon').addClass('active');
+		$('#appartNum4_1Table').addClass('active');
+	})
+	$('#appartNum4_2').click(function(){
+		$('#appartNum4_2Icon').addClass('active');
+		$('#appartNum4_2Table').addClass('active');
+	})
+	$('#appartNum4_3').click(function(){
+		$('#appartNum4_3Icon').addClass('active');
+		$('#appartNum4_3Table').addClass('active');
+	})
+	$('#appartNum4_4').click(function(){
+		$('#appartNum4_4Icon').addClass('active');
+		$('#appartNum4_4Table').addClass('active');
+	})
+	$('#appartNum4_5').click(function(){
+		$('#appartNum4_5Icon').addClass('active');
+		$('#appartNum4_5Table').addClass('active');
+	})
+	$('#appartNum4_6').click(function(){
+		$('#appartNum4_6Icon').addClass('active');
+		$('#appartNum4_6Table').addClass('active');
+	})
+	$('#appartNum5_1').click(function(){
+		$('#appartNum5_1Icon').addClass('active');
+		$('#appartNum5_1Table').addClass('active');
+	})
+	$('#appartNum5_2').click(function(){
+		$('#appartNum5_2Icon').addClass('active');
+		$('#appartNum5_2Table').addClass('active');
+	})
+	$('#appartNum5_3').click(function(){
+		$('#appartNum5_3Icon').addClass('active');
+		$('#appartNum5_3Table').addClass('active');
+	})
+	$('#appartNum5_4').click(function(){
+		$('#appartNum5_4Icon').addClass('active');
+		$('#appartNum5_4Table').addClass('active');
+	})
+	$('#appartNum5_5').click(function(){
+		$('#appartNum5_5Icon').addClass('active');
+		$('#appartNum5_5Table').addClass('active');
+	})
+	$('#appartNum5_6').click(function(){
+		$('#appartNum5_6Icon').addClass('active');
+		$('#appartNum5_6Table').addClass('active');
+	})
+	$('#appartNum6_1').click(function(){
+		$('#appartNum6_1Icon').addClass('active');
+		$('#appartNum6_1Table').addClass('active');
+	})
+	$('#appartNum6_2').click(function(){
+		$('#appartNum6_2Icon').addClass('active');
+		$('#appartNum6_2Table').addClass('active');
+	})
+	$('#appartNum6_3').click(function(){
+		$('#appartNum6_3Icon').addClass('active');
+		$('#appartNum6_3Table').addClass('active');
+	})
+	$('#appartNum6_4').click(function(){
+		$('#appartNum6_4Icon').addClass('active');
+		$('#appartNum6_4Table').addClass('active');
+	})
+	$('#appartNum6_5').click(function(){
+		$('#appartNum6_5Icon').addClass('active');
+		$('#appartNum6_5Table').addClass('active');
+	})
+	$('#appartNum6_6').click(function(){
+		$('#appartNum6_6Icon').addClass('active');
+		$('#appartNum6_6Table').addClass('active');
 	})
 	$('#appartNum7').click(function(){
 		$('#appartNum7Icon').addClass('active');

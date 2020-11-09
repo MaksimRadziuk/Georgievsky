@@ -131,14 +131,47 @@
 }
 #blocksPage .block_wrap .img_wrap {
 	width: 100%;
+	position: relative;
 }
 #blocksPage .block_wrap .img_wrap img {
 	width: 100%;
 }
 
+#blocksPage .block_wrap .link {
+	position: absolute;
+	display: block;
+	max-height: 100%;
+	top: 0;
+	z-index: 2;
+	opacity: 0;
+	transition: all 0.2s linear;
+}
+#blocksPage .block_wrap .link:hover {
+	opacity: 1;
+}
+#blocksPage .block_wrap .link>img {
+	width: 100%;
+}
+#blocksPage #BlockBMinina .block_wrap .link.move-2 {
+	right: 0;
+	width: 17.6%;
+}
+#blocksPage #BlockBTemple .block_wrap .link.move-1 {
+	left: 0;
+	width: 34.35%;
+}
+#blocksPage #BlockBTemple .block_wrap .link.move-3 {
+	right: 0;
+	width: 25.8%;
+}
+#blocksPage #BlockBRiver .block_wrap .link.move-2 {
+	left: 0;
+	width: 41.3%;
+}
+
 #blocksPage .block_wrap .floor_overlays .floor {
 	position: absolute;
-	z-index: 1;
+	z-index: 3;
 	background-color: rgba(136,110,76,0.6);
 	opacity: 0;
 	cursor: pointer;
@@ -331,6 +364,7 @@
 	justify-content: flex-start;
 	flex-direction: column;
 	cursor: pointer;
+	z-index: 4;
 }
 #blocksPage .block_wrap .img_wrap .camera.north_west {
 	top: 30px;
@@ -479,7 +513,7 @@
 }
 #blocksPage .appartment .select {
 	position: absolute;
-	z-index: 1;
+	z-index: 3;
 	height: 97%;
 	background-color: #f4ebdf;
 	top: 1px;
@@ -510,6 +544,93 @@
 	right: 0;
 }
 
+
+#blocksPage #BlockA .appartment .select.left {
+	left: 0;
+	width: 28.5%;
+	height: 98%;
+	z-index: 3;
+}
+#blocksPage #BlockA .appartment .select.left-center {
+	left: 34%;
+	height: 98%;
+	width: 17.5%;
+	z-index: 1;
+}
+#blocksPage #BlockA .appartment .select.left-mid{
+	left: 28.5%;
+	height: 44%;
+	width: 16.5%;
+	top: 34%;
+	z-index: 2;
+}
+
+#blocksPage #BlockA .appartment .select.right-center{
+	left: 51.1%;
+    width: 13.5%;
+	height: 95%;
+	z-index: 3;
+}
+#blocksPage #BlockA .appartment .select.right-mid{
+	left:64%;
+	width: 11%;
+	z-index: 2;
+	height: 40%;
+	top: auto;
+	bottom: 2%;
+}
+#blocksPage #BlockA .appartment .select.right-mid:after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 62%;
+    height: 27%;
+    top: -27%;
+	left: 0;
+	background-color: inherit;
+}
+#blocksPage #BlockA .appartment .select.right-bottom{
+	right:0;
+	width: 29%;
+	height: 98%;
+	z-index: 1;
+}
+#blocksPage #BlockA .appartment.appart_floor-4 .select.right-bottom,
+#blocksPage #BlockA .appartment.appart_floor-5 .select.right-bottom,
+#blocksPage #BlockA .appartment.appart_floor-6 .select.right-bottom {
+	width: 35%;
+}
+#blocksPage #BlockA .appartment .select.right-top{
+	left: 64.5%;
+    width: 22%;
+    height: 33%;
+    z-index: 2;
+}
+#blocksPage #BlockA .appartment .select.right-top:after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 19%;
+    height: 24%;
+    bottom: -24%;
+	left: 12%;
+	background-color: inherit;
+}
+#blocksPage #BlockA .appartment.appart_floor-4 .select.right-top:after,
+#blocksPage #BlockA .appartment.appart_floor-5 .select.right-top:after,
+#blocksPage #BlockA .appartment.appart_floor-6 .select.right-top:after {
+	display: none;
+}
+#blocksPage #BlockA .appartment .select.right-top:before {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 50%;
+    height: 40%;
+    bottom: -38%;
+	right: 0;
+	background-color: inherit;
+}
 
 #blocksPage #BlockBRiver .appartment .select.left {
 	width: 27.3%;
@@ -767,11 +888,42 @@
 }
 
 
-#blocksPage .appartment .img_wrap .appart_number.left{
-	left: 26%;
+#blocksPage #BlockA .appartment .img_wrap .appart_number.left{
+	left: 21%;
+	top:34%;
 }
-#blocksPage .appartment .img_wrap .appart_number.right{
+#blocksPage #BlockA .appartment .img_wrap .appart_number.left-mid {
+	left: 37%;
+    top: 49%;
+}
+#blocksPage #BlockA .appartment .img_wrap .appart_number.left-center {
+	left: 43%;
+	top: 22%;
+}
+#blocksPage #BlockA .appartment .img_wrap .appart_number.right{
+	right: 47%;
+}
+#blocksPage #BlockA .appartment .img_wrap .appart_number.right-center{
+	right: 58%;
+	top: 44%;
+}
+#blocksPage #BlockA .appartment .img_wrap .appart_number.right-mid{
+	right: 23%;
+	top: 75%;
+}
+#blocksPage #BlockA .appartment .img_wrap .appart_number.right-bottom{
+	right: 12%;
+	top: 75%;
+}
+#blocksPage #BlockA .appartment .img_wrap .appart_number.right-top{
+	right: 16%;
+	top: 23%;
+}
+#blocksPage #BlockA .appartment.appart_floor-4 .img_wrap .appart_number.right-bottom,
+#blocksPage #BlockA .appartment.appart_floor-5 .img_wrap .appart_number.right-bottom,
+#blocksPage #BlockA .appartment.appart_floor-6 .img_wrap .appart_number.right-bottom{
 	right: 17%;
+	top: 55%;
 }
 
 
@@ -1264,14 +1416,14 @@
 #blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-2 {
     transform: perspective(300px) rotateY(20deg) skewY(13deg);
     top: 286px;
-    width: 92px;
+    width: 79px;
     left: 580px;
     height: 17px;
 }
 #blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_left-1 {
     transform: perspective(300px) rotateY(-30deg) skewY(-19deg);
-    top: 221px;
-    width: 168px;
+    top: 213px;
+    width: 135px;
     right: 460px;
     height: 24px;
 }
@@ -1285,14 +1437,14 @@
 #blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-2 {
     transform: perspective(300px) rotateY(20deg) skewY(15deg);
     top: 264px;
-    width: 92px;
+    width: 79px;
     left: 580px;
     height: 21px;
 }
 #blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_left-1 {
     transform: perspective(300px) rotateY(-30deg) skewY(-23deg);
     top: 182px;
-    width: 167px;
+    width: 135px;
     right: 462px;
     height: 36px;
 }
@@ -1757,14 +1909,14 @@
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-2 {
 	    transform: perspective(300px) rotateY(20deg) skewY(13deg);
 	    top: 228px;
-	    width: 71px;
+	    width: 61px;
 	    left: 463px;
 	    height: 13px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_left-1 {
 	    transform: perspective(300px) rotateY(-30deg) skewY(-19deg);
-	    top: 176px;
-	    width: 136px;
+	    top: 168px;
+	    width: 104px;
 	    right: 365px;
 	    height: 20px;
 	}
@@ -1778,14 +1930,14 @@
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-2 {
 	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
 	    top: 212px;
-	    width: 70px;
+	    width: 61px;
 	    left: 465px;
 	    height: 18px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_left-1 {
 	    transform: perspective(300px) rotateY(-61deg) skewY(-12deg);
-	    top: 157px;
-	    width: 221px;
+	    top: 149px;
+	    width: 184px;
 	    right: 334px;
 	    height: 19px;
 	}
@@ -2294,14 +2446,14 @@
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-2 {
 	    transform: perspective(300px) rotateY(20deg) skewY(13deg);
 	    top: 181px;
-	    width: 57px;
+	    width: 49px;
 	    left: 362px;
 	    height: 10px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_left-1 {
 	    transform: perspective(300px) rotateY(-30deg) skewY(-19deg);
-	    top: 135px;
-	    width: 110px;
+	    top: 131px;
+	    width: 87px;
 	    right: 283px;
 	    height: 18px;
 	}
@@ -2315,14 +2467,14 @@
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-2 {
 	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
         top: 165px;
-	    width: 57px;
+	    width: 49px;
 	    left: 362px;
 	    height: 13px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_left-1 {
 	    transform: perspective(300px) rotateY(-61deg) skewY(-12deg);
-	    top: 121px;
-	    width: 179px;
+	    top: 116px;
+	    width: 154px;
 	    right: 255px;
 	    height: 15px;
 	}
@@ -2782,14 +2934,14 @@
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-2 {
 	    transform: perspective(300px) rotateY(20deg) skewY(13deg);
 	    top: 153px;
-	    width: 51px;
+	    width: 43px;
 	    left: 309px;
 	    height: 9px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_left-1 {
 	    transform: perspective(300px) rotateY(-30deg) skewY(-19deg);
-        top: 118px;
-	    width: 93px;
+        top: 111px;
+	    width: 72px;
 	    right: 243px;
 	    height: 15px;
 	}
@@ -2803,14 +2955,14 @@
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-2 {
 	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
         top: 142px;
-	    width: 49px;
+	    width: 43px;
 	    left: 309px;
 	    height: 9px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_left-1 {
 	    transform: perspective(300px) rotateY(-61deg) skewY(-12deg);
-	    top: 102px;
-	    width: 160px;
+	    top: 97px;
+	    width: 135px;
 	    right: 214px;
 	    height: 14px;
 	}
@@ -3305,14 +3457,14 @@
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-2 {
 	    transform: perspective(300px) rotateY(20deg) skewY(13deg);
 	    top: 228px;
-	    width: 71px;
+	    width: 61px;
 	    left: 463px;
 	    height: 13px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_left-1 {
 	    transform: perspective(300px) rotateY(-30deg) skewY(-19deg);
-	    top: 176px;
-	    width: 136px;
+	    top: 169px;
+	    width: 108px;
 	    right: 365px;
 	    height: 20px;
 	}
@@ -3326,14 +3478,14 @@
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-2 {
 	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
 	    top: 212px;
-	    width: 70px;
+	    width: 61x;
 	    left: 465px;
 	    height: 18px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_left-1 {
 	    transform: perspective(300px) rotateY(-61deg) skewY(-12deg);
-	    top: 157px;
-	    width: 221px;
+	    top: 149px;
+	    width: 185px;
 	    right: 334px;
 	    height: 19px;
 	}
@@ -3830,14 +3982,14 @@
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-2 {
 	    transform: perspective(300px) rotateY(20deg) skewY(13deg);
 	    top: 181px;
-	    width: 57px;
+	    width: 49px;
 	    left: 362px;
 	    height: 10px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_left-1 {
 	    transform: perspective(300px) rotateY(-30deg) skewY(-19deg);
-	    top: 135px;
-	    width: 110px;
+	    top: 130px;
+	    width: 88px;
 	    right: 283px;
 	    height: 18px;
 	}
@@ -3851,14 +4003,14 @@
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-2 {
 	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
         top: 165px;
-	    width: 57px;
+	    width: 49px;
 	    left: 362px;
 	    height: 13px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_left-1 {
 	    transform: perspective(300px) rotateY(-61deg) skewY(-12deg);
-	    top: 121px;
-	    width: 179px;
+	    top: 116px;
+	    width: 152px;
 	    right: 255px;
 	    height: 15px;
 	}
@@ -4321,14 +4473,14 @@
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-2 {
 	    transform: perspective(300px) rotateY(20deg) skewY(13deg);
 	    top: 228px;
-	    width: 71px;
+	    width: 56px;
 	    left: 463px;
 	    height: 13px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_left-1 {
 	    transform: perspective(300px) rotateY(-30deg) skewY(-19deg);
-	    top: 176px;
-	    width: 136px;
+	    top: 170px;
+	    width: 105px;
 	    right: 365px;
 	    height: 20px;
 	}
@@ -4342,14 +4494,14 @@
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-2 {
 	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
 	    top: 212px;
-	    width: 70px;
+	    width: 56px;
 	    left: 465px;
 	    height: 18px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_left-1 {
 	    transform: perspective(300px) rotateY(-61deg) skewY(-12deg);
-	    top: 157px;
-	    width: 221px;
+	    top: 151px;
+	    width: 185px;
 	    right: 334px;
 	    height: 19px;
 	}
@@ -4548,6 +4700,12 @@
 		width: 40px;
 		height: 40px;
 		margin-bottom: 5px;
+	}
+	#blocksPage .block_wrap .img_wrap .camera.north .icon:after {
+	    width: 69px;
+	    height: 69px;
+	    top: -17px;
+	    left: -16px;
 	}
 	#blocksPage .block_wrap .img_wrap .camera .icon>img {
 		width: 60%;
@@ -4879,14 +5037,14 @@
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-2 {
 	    transform: perspective(300px) rotateY(20deg) skewY(13deg);
 	    top: 181px;
-	    width: 57px;
+	    width: 48px;
 	    left: 362px;
 	    height: 10px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_left-1 {
 	    transform: perspective(300px) rotateY(-30deg) skewY(-19deg);
-	    top: 135px;
-	    width: 110px;
+	    top: 131px;
+	    width: 88px;
 	    right: 283px;
 	    height: 18px;
 	}
@@ -4900,14 +5058,14 @@
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-2 {
 	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
         top: 165px;
-	    width: 57px;
+	    width: 48px;
 	    left: 362px;
 	    height: 13px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_left-1 {
 	    transform: perspective(300px) rotateY(-61deg) skewY(-12deg);
-	    top: 121px;
-	    width: 179px;
+	    top: 117px;
+	    width: 157px;
 	    right: 255px;
 	    height: 15px;
 	}
@@ -5373,8 +5531,8 @@
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_left-1 {
 	    transform: perspective(300px) rotateY(-30deg) skewY(-19deg);
-        top: 118px;
-	    width: 93px;
+        top: 113px;
+	    width: 72px;
 	    right: 243px;
 	    height: 15px;
 	}
@@ -5388,14 +5546,14 @@
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-2 {
 	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
         top: 142px;
-	    width: 49px;
+	    width: 42px;
 	    left: 309px;
 	    height: 9px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_left-1 {
 	    transform: perspective(300px) rotateY(-61deg) skewY(-12deg);
-	    top: 102px;
-	    width: 160px;
+	    top: 98px;
+	    width: 134px;
 	    right: 214px;
 	    height: 14px;
 	}
@@ -5847,14 +6005,14 @@
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-2 {
 	    transform: perspective(300px) rotateY(20deg) skewY(13deg);
 	    top: 153px;
-	    width: 51px;
+	    width: 43px;
 	    left: 309px;
 	    height: 9px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_left-1 {
 	    transform: perspective(300px) rotateY(-30deg) skewY(-19deg);
-        top: 118px;
-	    width: 93px;
+        top: 111px;
+	    width: 71px;
 	    right: 243px;
 	    height: 15px;
 	}
@@ -5868,14 +6026,14 @@
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-2 {
 	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
         top: 142px;
-	    width: 49px;
+	    width: 43px;
 	    left: 309px;
 	    height: 9px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_left-1 {
 	    transform: perspective(300px) rotateY(-61deg) skewY(-12deg);
-	    top: 102px;
-	    width: 160px;
+	    top: 97px;
+	    width: 132px;
 	    right: 214px;
 	    height: 14px;
 	}
@@ -6362,14 +6520,14 @@
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_right-2 {
 	    transform: perspective(300px) rotateY(20deg) skewY(13deg);
 	    top: 109px;
-	    width: 38px;
+	    width: 32px;
 	    left: 215px;
 	    height: 5px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_left-1 {
 	    transform: perspective(300px) rotateY(-30deg) skewY(-19deg);
         top: 80px;
-	    width: 67px;
+	    width:52px;
 	    right: 169px;
 	    height: 11px;
 	}
@@ -6383,16 +6541,16 @@
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-2 {
 	    transform: perspective(300px) rotateY(20deg) skewY(15deg);
         top: 99px;
-	    width: 41px;
+	    width: 28px;
 	    left: 218px;
 	    height: 9px;
 	}
 	#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_left-1 {
 	    transform: perspective(300px) rotateY(-61deg) skewY(-12deg);
-        top: 70px;
-	    width: 118px;
-	    right: 147px;
-	    height: 14px;
+        top: 67px;
+	    width: 92px;
+	    right: 151px;
+	    height: 11px;
 	}
 	/*Block Temple*/
 	#blocksPage #BlockBTemple .block_wrap .img_wrap .camera.north {
