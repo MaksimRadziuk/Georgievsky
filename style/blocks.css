@@ -79,18 +79,18 @@
 	color: var(--dark-color);
 }
 #blocksPage .tab.active {
-	color: #886e4c;
+	color: var(--brown-color);
 	font-size: 22px;
 	font-weight: 400;
 }
 #blocksPage .tab:hover {
-	color: #886e4c;
+	color: var(--brown-color);
 }
 #blocksPage .tab:before {
 	content: '';
 	width: 100%;
 	height: 2px;
-	background-color: #886e4c;
+	background-color: var(--brown-color);
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -100,7 +100,6 @@
 	display: block;
 }
 #blocksPage .tab#backToFirst {
-	color: #886e4c;
 	position: relative;
 }
 #blocksPage .tab#backToFirst img {
@@ -3646,10 +3645,6 @@
 	#blocksPage .tab#backToFirst img {
 		height: 15px;
 		width: auto;
-	}
-	#blocksPage .tab#backToFirst {
-		padding-left: 20px;
-		margin-right: 0;
 	}
 }
 @media all and (max-width: 768px) {
