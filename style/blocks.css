@@ -61,7 +61,7 @@
 	margin-bottom: 15px;
 }
 #blocksPage .tabs_wrap.second {
-	width: 780px;
+	width: 930px;
 }
 #blocksPage .tab {
 	text-align: left;
@@ -102,8 +102,6 @@
 #blocksPage .tab#backToFirst {
 	color: #886e4c;
 	position: relative;
-	padding-left: 30px;
-	margin-right: 30px;
 }
 #blocksPage .tab#backToFirst img {
 	position: absolute;
@@ -703,7 +701,7 @@
 }
 #blocksPage #BlockBRiver .appartment.appart_floor-6 .select.right,
 #blocksPage #BlockBRiver .appartment.appart_floor-7 .select.right {
-	width: 50%;
+	width: 49.5%;
 	right: 0;
 }
 
@@ -729,8 +727,8 @@
 	right: 0;
 }
 #blocksPage #BlockBMinina .appartment .select.right-mid {
-	width:17%;
-	right: 27%;
+	width:17.2%;
+	right: 27.5%;
 	top: auto;
 	bottom: 5%;
 	height: 45%;
@@ -747,6 +745,7 @@
 	right: 0;
 	top: 0;
 	height: 52%;
+	z-index: 2;
 }
 #blocksPage #BlockBMinina .appartment .select.right-top:after{
 	content: '';
@@ -769,6 +768,7 @@
 	left: 47%;
 	top: 0;
 	height: 50%;
+	z-index: 2;
 }
 #blocksPage #BlockBMinina .appartment .select.right-center:after{
 	content: '';
@@ -792,6 +792,7 @@
 	left: auto;
 	top: 0;
 	height: 52%;
+	z-index: 2;
 }
 #blocksPage #BlockBMinina .appartment .select.left-center:after{
 	content: '';
@@ -966,7 +967,7 @@
 	top: 39%;
 }
 #blocksPage .appartment.appart_floor-7 .img_wrap .appart_number.right-top {
-	right: 22%;
+	right: 4%;
 }
 #blocksPage .appartment .img_wrap .appart_number.right-bottom {
 	right: 9%;
@@ -993,8 +994,7 @@
 	top: 68%;
 }
 #blocksPage .appartment.appart_floor-7 .img_wrap .appart_number.left-bottom {
-    left: 32%;
-    top: 39%;
+    left: 21%;
 }
 #blocksPage .appartment .img_wrap .appart_number.left-top {
 	left: 12%;
@@ -1020,6 +1020,7 @@
 	grid-template-rows: 1fr;
 	grid-template-columns: repeat(4,auto);
 	align-items: top;
+	position: relative;
 }
 #blocksPage .appartment .table .cell:last-child {
 	align-self: center;
@@ -1077,6 +1078,13 @@
 	background-color: #cfc5b7;
 	color: #886e4c;
 	font-weight: 300;
+}
+#blocksPage .appartment .table p {
+	position: absolute;
+	font-size: 14px;
+	color: var(--brown-color);
+	bottom: -33px;
+	left: 5px;
 }
 
 #blocksPage .appartment_wrap .notification {
@@ -1143,6 +1151,7 @@
 	height: 22%;
 	right: 0;
 	top: auto;
+	z-index: 1;
 }
 #blocksPage #BlockBTemple .appartment .select.right-bottom:after {
 	content: '';
@@ -2219,6 +2228,10 @@
 	}
 	#blocksPage .tabs_wrap.active {
 		height: 40px;
+		
+	}
+	#blocksPage .tabs_wrap.second {
+		width: 760px;
 	}
 	/*#blocksPage .appartment>.img_wrap {
 		max-width: 430px;
@@ -2598,15 +2611,7 @@
 		grid-template-rows: 1fr auto;
 		grid-template-columns: repeat(4, auto);
 	}
-	/*#blocksPage .appartment .table .cell:nth-child(3) {
-		border:none;
-	}*/
-	/*#blocksPage .appartment .table .cell:last-child {
-		grid-row-start: 2;
-		grid-row-end: 3;
-		grid-column-start: 1;
-		grid-column-end: 4;
-	}*/
+
 }
 @media all and (max-width: 1380px) {
 	#blocksPage .appartment .table {
@@ -2618,6 +2623,9 @@
 	#blocksPage .appartment .img_wrap .appart_number {
 		width: 40px;
 		height: 40px;
+	}
+	#blocksPage .appartment .table p {
+		font-size: 12px;
 	}
 }
 @media all and (max-width: 1300px) {
@@ -3625,7 +3633,7 @@
 		left: 0px;
 	}
 	#blocksPage .tabs_wrap.second {
-		width: 660px;
+		width: 720px;
 		height: 40px;
 	}
 	#blocksPage .tabs_wrap.second .tab.active {
@@ -3644,6 +3652,13 @@
 	}
 }
 @media all and (max-width: 768px) {
+	#blocksPage .tabs_wrap.second.active {
+		display: grid;
+	    grid-template-columns: 1fr;
+	    grid-template-rows: repeat(4,30px);
+	    width: 190px;
+	    height: auto;
+	}
 	#blocksPage .tab_content .block_wrap {
 		width: 550px;
 	}
@@ -5208,7 +5223,7 @@
 		width: 200px;
 	}
 	#blocksPage .tabs_wrap.second {
-		width: 650px;
+		width: 775px;
 	}
 	#blocksPage .blocksPage_wrap {
 	    height: calc(100vh - 220px);
@@ -6144,21 +6159,6 @@
 		right: 150px;
 	}
 }
-@media all and (max-width: 520px) {
-	#blocksPage .tabs_wrap.second.active {
-		width: 100%;
-		display: grid;
-		grid-template-rows: 30px 30px;
-		grid-template-columns: repeat(3,auto);
-		grid-row-gap: 10px;
-		grid-column-gap: 15px;
-		height: auto;
-	}
-	#blocksPage .tab#backToFirst {
-		grid-column-start: 1;
-		grid-column-end: 4
-	}
-}
 @media all and (max-width: 500px) {
 	header {
 		height: 70px;
@@ -6200,7 +6200,7 @@
 		width: 190px;
 	}
 	#blocksPage .tabs_wrap.second.active {
-		width: 100%;
+		width: 190px;
 		margin-top: 10px;
 	}
 	#blocksPage .appartment>.title {
@@ -6699,7 +6699,6 @@
 	#blocksPage .tabs_wrap.second.active {
 		grid-template-columns: 1fr;
 		grid-template-rows: repeat(4,30px);
-		width: 145px;
 	}
 	#blocksPage .tab#backToFirst {
 		grid-column-start: 1;
