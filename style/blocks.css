@@ -1021,6 +1021,7 @@
 	grid-template-columns: repeat(4,auto);
 	align-items: top;
 	position: relative;
+	z-index: 1;
 }
 #blocksPage .appartment .table .cell:last-child {
 	align-self: center;
