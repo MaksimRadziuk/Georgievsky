@@ -4133,8 +4133,9 @@
 	#blocksPage .appartment .table.active {
 		grid-template-columns: repeat(3,auto);
 		grid-template-rows: 1fr 1fr;
+		grid-row-gap: 5px;
 	}
-	#blocksPage .appartment .table .cell:last-child {
+	#blocksPage .appartment .table .cell:nth-child(4) {
 	    grid-row-start: 2;
 	    grid-row-end: 3;
 	    grid-column-start: 1;
@@ -4142,6 +4143,12 @@
 	}
 	#blocksPage .appartment .table .cell:nth-child(3) {
 		border-right: 1px solid #cfc5b7;
+	}
+	#blocksPage .appartment .table p {
+		bottom: -43px;
+	}
+	#blocksPage .appartment_wrap .rose_wrap {
+		right: 0;
 	}
 }
 
