@@ -178,9 +178,9 @@
 	background-color: rgba(136,110,76,0.3);
 }
 #blocksPage .block_wrap .floor_overlays .right {
-	width: 485px;
+	width: 492px;
 	height: 51px;
-	left: 327px;
+	left: 321px;
 	perspective-origin: left;
 }
 #blocksPage .block_wrap .floor_overlays .left {
@@ -212,60 +212,61 @@
 	top: 434px;
 }
 #blocksPage .block_wrap .floor_overlays .floor-2 {
-	top: 369px;
-	height: 52px;	
+	top: 377px;
+	height: 50px;	
 }
 #blocksPage .block_wrap .floor_overlays .floor-2.left {
-	transform: perspective(300px) rotateY(-43deg) skewY(-13deg);
-	width: 170px;	
-	right: 617px;	
+    transform: perspective(300px) rotateY(-43deg) skewY(-17deg);
+    width: 156px;
+    right: 627px;
+    height: 56px	
 }
 #blocksPage .block_wrap .floor_overlays .floor-2.right {
-	transform: perspective(300px) rotateY(20deg) skewY(6.7deg);
-	top: 381px;
+	transform: perspective(300px) rotateY(20deg) skewY(6.4deg);
+	top: 390px;
 }
 #blocksPage .block_wrap .floor_overlays .floor-3.left {
-	transform: perspective(300px) rotateY(-43deg) skewY(-20deg);
-	width: 170px;	
-	right: 617px;
-	top: 316px;	
-	height: 54px;
+	transform: perspective(300px) rotateY(-43deg) skewY(-22deg);
+    width: 159px;
+    right: 626px;
+    top: 318px;
+    height: 58px;
 }
 #blocksPage .block_wrap .floor_overlays .floor-3.right {
-	transform: perspective(300px) rotateY(20deg) skewY(9.7deg);
-	top: 335px;
-	height: 46px;
+	transform: perspective(300px) rotateY(20deg) skewY(9.5deg);
+    top: 340px;
+    height: 51px;
 }
 #blocksPage .block_wrap .floor_overlays .floor-4.left {
-	transform: perspective(300px) rotateY(-43deg) skewY(-26deg);
-	width: 132px;	
-	right: 616px;
-	top: 251px;	
-	height: 54px;
+    transform: perspective(300px) rotateY(-43deg) skewY(-32deg);
+    width: 121px;
+    right: 625px;
+    top: 258px;
+    height: 56px;
 }
 #blocksPage .block_wrap .floor_overlays .floor-4.right {
-	transform: perspective(300px) rotateY(20deg) skewY(12.5deg);
-	top: 289px;
-	height: 46px;
+	transform: perspective(300px) rotateY(20deg) skewY(12.3deg);
+    top: 292px;
+    height: 50px;
 }
 #blocksPage .block_wrap .floor_overlays .floor-5.left {
-	transform: perspective(300px) rotateY(-43deg) skewY(-31deg);
-	width: 132px;	
-	right: 616px;
-	top: 197px;	
-	height: 54px;
+	transform: perspective(300px) rotateY(-43deg) skewY(-38deg);
+    width: 120px;
+    right: 625px;
+    top: 202px;
+    height: 54px;
 }
 #blocksPage .block_wrap .floor_overlays .floor-5.right {
 	transform: perspective(300px) rotateY(20deg) skewY(15.2deg);
-	top: 243px;
+	top: 245px;
 	height: 46px;
 }
 #blocksPage .block_wrap .floor_overlays .floor-6.left {
-	transform: perspective(300px) rotateY(-43deg) skewY(-36deg);
-	width: 132px;	
-	right: 616px;
-	top: 144px;	
-	height: 54px;
+    transform: perspective(300px) rotateY(-43deg) skewY(-39deg);
+    width: 120px;
+    right: 625px;
+    top: 144px;
+    height: 51px;
 }
 #blocksPage .block_wrap .floor_overlays .floor-6.right {
 	transform: perspective(300px) rotateY(20deg) skewY(18deg);
@@ -1083,8 +1084,12 @@
 	position: absolute;
 	font-size: 14px;
 	color: var(--brown-color);
-	bottom: -33px;
+	bottom: -35px;
 	left: 5px;
+	display: block;
+	margin: 0;
+	width: 95%;
+	height: 30px;
 }
 
 #blocksPage .appartment_wrap .notification {
@@ -1436,6 +1441,12 @@
     right: 460px;
     height: 24px;
 }
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_left-2,
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-6.floor_left-3,
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_left-2,
+#blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_left-3 {
+	display: none;
+}
 #blocksPage #BlockBTemple .block_wrap .floor_overlays .floor-7.floor_right-1 {
     transform: perspective(300px) rotateY(20deg) skewY(17deg);
     top: 165px;
@@ -1620,9 +1631,9 @@
 		left: 400px;
 	}
 	#blocksPage .block_wrap .floor_overlays .right {
-		width: 396px;
+		width: 403px;
 		height: 42px;
-		left: 245px;
+        left: 239px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-1.right {
 		top: 340px;
@@ -1638,60 +1649,53 @@
 	    height: 44px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-2.right {
-	    transform: perspective(300px) rotateY(20deg) skewY(6deg);
-	    top: 304px;
+	    top: 311px;
 	    height: 40px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-2.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-16deg);
-	    width: 138px;
-	    right: 488px;
-	    top: 297px;
+        width: 127px;
+	    right: 495px;
+	    top: 304px;
+	    height: 42px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-3.right {
-	    top: 264px;
+		transform: perspective(300px) rotateY(20deg) skewY(8.5deg);
+	    top: 271px;
 	    height: 40px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-3.left {
-    	transform: perspective(300px) rotateY(-43deg) skewY(-21deg);
-	    width: 133px;
-	    right: 488px;
-	    top: 250px;
-	    height: 40px;
+	    width: 126px;
+	    right: 495px;
+	    top: 257px;
+	    height: 41px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-4.right {
-	    transform: perspective(300px) rotateY(20deg) skewY(12.5deg);
-	    top: 227px;
+	    top: 231px;
 	    height: 40px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-4.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-26deg);
-	    width: 106px;
-	    right: 488px;
-	    top: 200px;
+	    width: 96px;
+	    right: 496px;
+	    top: 204px;
 	    height: 43px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-5.right {
-	    transform: perspective(300px) rotateY(20deg) skewY(14.5deg);
 	    top: 189px;
 	    height: 39px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-5.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-31deg);
-	    width: 105px;
-	    right: 488px;
-	    top: 158px;
+	    width: 98px;
+	    right: 495px;
+	    top: 160px;
 	    height: 42px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-6.right {
-	    transform: perspective(300px) rotateY(20deg) skewY(17deg);
 	    top: 150px;
 	    height: 39px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-6.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-36deg);
-	    width: 107px;
-	    right: 488px;
+        width: 100px;
+	    right: 494px;
 	    top: 113px;
 	    height: 44px;
 	}
@@ -1954,9 +1958,6 @@
 	#blocksPage #BlockBTemple .appartment .table {
 		margin-top: 10px;
 	}
-	/*#blocksPage #BlockBTemple .appartment>.img_wrap {
-		max-width: 600px;
-	}*/
 	#blocksPage #BlockBTemple .appartment_wrap {
 		width: calc(100% - 700px);
 	}
@@ -2132,15 +2133,15 @@
 		font-size: 10px;
 	}
 	#blocksPage .block_wrap .floor_overlays .right {
-	    width: 317px;
-	    left: 182px;
+	    width: 322px;
+    	left: 177px;
 	    height: 33px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-6.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-36deg);
-	    width: 85px;
-	    right: 382px;
-	    top: 88px;
+	    transform: perspective(300px) rotateY(-43deg) skewY(-42deg);
+	    width: 78px;
+	    right: 388px;
+	    top: 90px;
 	    height: 34px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-6.right {
@@ -2149,11 +2150,11 @@
 	    height: 32px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-5.left {
-    transform: perspective(300px) rotateY(-43deg) skewY(-31deg);
-	    width: 85px;
-	    right: 382px;
-	    top: 121px;
-	    height: 38px;
+        transform: perspective(300px) rotateY(-43deg) skewY(-36deg);
+	    width: 78px;
+	    right: 388px;
+	    top: 125px;
+	    height: 35px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-5.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(14.5deg);
@@ -2161,50 +2162,40 @@
 	    height: 34px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-4.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-26deg);
-	    width: 85px;
-	    right: 382px;
-	    top: 155px;
+	    transform: perspective(300px) rotateY(-43deg) skewY(-30deg);
+	    width: 78px;
+	    right: 388px;
+	    top: 158px;
 	    height: 35px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-4.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(12.5deg);
-	    top: 176px;
+	    top: 179px;
 	    height: 33px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-3.right {
-	    top: 205px;
+		transform: perspective(300px) rotateY(20deg) skewY(9.5deg);
+	    top: 210px;
 	    height: 33px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-3.left {
-		transform: perspective(300px) rotateY(-43deg) skewY(-21deg);
-		width: 108px;
-		right: 382px;
-		top: 197px;
-		height: 31px;
+	    transform: perspective(300px) rotateY(-43deg) skewY(-23deg);
+	    width: 101px;
+	    right: 388px;
+	    top: 202px;
+	    height: 31px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-2.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(6deg);
-	    top: 238px;
+	    top: 242px;
 	    height: 32px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-2.left {
 	    transform: perspective(300px) rotateY(-43deg) skewY(-16deg);
-	    width: 107px;
-	    right: 382px;
+	    width: 102px;
+	    right: 387px;
 	    top: 235px;
 	    height: 34px;
-	}
-	#blocksPage .block_wrap .floor_overlays .floor-1.right {
-	    top: 267px;
-	    height: 35px;
-	}
-	#blocksPage .block_wrap .floor_overlays .floor-1.left {
-	    transform: perspective(300px) rotateY(-39deg) skewY(-7.6deg);
-	    top: 264px;
-	    height: 34px;
-	    right: 384px;
-	    width: 103px;
 	}
 	#blocksPage .block_wrap>.title {
 		font-size: 16px;
@@ -2233,9 +2224,6 @@
 	#blocksPage .tabs_wrap.second {
 		width: 760px;
 	}
-	/*#blocksPage .appartment>.img_wrap {
-		max-width: 430px;
-	}*/
 	/*Block Minina*/
 	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.right {
         width: 317px;
@@ -2636,53 +2624,42 @@
 		width: 470px;
 	}
 	#blocksPage .block_wrap .floor_overlays .right {
-	    width: 272px;
-	    left: 151px;
-	}
-	#blocksPage .block_wrap .floor_overlays .floor-1.right {
-	    top: 227px;
-	    height: 30px;
-	}
-	#blocksPage .block_wrap .floor_overlays .floor-1.left {
-	    transform: perspective(279px) rotateY(-64deg) skewY(-5.6deg);
-	    top: 229px;
-	    height: 27px;
-	    right: 303px;
-	    width: 147px;
+	    width: 277px;
+    	left: 148px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-2.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(6deg);
-	    top: 204px;
+	    top: 206px;
 	    height: 26px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-2.left {
 	    transform: perspective(300px) rotateY(-43deg) skewY(-16deg);
-	    width: 93px;
-	    right: 325px;
+	    width: 87px;
+	    right: 330px;
 	    top: 200px;
 	    height: 28px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-3.right {
-		top: 174px;
+		top: 179px;
 		height: 29px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-3.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-21deg);
-	    width: 93px;
-	    right: 325px;
-	    top: 167px;
+        transform: perspective(300px) rotateY(-43deg) skewY(-21deg);
+	    width: 88px;
+	    right: 329px;
+	    top: 171px;
 	    height: 28px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-4.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(12.5deg);
-	    top: 148px;
+	    top: 154px;
 	    height: 29px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-4.left {
 	    transform: perspective(300px) rotateY(-43deg) skewY(-26deg);
-	    width: 73px;
-	    right: 326px;
-	    top: 132px;
+	    width: 68px;
+	    right: 330px;
+	    top: 136px;
 	    height: 30px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-5.right {
@@ -2691,9 +2668,9 @@
 	    height: 30px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-5.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-31deg);
-	    width: 73px;
-	    right: 326px;
+	    transform: perspective(300px) rotateY(-43deg) skewY(-35deg);
+	    width: 67px;
+	    right: 330px;
 	    top: 104px;
 	    height: 30px;
 	}
@@ -2703,9 +2680,9 @@
 	    height: 30px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-6.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-36deg);
-	    width: 73px;
-	    right: 326px;
+        transform: perspective(300px) rotateY(-43deg) skewY(-40deg);
+	    width: 68px;
+	    right: 330px;
 	    top: 75px;
 	    height: 30px;
 	}
@@ -3128,9 +3105,9 @@
 		left: 400px;
 	}
 	#blocksPage .block_wrap .floor_overlays .right {
-		width: 396px;
+		width: 403px;
 		height: 42px;
-		left: 245px;
+        left: 239px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-1.right {
 		top: 340px;
@@ -3146,60 +3123,53 @@
 	    height: 44px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-2.right {
-	    transform: perspective(300px) rotateY(20deg) skewY(6deg);
-	    top: 304px;
+	    top: 311px;
 	    height: 40px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-2.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-16deg);
-	    width: 138px;
-	    right: 488px;
-	    top: 297px;
+        width: 127px;
+	    right: 495px;
+	    top: 304px;
+	    height: 42px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-3.right {
-	    top: 264px;
+		transform: perspective(300px) rotateY(20deg) skewY(8.5deg);
+	    top: 271px;
 	    height: 40px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-3.left {
-    	transform: perspective(300px) rotateY(-43deg) skewY(-21deg);
-	    width: 133px;
-	    right: 488px;
-	    top: 250px;
-	    height: 40px;
+	    width: 126px;
+	    right: 495px;
+	    top: 257px;
+	    height: 41px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-4.right {
-	    transform: perspective(300px) rotateY(20deg) skewY(12.5deg);
-	    top: 227px;
+	    top: 231px;
 	    height: 40px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-4.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-26deg);
-	    width: 106px;
-	    right: 488px;
-	    top: 200px;
+	    width: 96px;
+	    right: 496px;
+	    top: 204px;
 	    height: 43px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-5.right {
-	    transform: perspective(300px) rotateY(20deg) skewY(14.5deg);
 	    top: 189px;
 	    height: 39px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-5.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-31deg);
-	    width: 105px;
-	    right: 488px;
-	    top: 158px;
+	    width: 98px;
+	    right: 495px;
+	    top: 160px;
 	    height: 42px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-6.right {
-	    transform: perspective(300px) rotateY(20deg) skewY(17deg);
 	    top: 150px;
 	    height: 39px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-6.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-36deg);
-	    width: 107px;
-	    right: 488px;
+        width: 100px;
+	    right: 494px;
 	    top: 113px;
 	    height: 44px;
 	}
@@ -3686,15 +3656,15 @@
 		font-size: 10px;
 	}
 	#blocksPage .block_wrap .floor_overlays .right {
-	    width: 317px;
-	    left: 182px;
+	    width: 322px;
+    	left: 177px;
 	    height: 33px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-6.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-36deg);
-	    width: 85px;
-	    right: 382px;
-	    top: 88px;
+	    transform: perspective(300px) rotateY(-43deg) skewY(-42deg);
+	    width: 78px;
+	    right: 388px;
+	    top: 90px;
 	    height: 34px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-6.right {
@@ -3703,11 +3673,11 @@
 	    height: 32px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-5.left {
-    transform: perspective(300px) rotateY(-43deg) skewY(-31deg);
-	    width: 85px;
-	    right: 382px;
-	    top: 121px;
-	    height: 38px;
+        transform: perspective(300px) rotateY(-43deg) skewY(-36deg);
+	    width: 78px;
+	    right: 388px;
+	    top: 125px;
+	    height: 35px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-5.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(14.5deg);
@@ -3715,50 +3685,40 @@
 	    height: 34px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-4.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-26deg);
-	    width: 85px;
-	    right: 382px;
-	    top: 155px;
+	    transform: perspective(300px) rotateY(-43deg) skewY(-30deg);
+	    width: 78px;
+	    right: 388px;
+	    top: 158px;
 	    height: 35px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-4.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(12.5deg);
-	    top: 176px;
+	    top: 179px;
 	    height: 33px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-3.right {
-	    top: 205px;
+		transform: perspective(300px) rotateY(20deg) skewY(9.5deg);
+	    top: 210px;
 	    height: 33px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-3.left {
-		transform: perspective(300px) rotateY(-43deg) skewY(-21deg);
-		width: 108px;
-		right: 382px;
-		top: 197px;
-		height: 31px;
+	    transform: perspective(300px) rotateY(-43deg) skewY(-23deg);
+	    width: 101px;
+	    right: 388px;
+	    top: 202px;
+	    height: 31px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-2.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(6deg);
-	    top: 238px;
+	    top: 242px;
 	    height: 32px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-2.left {
 	    transform: perspective(300px) rotateY(-43deg) skewY(-16deg);
-	    width: 107px;
-	    right: 382px;
+	    width: 102px;
+	    right: 387px;
 	    top: 235px;
 	    height: 34px;
-	}
-	#blocksPage .block_wrap .floor_overlays .floor-1.right {
-	    top: 267px;
-	    height: 35px;
-	}
-	#blocksPage .block_wrap .floor_overlays .floor-1.left {
-	    transform: perspective(300px) rotateY(-39deg) skewY(-7.6deg);
-	    top: 264px;
-	    height: 34px;
-	    right: 384px;
-	    width: 103px;
 	}
 	/*Block Minina*/
 	#blocksPage #BlockBMinina .block_wrap .floor_overlays .floor.right {
@@ -4128,6 +4088,9 @@
 	    height: 20px;
 	}
 	/*корпус Река*/
+	#blocksPage .appartment .table.active {
+		margin-bottom: 50px;
+	}
 }
 @media all and (max-width: 700px) {
 	#blocksPage .appartment .table.active {
@@ -4193,9 +4156,9 @@
 		left: 400px;
 	}
 	#blocksPage .block_wrap .floor_overlays .right {
-		width: 396px;
+		width: 403px;
 		height: 42px;
-		left: 245px;
+        left: 239px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-1.right {
 		top: 340px;
@@ -4211,60 +4174,53 @@
 	    height: 44px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-2.right {
-	    transform: perspective(300px) rotateY(20deg) skewY(6deg);
-	    top: 304px;
+	    top: 311px;
 	    height: 40px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-2.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-16deg);
-	    width: 138px;
-	    right: 488px;
-	    top: 297px;
+        width: 127px;
+	    right: 495px;
+	    top: 304px;
+	    height: 42px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-3.right {
-	    top: 264px;
+		transform: perspective(300px) rotateY(20deg) skewY(8.5deg);
+	    top: 271px;
 	    height: 40px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-3.left {
-    	transform: perspective(300px) rotateY(-43deg) skewY(-21deg);
-	    width: 133px;
-	    right: 488px;
-	    top: 250px;
-	    height: 40px;
+	    width: 126px;
+	    right: 495px;
+	    top: 257px;
+	    height: 41px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-4.right {
-	    transform: perspective(300px) rotateY(20deg) skewY(12.5deg);
-	    top: 227px;
+	    top: 231px;
 	    height: 40px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-4.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-26deg);
-	    width: 106px;
-	    right: 488px;
-	    top: 200px;
+	    width: 96px;
+	    right: 496px;
+	    top: 204px;
 	    height: 43px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-5.right {
-	    transform: perspective(300px) rotateY(20deg) skewY(14.5deg);
 	    top: 189px;
 	    height: 39px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-5.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-31deg);
-	    width: 105px;
-	    right: 488px;
-	    top: 158px;
+	    width: 98px;
+	    right: 495px;
+	    top: 160px;
 	    height: 42px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-6.right {
-	    transform: perspective(300px) rotateY(20deg) skewY(17deg);
 	    top: 150px;
 	    height: 39px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-6.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-36deg);
-	    width: 107px;
-	    right: 488px;
+        width: 100px;
+	    right: 494px;
 	    top: 113px;
 	    height: 44px;
 	}
@@ -4732,15 +4688,15 @@
 		font-size: 10px;
 	}
 	#blocksPage .block_wrap .floor_overlays .right {
-	    width: 317px;
-	    left: 182px;
+	    width: 322px;
+    	left: 177px;
 	    height: 33px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-6.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-36deg);
-	    width: 85px;
-	    right: 382px;
-	    top: 88px;
+	    transform: perspective(300px) rotateY(-43deg) skewY(-42deg);
+	    width: 78px;
+	    right: 388px;
+	    top: 90px;
 	    height: 34px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-6.right {
@@ -4749,11 +4705,11 @@
 	    height: 32px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-5.left {
-    transform: perspective(300px) rotateY(-43deg) skewY(-31deg);
-	    width: 85px;
-	    right: 382px;
-	    top: 121px;
-	    height: 38px;
+        transform: perspective(300px) rotateY(-43deg) skewY(-36deg);
+	    width: 78px;
+	    right: 388px;
+	    top: 125px;
+	    height: 35px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-5.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(14.5deg);
@@ -4761,50 +4717,40 @@
 	    height: 34px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-4.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-26deg);
-	    width: 85px;
-	    right: 382px;
-	    top: 155px;
+	    transform: perspective(300px) rotateY(-43deg) skewY(-30deg);
+	    width: 78px;
+	    right: 388px;
+	    top: 158px;
 	    height: 35px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-4.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(12.5deg);
-	    top: 176px;
+	    top: 179px;
 	    height: 33px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-3.right {
-	    top: 205px;
+		transform: perspective(300px) rotateY(20deg) skewY(9.5deg);
+	    top: 210px;
 	    height: 33px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-3.left {
-		transform: perspective(300px) rotateY(-43deg) skewY(-21deg);
-		width: 108px;
-		right: 382px;
-		top: 197px;
-		height: 31px;
+	    transform: perspective(300px) rotateY(-43deg) skewY(-23deg);
+	    width: 101px;
+	    right: 388px;
+	    top: 202px;
+	    height: 31px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-2.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(6deg);
-	    top: 238px;
+	    top: 242px;
 	    height: 32px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-2.left {
 	    transform: perspective(300px) rotateY(-43deg) skewY(-16deg);
-	    width: 107px;
-	    right: 382px;
+	    width: 102px;
+	    right: 387px;
 	    top: 235px;
 	    height: 34px;
-	}
-	#blocksPage .block_wrap .floor_overlays .floor-1.right {
-	    top: 267px;
-	    height: 35px;
-	}
-	#blocksPage .block_wrap .floor_overlays .floor-1.left {
-	    transform: perspective(300px) rotateY(-39deg) skewY(-7.6deg);
-	    top: 264px;
-	    height: 34px;
-	    right: 384px;
-	    width: 103px;
 	}
 	#blocksPage .block_wrap>.title {
 		font-size: 16px;
@@ -5237,53 +5183,42 @@
 		width: 470px;
 	}
 	#blocksPage .block_wrap .floor_overlays .right {
-	    width: 272px;
-	    left: 151px;
-	}
-	#blocksPage .block_wrap .floor_overlays .floor-1.right {
-	    top: 227px;
-	    height: 30px;
-	}
-	#blocksPage .block_wrap .floor_overlays .floor-1.left {
-	    transform: perspective(279px) rotateY(-64deg) skewY(-5.6deg);
-	    top: 229px;
-	    height: 27px;
-	    right: 303px;
-	    width: 147px;
+	    width: 277px;
+    	left: 148px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-2.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(6deg);
-	    top: 204px;
+	    top: 206px;
 	    height: 26px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-2.left {
 	    transform: perspective(300px) rotateY(-43deg) skewY(-16deg);
-	    width: 93px;
-	    right: 325px;
+	    width: 87px;
+	    right: 330px;
 	    top: 200px;
 	    height: 28px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-3.right {
-		top: 174px;
+		top: 179px;
 		height: 29px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-3.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-21deg);
-	    width: 93px;
-	    right: 325px;
-	    top: 167px;
+        transform: perspective(300px) rotateY(-43deg) skewY(-21deg);
+	    width: 88px;
+	    right: 329px;
+	    top: 171px;
 	    height: 28px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-4.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(12.5deg);
-	    top: 148px;
+	    top: 154px;
 	    height: 29px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-4.left {
 	    transform: perspective(300px) rotateY(-43deg) skewY(-26deg);
-	    width: 73px;
-	    right: 326px;
-	    top: 132px;
+	    width: 68px;
+	    right: 330px;
+	    top: 136px;
 	    height: 30px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-5.right {
@@ -5292,9 +5227,9 @@
 	    height: 30px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-5.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-31deg);
-	    width: 73px;
-	    right: 326px;
+	    transform: perspective(300px) rotateY(-43deg) skewY(-35deg);
+	    width: 67px;
+	    right: 330px;
 	    top: 104px;
 	    height: 30px;
 	}
@@ -5304,9 +5239,9 @@
 	    height: 30px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-6.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-36deg);
-	    width: 73px;
-	    right: 326px;
+        transform: perspective(300px) rotateY(-43deg) skewY(-40deg);
+	    width: 68px;
+	    right: 330px;
 	    top: 75px;
 	    height: 30px;
 	}
@@ -5710,64 +5645,60 @@
 
 
 @media all and (max-width: 600px) {
-	#blocksPage .blocksPage_wrap, #wrap {
+	 #wrap {
 		height: auto;
+		min-height: 100vh;
+	}
+	#blocksPage .blocksPage_wrap {
+		height: auto;
+		min-height: calc(100vh - 230px);
+		overflow: auto;
 	}
 	#blocksPage {
 		padding-bottom: 120px;
 		height: auto;
+		min-height: 100%;
 	}
 	#blocksPage .tab_content .block_wrap {
 		width: 470px;
 	}
 	#blocksPage .block_wrap .floor_overlays .right {
-	    width: 272px;
-	    left: 151px;
-	}
-	#blocksPage .block_wrap .floor_overlays .floor-1.right {
-	    top: 227px;
-	    height: 30px;
-	}
-	#blocksPage .block_wrap .floor_overlays .floor-1.left {
-	    transform: perspective(279px) rotateY(-64deg) skewY(-5.6deg);
-	    top: 229px;
-	    height: 27px;
-	    right: 303px;
-	    width: 147px;
+	    width: 277px;
+    	left: 148px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-2.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(6deg);
-	    top: 204px;
+	    top: 206px;
 	    height: 26px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-2.left {
 	    transform: perspective(300px) rotateY(-43deg) skewY(-16deg);
-	    width: 93px;
-	    right: 325px;
+	    width: 87px;
+	    right: 330px;
 	    top: 200px;
 	    height: 28px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-3.right {
-		top: 174px;
+		top: 179px;
 		height: 29px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-3.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-21deg);
-	    width: 93px;
-	    right: 325px;
-	    top: 167px;
+        transform: perspective(300px) rotateY(-43deg) skewY(-21deg);
+	    width: 88px;
+	    right: 329px;
+	    top: 171px;
 	    height: 28px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-4.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(12.5deg);
-	    top: 148px;
+	    top: 154px;
 	    height: 29px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-4.left {
 	    transform: perspective(300px) rotateY(-43deg) skewY(-26deg);
-	    width: 73px;
-	    right: 326px;
-	    top: 132px;
+	    width: 68px;
+	    right: 330px;
+	    top: 136px;
 	    height: 30px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-5.right {
@@ -5776,9 +5707,9 @@
 	    height: 30px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-5.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-31deg);
-	    width: 73px;
-	    right: 326px;
+	    transform: perspective(300px) rotateY(-43deg) skewY(-35deg);
+	    width: 67px;
+	    right: 330px;
 	    top: 104px;
 	    height: 30px;
 	}
@@ -5788,9 +5719,9 @@
 	    height: 30px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-6.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-36deg);
-	    width: 73px;
-	    right: 326px;
+        transform: perspective(300px) rotateY(-43deg) skewY(-40deg);
+	    width: 68px;
+	    right: 330px;
 	    top: 75px;
 	    height: 30px;
 	}
@@ -6215,10 +6146,11 @@
 	}
 	#blocksPage .appartment_wrap .notification {
 		font-size: 14px;
+		
 	}
 	#blocksPage .block_wrap .floor_overlays .right {
-        width: 195px;
-    	left: 101px;
+        width: 198px;
+    	left: 98px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-1.right {
         top: 160px;
@@ -6233,13 +6165,13 @@
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-2.right {
 	    transform: perspective(300px) rotateY(20deg) skewY(7deg);
-	    top: 141px;
+	    top: 144px;
 	    height: 21px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-2.left {
 	    transform: perspective(300px) rotateY(-43deg) skewY(-16deg);
-	    width: 67px;
-	    right: 227px;
+	    width: 62px;
+	    right: 231px;
 	    top: 140px;
 	    height: 20px;
 	}
@@ -6249,8 +6181,8 @@
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-3.left {
 	    transform: perspective(300px) rotateY(-43deg) skewY(-21deg);
-        width: 67px;
-	    right: 227px;
+	    width: 61px;
+	    right: 231px;
 	    top: 118px;
 	    height: 21px;
 	}
@@ -6260,9 +6192,9 @@
    		height: 21px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-4.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-26deg);
-        width: 52px;
-	    right: 228px;
+        transform: perspective(300px) rotateY(-43deg) skewY(-28deg);
+	    width: 47px;
+	    right: 232px;
 	    top: 92px;
 	    height: 23px;
 	}
@@ -6272,9 +6204,9 @@
   		height: 20px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-5.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-31deg);
-	    width: 52px;
-	    right: 228px;
+        transform: perspective(300px) rotateY(-43deg) skewY(-37deg);
+	    width: 48px;
+	    right: 231px;
 	    top: 73px;
 	    height: 21px;
 	}
@@ -6284,9 +6216,9 @@
    		height: 20px;
 	}
 	#blocksPage .block_wrap .floor_overlays .floor-6.left {
-	    transform: perspective(300px) rotateY(-43deg) skewY(-36deg);
-	    width: 52px;
-	    right: 228px;
+	    transform: perspective(300px) rotateY(-43deg) skewY(-41deg);
+	    width: 48px;
+	    right: 232px;
 	    top: 52px;
 	    height: 20px;
 	}

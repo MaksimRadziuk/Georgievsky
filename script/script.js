@@ -960,77 +960,240 @@ $(document).ready(function(){
 		$('#appartNum128Table').addClass('active');
 	})
 
-	$('.floor-1').hover(
+	$('#BlockBRiver .floor-1').hover(
 	  function() {
 	    $(this).siblings('.floor-1').addClass('active');
 	    $('.block_info>.floor>.number').text('2');
 	  }, function() {
 	    $(this).siblings('.floor-1').removeClass('active');
-	    let index = $('.floor.checked').index()/2;
-	    $('.block_info>.floor>.number').text(++index+1);
+	    let floor = $('#BlockBRiver .floor.checked').index();
+	    let index = floor/2;
+	    $('.block_info>.floor>.number').text(index+2);
 	  }
 	);
-	$('.floor-2').hover(
+	$('#BlockBRiver .floor-2').hover(
 	  function() {
 	    $(this).siblings('.floor-2').addClass('active');
 	    $('.block_info>.floor>.number').text('3');
 	  }, function() {
 	    $(this).siblings('.floor-2').removeClass('active');
-	    let index = $('.floor.checked').index()/2;
-	    $('.block_info>.floor>.number').text(++index+1);
+	    let floor = $('#BlockBRiver .floor.checked').index();
+	    let index = floor/2;
+	    $('.block_info>.floor>.number').text(index+2);
 	  }
 	);
-	$('.floor-3').hover(
+	$('#BlockBRiver .floor-3').hover(
 	  function() {
 	    $(this).siblings('.floor-3').addClass('active');
 	    $('.block_info>.floor>.number').text('4');
 	  }, function() {
 	    $(this).siblings('.floor-3').removeClass('active');
-	    let index = $('.floor.checked').index()/2;
-	    $('.block_info>.floor>.number').text(++index+1);
+	    let floor = $('#BlockBRiver .floor.checked').index();
+	    let index = floor/2;
+	    $('.block_info>.floor>.number').text(index+2);
 	  }
 	);
-	$('.floor-4').hover(
+	$('#BlockBRiver .floor-4').hover(
 	  function() {
 	    $(this).siblings('.floor-4').addClass('active');
 	    $('.block_info>.floor>.number').text('5');
 	  }, function() {
 	    $(this).siblings('.floor-4').removeClass('active');
-	    let index = $('.floor.checked').index()/2;
-	    $('.block_info>.floor>.number').text(++index+1);
+	    let floor = $('#BlockBRiver .floor.checked').index();
+	    let index = floor/2;
+	    $('.block_info>.floor>.number').text(index+2);
 	  }
 	);
-	$('.floor-5').hover(
+	$('#BlockBRiver .floor-5').hover(
 	  function() {
 	    $(this).siblings('.floor-5').addClass('active');
 	    $('.block_info>.floor>.number').text('6');
 	  }, function() {
 	    $(this).siblings('.floor-5').removeClass('active');
-	    let index = $('.floor.checked').index()/2;
-	    $('.block_info>.floor>.number').text(++index+1);
+	    let floor = $('#BlockBRiver .floor.checked').index();
+	    let index = floor/2;
+	    $('.block_info>.floor>.number').text(index+2);
 	  }
 	);
-	$('.floor-6').hover(
+	$('#BlockBRiver .floor-6').hover(
 	  function() {
 	    $(this).siblings('.floor-6').addClass('active');
 	    $('.block_info>.floor>.number').text('7');
 	  }, function() {
 	    $(this).siblings('.floor-6').removeClass('active');
-	    let index = $('.floor.checked').index()/2;
-	    $('.block_info>.floor>.number').text(++index+1);
+	    let floor = $('#BlockBRiver .floor.checked').index();
+	    let index = floor/2;
+	    $('.block_info>.floor>.number').text(index+2);
 	  }
 	);
-	$('.floor-7').hover(
+	$('#BlockBRiver .floor-7').hover(
 	  function() {
 	    $(this).siblings('.floor-7').addClass('active');
 	    $('.block_info>.floor>.number').text('8');
 	  }, function() {
 	    $(this).siblings('.floor-7').removeClass('active');
-	    let index = $('.floor.checked').index()/2;
-	    $('.block_info>.floor>.number').text(++index+1);
+	    let floor = $('#BlockBRiver .floor.checked').index();
+	    let index = floor/2;
+	    $('.block_info>.floor>.number').text(index+2);
 	  }
 	);
 
+
+	$('#BlockBTemple .floor-1').hover(
+	  function() {
+	    $(this).siblings('.floor-1').addClass('active');
+	    $('.block_info>.floor>.number').text('2');
+	  }, function() {
+	    $(this).siblings('.floor-1').removeClass('active');
+	    let floor = $('#BlockBTemple .floor.checked').index();
+	    let index = floor/5;
+	    $('.block_info>.floor>.number').text(index+2);
+	  }
+	);
+	$('#BlockBTemple .floor-2').hover(
+	  function() {
+	    $(this).siblings('.floor-2').addClass('active');
+	    $('.block_info>.floor>.number').text('3');
+	  }, function() {
+	    $(this).siblings('.floor-2').removeClass('active');
+	    let floor = $('#BlockBTemple .floor.checked').index();
+	    let index = floor/5;
+	    $('.block_info>.floor>.number').text(index+2);
+	  }
+	);
+	$('#BlockBTemple .floor-3').hover(
+	  function() {
+	    $(this).siblings('.floor-3').addClass('active');
+	    $('.block_info>.floor>.number').text('4');
+	  }, function() {
+	    $(this).siblings('.floor-3').removeClass('active');
+	    let floor = $('#BlockBTemple .floor.checked').index();
+	    let index = floor/5;
+	    $('.block_info>.floor>.number').text(index+2);
+	  }
+	);
+	$('#BlockBTemple .floor-4').hover(
+	  function() {
+	    $(this).siblings('.floor-4').addClass('active');
+	    $('.block_info>.floor>.number').text('5');
+	  }, function() {
+	    $(this).siblings('.floor-4').removeClass('active');
+	    let floor = $('#BlockBTemple .floor.checked').index();
+	    let index = floor/5;
+	    $('.block_info>.floor>.number').text(index+2);
+	  }
+	);
+	$('#BlockBTemple .floor-5').hover(
+	  function() {
+	    $(this).siblings('.floor-5').addClass('active');
+	    $('.block_info>.floor>.number').text('6');
+	  }, function() {
+	    $(this).siblings('.floor-5').removeClass('active');
+	    let floor = $('#BlockBTemple .floor.checked').index();
+	    let index = floor/5;
+	    $('.block_info>.floor>.number').text(index+2);
+	  }
+	);
+	$('#BlockBTemple .floor-6').hover(
+	  function() {
+	    $(this).siblings('.floor-6').addClass('active');
+	    $('.block_info>.floor>.number').text('7');
+	  }, function() {
+	    $(this).siblings('.floor-6').removeClass('active');
+	    let floor = $('#BlockBTemple .floor.checked').index();
+	    let index = floor/5;
+	    $('.block_info>.floor>.number').text(index+2);
+	  }
+	);
+	$('#BlockBTemple .floor-7').hover(
+	  function() {
+	    $(this).siblings('.floor-7').addClass('active');
+	    $('.block_info>.floor>.number').text('8');
+	  }, function() {
+	    $(this).siblings('.floor-7').removeClass('active');
+	    let floor = $('#BlockBTemple .floor.checked').index();
+	    let index = floor/5;
+	    $('.block_info>.floor>.number').text(index+2);
+	  }
+	);
+
+	$('#BlockBMinina .floor-1').hover(
+	  function() {
+	    $(this).siblings('.floor-1').addClass('active');
+	    $('.block_info>.floor>.number').text('2');
+	  }, function() {
+	    $(this).siblings('.floor-1').removeClass('active');
+	    let floor = $('#BlockBMinina .floor.checked').index();
+	    let index = floor/2;
+	    $('.block_info>.floor>.number').text(index+2);
+	  }
+	);
+	$('#BlockBMinina .floor-2').hover(
+	  function() {
+	    $(this).siblings('.floor-2').addClass('active');
+	    $('.block_info>.floor>.number').text('3');
+	  }, function() {
+	    $(this).siblings('.floor-2').removeClass('active');
+	    let floor = $('#BlockBMinina .floor.checked').index();
+	    let index = floor/2;
+	    $('.block_info>.floor>.number').text(index+2);
+	  }
+	);
+	$('#BlockBMinina .floor-3').hover(
+	  function() {
+	    $(this).siblings('.floor-3').addClass('active');
+	    $('.block_info>.floor>.number').text('4');
+	  }, function() {
+	    $(this).siblings('.floor-3').removeClass('active');
+	    let floor = $('#BlockBMinina .floor.checked').index();
+	    let index = floor/2;
+	    $('.block_info>.floor>.number').text(index+2);
+	  }
+	);
+	$('#BlockBMinina .floor-4').hover(
+	  function() {
+	    $(this).siblings('.floor-4').addClass('active');
+	    $('.block_info>.floor>.number').text('5');
+	  }, function() {
+	    $(this).siblings('.floor-4').removeClass('active');
+	    let floor = $('#BlockBMinina .floor.checked').index();
+	    let index = floor/2;
+	    $('.block_info>.floor>.number').text(index+2);
+	  }
+	);
+	$('#BlockBMinina .floor-5').hover(
+	  function() {
+	    $(this).siblings('.floor-5').addClass('active');
+	    $('.block_info>.floor>.number').text('6');
+	  }, function() {
+	    $(this).siblings('.floor-5').removeClass('active');
+	    let floor = $('#BlockBMinina .floor.checked').index();
+	    let index = floor/2;
+	    $('.block_info>.floor>.number').text(index+2);
+	  }
+	);
+	$('#BlockBMinina .floor-6').hover(
+	  function() {
+	    $(this).siblings('.floor-6').addClass('active');
+	    $('.block_info>.floor>.number').text('7');
+	  }, function() {
+	    $(this).siblings('.floor-6').removeClass('active');
+	    let floor = $('#BlockBMinina .floor.checked').index();
+	    let index = floor/2;
+	    $('.block_info>.floor>.number').text(index+2);
+	  }
+	);
+	$('#BlockBMinina .floor-7').hover(
+	  function() {
+	    $(this).siblings('.floor-7').addClass('active');
+	    $('.block_info>.floor>.number').text('8');
+	  }, function() {
+	    $(this).siblings('.floor-7').removeClass('active');
+	    let floor = $('#BlockBMinina .floor.checked').index();
+	    let index = floor/2;
+	    $('.block_info>.floor>.number').text(index+2);
+	  }
+	);
 	
 	$('#BlockA .floor-2').hover(
 	  function() {
