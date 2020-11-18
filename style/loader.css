@@ -55,3 +55,12 @@
 .loader span:nth-child(8){
 	animation-delay: 0.7s;
 }
+
+.anim {
+	animation: fade 2s linear;
+}
+@keyframes fade {
+	0%{opacity: 0}
+	93%{opacity: 0}
+	100%{opacity: 1}
+}
