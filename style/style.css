@@ -395,6 +395,7 @@ header nav ul {
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	padding-bottom: 10px;
 }
 header nav ul li {
 	margin-right: 50px;
@@ -441,6 +442,7 @@ header .phone {
 }
 header.black .phone {
 	color:  var(--dark-color);
+	padding-bottom: 8px;
 }
 header .buttons_wrap {
 	position: absolute;
@@ -475,12 +477,13 @@ header .buttons_wrap .phone_button {
 
 header {
 	position: absolute;
+	top: 0;
 	left: 0;
 	width: 100%;
-	z-index: 1002;
-	height: 140px;
+	z-index: 10;
+	height: 90px;
 	display: flex;
-	align-items: center;
+	align-items: flex-end;
 	justify-content: center;
 	padding-left: 80px;
 }
@@ -488,7 +491,7 @@ header .header_wrap {
 	display: grid;
 	grid-template-rows: 1fr;
 	grid-template-columns: 290px 1fr 365px;
-	align-items: center;
+	align-items: flex-end;
 }
 header nav ul li>a {
 	transition: 0.2s linear;
@@ -764,7 +767,7 @@ footer .social_links a:hover img {
 	position: absolute; 
 	top: 0px;
 	left: 0px;
-	padding-bottom:64px;
+	padding-bottom:13px;
 }
 .main_page .mobile {
 	padding-bottom: 15px;
@@ -931,9 +934,6 @@ header.black .mobile .hamburger span {
 	}
 }
 @media all and (max-width: 1380px) {
-	.mobile {
-		padding-bottom: 35px;
-	}
 	header {
 		height: 90px;
 	}
@@ -943,8 +943,10 @@ header.black .mobile .hamburger span {
 		font-size: 12px;
 	}
 	.main_page header .phone {
-		margin-left: 30px;
+		margin-left: 40px;
 		margin-right: 55px;
+		text-align: left;
+		padding-bottom: 10px;
 	}
 	#mainPage:after {
 		top: 460px;
@@ -954,6 +956,9 @@ header.black .mobile .hamburger span {
 	}
 }
 @media all and (max-width: 1220px) {
+	.mobile {
+		padding-bottom: 32px;
+	}
 	#cameraView .popup_header .tab {
 		padding: 0 30px;
 	}
@@ -990,8 +995,11 @@ header.black .mobile .hamburger span {
 	header .logo {
 		position: absolute;
 		top: 45%;
-		transform: translateY(-50%);
+		transform: translateY(-25%);
 		left: 100px;
+	}
+	header.black .logo {
+		transform: translateY(-50%);
 	}
 	header .buttons_wrap .button {
 		width: 64px;
@@ -1007,11 +1015,17 @@ header.black .mobile .hamburger span {
 		text-align: right;
 		padding-bottom: 0px;
 	}
+	header.black .phone {
+		padding-bottom: 32px;
+	}
 	header .header_wrap {
 		grid-template-columns: 1fr;
 	}
 }
 @media all and (max-width: 1024px) {
+	header.black .phone {
+	    padding-bottom: 24px;
+	}
 	.mobile {
 	    padding-bottom: 25px;
 	} 
@@ -1026,6 +1040,7 @@ header.black .mobile .hamburger span {
 	}
 	.main_page header .phone {
 		margin: 0;
+		margin-left: 40px;
 		padding-bottom: 13px;
 	}
 	.main_page .mobile {
@@ -1327,6 +1342,9 @@ header.black .mobile .hamburger span {
 	#cameraView .popup_body .tab_content .watermark {
 		width: 100px;
 	} 
+	.main_page header .phone {
+		margin-left: 0;
+	}
 }
 @media all and (max-width:480px) {
 	header .logo {

@@ -117,6 +117,7 @@
 	display: none;
 	align-items: flex-start;
 	justify-content: space-between;
+	overflow: visible;
 }
 #blocksPage .tab_content.active {
 	display: flex;
